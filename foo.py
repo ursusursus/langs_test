@@ -37,51 +37,23 @@ def sanity_check_langs(path):
     return True
 
 
-def check_lang(android_child, lang_filename):
-    print "///// Checking " + lang_filename
+def check_lang(android_child, lang_child):
+    if not "id" in lang_child.attrib:
+        log("LE", "Lang [%s] missing 'id' attribute" % lang_child)
+        return False
 
-    lang_tree = ET.parse(lang_filename)
-    missing = True
-    for lang_child in lang_tree.getroot():
-        if not "id" in lang_child.attrib:
-            log("E", "Lang [%s] missing 'id' attribute" % lang_child)
-            continue
+    if not "text" in lang_child.attrib:
+        log("LE", "Lang [%s] missing 'text' attribute" % lang_child)
+        return False
 
-        if not "text" in lang_child.attrib:
-            log("E", "Lang [%s] missing 'text' attribute" % lang_child)
-            continue
+    if not lang_child.attrib["text"]:
+        log("LE", "Lang's text is empty")
+        return False
 
-        if not lang_child.attrib["text"]:
-            log("E", "Lang's text is empty")
-            continue
+    if android_child.text == lang_child.attrib["text"]:
+        return False
 
-        # if android_child.text == lang_child.attrib["id"]:
-        #     missing = False
-        #     break
-
-
-if not sanity_check_android(ANDROID_RES_DIR):
-    print "Quitting..."
-    quit()
-
-if not sanity_check_langs(LANGS_ANUI_DIR):
-    print "Quitting..."
-    quit()
-
-print "///// Sanity check: OK"
-
-# try:
-lang_files = os.listdir(LANGS_ANUI_DIR)
-# BLBY PATH!
-android_tree = ET.parse(STRINGS_FILENAME)
-
-for lang_file in lang_files:
-    print "///// Checking " + lang_file
-    if not lang_file.endswith(".lang"):
-        log("?", "'%s' is not a lang file" % lang_file)
-        continue
-
-    lang_tree = ET.parse(LANGS_ANUI_DIR + "/" + lang_file)
+def check_lang_file(android_tree, lang_tree):
     for android_child in android_tree.getroot():
         if android_child.tag != "string":
             log("AW", "Skipping tag <%s>" % android_child.tag)
@@ -91,26 +63,52 @@ for lang_file in lang_files:
             log("AE", "<string> with id '%s' has empty body" % android_child.attrib["name"])
             continue
 
-
         # ESTE check whitelist
 
         for lang_child in lang_tree.getroot():
-            if()
+            if check_lang(android_child, lang_child):
+                return True
 
-        # POZOR toto neni ten ocisteny list
+            # POZOR toto neni ten ocisteny list
+    return False
 
-        # missing = True
-        # for lang_child in lang_tree.getroot():
-        #     if "id" in lang_child.attrib:
-        #         if android_child.text == lang_child.attrib["id"]:
-        #             missing = False
-        #             break
-        #
-        # if missing == True:
-        #     # print "<%s> with value is missing" %android_child.tag + " \"" + android_child.text + "\" missing"
-        #     log("E", "<%s> with value '%s' is missing" % (android_child.tag, android_child.text))
-# except ET.ParseError:
-    # print "Napicu v czech.lang"
 
+# BEGIN
+if not sanity_check_android(ANDROID_RES_DIR):
+    print "Quitting..."
+    quit()
+
+if not sanity_check_langs(LANGS_ANUI_DIR):
+    print "Quitting..."
+    quit()
+
+print "///// Sanity check: OK\n"
+
+# try:
+lang_files = os.listdir(LANGS_ANUI_DIR)
+
+# Parse android strings contents
+# BLBY PATH!
+android_tree = ET.parse(STRINGS_FILENAME)
+
+
+# Every .lang file
+for lang_file in lang_files:
+    print "///// Checking " + lang_file
+    if not lang_file.endswith(".lang"):
+        log("?", "'%s' is not a lang file. Skipping..." % lang_file)
+        continue
+
+    # Parse lang file contents
+    try:
+        lang_tree = ET.parse(LANGS_ANUI_DIR + "/" + lang_file)
+    except  ET.ParseError:
+        log("F", "%s not a valid xml document!!!\n" % lang_file)
+        continue
+
+    if check_lang_file(android_tree, lang_tree):
+        print "[OK]\n"
+
+# END
 
 
