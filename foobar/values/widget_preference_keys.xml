@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings.widget.name">com.sygic.widget.settings_key</string>
+    <string name="settings.widget.notification.time">widget_notif_time</string>
+    <string name="settings.widget.showHome">widget_showHome</string>
+    <string name="settings.widget.showWork">widget_showWork</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="icon_app_logo">"\uE3D7"</string>
+    <string name="icon_settings">"\uE3F7"</string>
+    <string name="icon_refresh">"\uE016"</string>
+    <string name="icon_home">"\uE388"</string>
+    <string name="icon_work">"\uE38A"</string>
+    <string name="icon_history">"\uE088"</string>
+    <string name="icon_favorites">"\uE0C7"</string>
+    <string name="icon_route">"\uE09C"</string>
+    <string name="icon_bookmark">"\uEC03"</string>
+    <string name="icon_traffic">"\uE02D"</string>
+    <string name="icon_arrow">"\uE374"</string>
+    <string name="icon_next">"\uE363"</string>
+    <string name="icon_empty">"\uE03a"</string>
+</resources>

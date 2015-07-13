@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowBackground">@null</item>
+
+        <!-- CAB -->
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeBackground">@color/azure_radiance</item>
+        <item name="actionModeCloseDrawable">@drawable/ic_cab_done_holo_dark</item>
+
+        <!-- ViewPagerIndicator -->
+        <item name="vpiCirclePageIndicatorStyle">@style/CustomCirclePageIndicator</item>
+
+        <!-- ShowcaseView not to draw behind nav bar -->
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+
+        <!-- Toolbar -->
+        <item name="actionMenuTextColor">@color/toolbar_menu_text_light</item>
+        <item name="actionMenuTextAppearance">@style/ToolbarMenuItemTextAppearance</item>
+
+        <!-- Color palette -->
+        <item name="colorPrimary">@color/morning_fog</item>
+        <item name="colorAccent">@color/azure_radiance</item>
+        <item name="colorControlHighlight">@color/black_a15</item>
+
+    </style>
+
+    <style name="ToolbarOverlay" parent="Base.ThemeOverlay.AppCompat">
+        <item name="colorControlNormal">@color/toolbarIconColorLight</item>
+    </style>
+
+    <style name="ToolbarOverlayDark">
+        <!-- Menu item text -->
+        <item name="actionMenuTextColor">@color/toolbar_menu_text_dark</item>
+        <!-- Nav icon, png action icony, overflow ikona -->
+        <item name="colorControlNormal">@color/toolbarIconColorDark</item>
+        <!-- Selektor -->
+        <item name="colorControlHighlight">@color/white_a30</item>
+    </style>
+
+</resources>

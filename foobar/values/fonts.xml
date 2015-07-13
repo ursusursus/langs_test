@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="font.icons">icons.ttf</string>
+    <string name="font.open_sans.bold">OpenSans-Bold.ttf</string>
+    <string name="font.open_sans.bold_italic">OpenSans-BoldItalic.ttf</string>
+    <string name="font.open_sans.extra_bold">OpenSans-ExtraBold.ttf</string>
+    <string name="font.open_sans.extra_bold_italic">OpenSans-ExtraBoldItalic.ttf</string>
+    <string name="font.open_sans.italic">OpenSans-Italic.ttf</string>
+    <string name="font.open_sans.light">OpenSans-Light.ttf</string>
+    <string name="font.open_sans.light_italic">OpenSans-LightItalic.ttf</string>
+    <string name="font.open_sans">OpenSans-Regular.ttf</string>
+    <string name="font.open_sans.semi_bold">OpenSans-Semibold.ttf</string>
+    <string name="font.open_sans.semi_bold_italic">OpenSans-SemiboldItalic.ttf</string>
+    <!-- NEPOUZIVAT, DOCASNY HACK -->
+    <string name="font.special">special.ttf</string>
+
+    <string name="app.logo.icon">"\uE3D7"</string>
+
+    <string name="button.dashboard.icon">"\uE35B"</string>
+    <string name="button.backArrow.icon">"\uE363"</string>
+    <string name="button.overview.icon">"\uE3E6"</string>
+
+    <!-- SEARCH -->
+    <!--<string name="search.icon">"\uE9AB"</string>-->
+    <string name="search.icon">"\uE35E"</string>
+    <string name="search.paste.icon">"\uE3EC"</string>
+    <string name="search.bookmark.icon">"\uE35C"</string>
+    <string name="search.addWaypoint.icon">"\uE355"</string>
+    <string name="search.clearWaypoint.icon">"\uE350"</string>
+    <string name="search.deleteWaypoint.icon">"\uE357"</string>
+    <string name="search.showOnMap.icon">"\uE09E"</string>
+    <string name="search.cancel.route">"\uE35D"</string>
+    
+    <string name="search.item.city">\uE08B</string>
+    <string name="search.item.city.capital">\uE08C</string>
+    <string name="search.item.street">\uE08D</string>
+    <string name="search.item.street.close">\uE3E9</string>
+    <string name="search.item.street.cityCenter">\uE0CF</string>
+    <string name="search.item.crossing">\uE08E</string>
+
+    <string name="search.item.nearby_pois">\uE413</string>
+    <string name="search.item.4square">\uE0D3</string>
+    <string name="search.item.google">\uE9AC</string>
+    <string name="search.item.yelp">\uE0D2</string>
+    <string name="search.item.viator">\uE0D5</string>
+
+    <string name="search.icon.more">"\uE3FA"</string>
+
+    <!-- NEARBY POIS -->
+    <string name="poi.nearby.group_all">\uE352</string>
+
+    <string name="dashboard.emptyPin.icon">"\uE0CD"</string>
+    <!--<string name="dashboard.homePlugin.icon">"\uE387"</string>-->
+    <string name="dashboard.homePlugin.icon">"\uE0C5"</string>
+    <string name="dashboard.workPlugin.icon">"\uE0C6"</string>
+    <string name="dashboard.contactPlugin.icon">"\uE3C5"</string>
+    <!--<string name="dashboard.recentPlugin.icon">"\uE088"</string>-->
+    <string name="dashboard.recentPlugin.icon">"\uE0C9"</string>
+    <!--<string name="dashboard.favouritePlugin.icon">"\uE365"</string>-->
+    <string name="dashboard.favouritePlugin.icon">"\uE0C7"</string>
+    <string name="dashboard.addPlugin.icon">"\uE38C"</string>
+    <string name="dashboard.confirm.icon">"\uE3C4"</string>
+    <string name="dashboard.bin.icon">"\uE350"</string>
+    <string name="dashboard.routePlugin.icon">"\uE09C"</string>
+    <string name="dashboard.hud.icon">"\uE09B"</string>
+    <string name="dashboard.navigateToPhoto.icon">"\uE0CE"</string>
+    <!--<string name="dashboard.arrow.icon">"\uE0B0"</string>-->
+    <string name="dashboard.arrow.icon">"\uE0C8"</string>
+
+	<string name="dashboard.account.icon">"\uE040"</string>
+	<string name="dashboard.marketplace.icon">"\uE0AF"</string>
+    <string name="dashboard.settings.icon">"\uE03C"</string>
+
+    <!-- map overlay buttons -->
+    <string name="map.2D.icon">"\uE359"</string>
+    <string name="map.3D.icon">"\uE35A"</string>
+    <string name="map.resume.icon">"\uE395"</string>
+    <string name="map.zoomOut.icon">"\uE366"</string>
+    <string name="map.zoomIn.icon">"\uE367"</string>
+    <string name="map.rotate.free.icon">"\uE368"</string>
+    <string name="map.rotate.lock.icon">"\uE369"</string>
+    <string name="map.vehicle.free.icon">"\uE358"</string>
+    <string name="map.vehicle.lock.icon">"\uE36A"</string>
+    <string name="map.vehicle.lock.compas.icon">"\uE03F"</string>
+    <string name="map.speedcam.icon">"\uE029"</string>
+    <string name="map.speedcam.undo.icon">"\uE0A9"</string>
+    <string name="map.muted.icon">"\uE0A7"</string>
+
+    <string name="like.icon">"\uE3F0"</string>
+    <string name="unlike.icon">"\uE3F1"</string>
+    <string name="favorite.on.icon">"\uE364"</string>
+    <string name="favorite.off.icon">"\uE365"</string>
+    <string name="favorite.home.on.icon">"\uE388"</string>
+    <string name="favorite.home.icon">"\uE387"</string>
+    <string name="button.walk.icon">"\uE373"</string>
+    <string name="button.car.icon">"\uE374"</string>
+    <string name="demo.start.icon">"\uE375"</string>
+    <string name="demo.pause.icon">"\uE38B"</string>
+    <string name="demo.stop.icon">"\uE407"</string>
+    <string name="poi.shop.icon">"\uEC09"</string>
+    <string name="poi.gasStation.icon">"\uEBF4"</string>
+    <string name="poi.parking.icon">"\uEBD0"</string>
+    <string name="poi.nearby.icon">"\uE413"</string>
+    <string name="map.traffic.icon">"\uE03E"</string>
+    <string name="map.warning.icon.railway">"\uE393"</string>
+    <string name="map.warning.icon.trafficlight">"\uE37E"</string>
+    <string name="map.warning.icon.danger">"\uE37A"</string>
+    <string name="map.warning.icon.dangerFra">"\uE37A"</string>
+    <string name="map.warning.icon.radar">"\uE37B"</string>
+    <string name="map.warning.icon.radarAvg">"\uE37C"</string>
+    <string name="map.warning.icon.copsPlace">"\uE37D"</string>
+    <string name="map.warning.icon.congestion">"\uE37F"</string>
+    <string name="map.warning.icon.closure">"\uE382"</string>
+    <string name="map.warning.icon.schoolzone">"\uE380"</string>
+    <string name="map.warning.icon.sharpCurveLeft">"\uE3C1"</string>
+    <string name="map.warning.icon.sharpCurveRight">"\uE3C2"</string>
+    <string name="map.warning.icon.sharpCurveEuropeTriangleBg">"\uE0CC"</string>
+    <string name="map.warning.icon.sharpCurveEuropeTriangle">"\uE08F"</string>
+    <string name="map.warning.icon.sharpCurveEuropeLeft">"\uE090"</string>
+    <string name="map.warning.icon.sharpCurveEuropeRight">"\uE091"</string>
+    <string name="map.bubble.icon.car">"\uE022"</string>
+    <string name="map.bubble.icon.select">"\uE3D9"</string>
+
+    <string name="quickMenu.reportTraffic.icon">"\uE37F"</string>
+    <string name="quickMenu.reportPolice.icon">"\uE37D"</string>
+    <string name="quickMenu.skipViaPoint.icon">"\uE09F"</string>
+    <string name="quickMenu.cancelRoute.icon">"\uE35D"</string>
+    <string name="quickMenu.mute.icon">"\uE0A7"</string>
+    <string name="quickMenu.unmute.icon">"\uE0AB"</string>
+    <string name="quickMenu.demo.icon">"\uE093"</string>
+
+    <string name="poiDetail.distance.icon">"\uE358"</string>
+    <string name="poiDetail.address.icon">"\uE34F"</string>
+    <string name="poiDetail.phone.icon">"\uE34E"</string>
+    <string name="poiDetail.email.icon">"\uE34C"</string>
+    <string name="poiDetail.url.icon">"\uE34D"</string>
+    <string name="poiDetail.addViapoint.icon">"\uE3E7"</string>
+    <string name="poiDetail.badge.yelp">"\uE0D2"</string>
+    <string name="poiDetail.badge.foursquare">"\uE0D3"</string>
+    <string name="poiDetail.badge.star">"\uE012"</string>
+    <string name="poiDetail.badge.default">"\uE9AB"</string>
+    <string name="poiDetail.save.icon">"\uE3DA"</string>
+    <string name="poiDetail.navigate.icon">"\uE018"</string>
+    
+    <string name="routeOverview.end.icon">"\uE050"</string>
+    <string name="routeOverview.start.icon">"\uE051"</string>
+    <string name="routeOverview.straight.icon">"\uE057"</string>
+    <string name="routeOverview.left.icon">"\uE060"</string>
+    <string name="routeOverview.right.icon">"\uE061"</string>
+    <string name="routeOverview.pin.icon">"\uE09E"</string>
+    <string name="routeOverview.overflow">"\uE3EF"</string>
+    <string name="routeOverview.colapse">"\uE408"</string>
+    <string name="routeOverview.expand">"\uE409"</string>
+    <string name="routeOverview.noSpeedcam.icon">"\uE40A"</string>
+    <string name="routeOverview.noTraffic.icon">"\uE40B"</string>
+
+    <string name="manage_maps.installed.icon">"\uE3D9"</string>
+    <string name="manage_maps.download.icon">"\uE3DA"</string>
+    <string name="manage_maps.installed.frw.icon">"\uE3ED"</string>
+    <string name="manage_maps.download.frw.icon">"\uE3EE"</string>
+    <string name="store.next.icon">"\uE011"</string>
+
+    <string name="infobar.elevation.icon">\uEFDA</string> <!--\uEAC5 -->
+
+    <string name="sygic.logo.icon">"\uE098"</string>
+    <string name="fb.logo.icon">"\uE097"</string>
+    <string name="google.logo.icon">"\uE9AC"</string>
+    
+    <string name="hud.locked">"\uE3DB"</string>
+    <string name="hud.back">"\uE0A9"</string>
+    <string name="hud.flip">"\uE0A8"</string>
+    <string name="hud.nogps">"\uE0AA"</string>
+    <string name="hud.sharpCurve.left">"\uE071"</string>
+    <string name="hud.sharpCurve.right">"\uE072"</string>
+    <string name="hud.finish">"\uE3A2"</string>
+    <string name="hud.railway">"\uE394"</string>
+
+    <string name="avoids.highway">\uE362</string>
+    <string name="avoids.toll_roads">\uE361</string>
+    <string name="avoids.ferries">\uE360</string>
+    <string name="avoids.unpaved_roads">\uE35F</string>
+
+    <string name="avoids.highway.unavailable">\uE372</string>
+    <string name="avoids.toll_roads.unavailable">\uE371</string>
+    <string name="avoids.ferries.unavailable">\uE370</string>
+    <string name="avoids.unpaved_roads.unavailable">\uE36F</string>
+
+    <string name="avoids.dialog.cancel.icon">"\uE3FB"</string>
+
+    <string name="frw.insert_code.icon">"\uE3DD"</string>
+    <string name="frw.restore.icon">"\uE3DF"</string>
+    <string name="frw.login.icon">"\uE3DE"</string>
+    <string name="frw.success">"\uE0A0"</string>
+    <string name="frw.failure">"\uE0A1"</string>
+
+    <string name="anui.settings.switch.on">" "</string>
+    <string name="anui.settings.switch.off">" "</string>
+
+    <string name="blackbox.start">"\uE0AC"</string>
+    <string name="blackbox.finish">"\uE0AD"</string>
+    <string name="blackbox.minimize">"\uE0A2"</string>
+    <string name="blackbox.save">"\uE3DA"</string>
+    <string name="blackbox.app.icon">"\uE3E4"</string>
+    <string name="blackbox.settings">"\uE03C"</string>
+    <string name="blackbox.recording">"\uE40E"</string>
+    
+    <string name="travelbook.icon">"\uE0C4"</string>
+
+    <string name="trial.banner.close">"\uE357"</string>
+
+    <string name="favourites.delete">"\uE350"</string>
+    <string name="favourites.deleteAll">"\uE357"</string>
+    <string name="favourites.rename">"\uE3EA"</string>
+    <string name="favourites.recent">"\uE088"</string>
+    <string name="favourites.home">"\uE035"</string>
+    <string name="favourites.work">"\uE037"</string>
+    <string name="favourites.bookmark">"\uE0CD"</string>
+    <string name="favourites.route">"\uE09C"</string>
+    <string name="favourites.star">"\uE364"</string>
+
+    <string name="recent.sygic">"\uE0d0"</string>
+    <string name="recent.foursquare">"\uE0d3"</string>
+    <string name="recent.yelp">"\uE0D2"</string>
+    <string name="recent.tripadvisor">"\uE0d1"</string>
+    <string name="recent.viator">"\uE0DA"</string>
+
+    <string name="pluginmanager.add">"\uE3EB"</string>
+    <string name="pluginmanager.added">"\uE3D9</string>
+
+    <string name="cab.done">"\uE3C4"</string>
+    <string name="tripDetail.shownOnMap">"\uE3F2"</string>
+
+    <string name="sos.dash.icon">"\uE38D"</string>
+    <string name="sos.call.icon">"\uEA47"</string>
+    <string name="sos.call.ambulance.icon">"\uEAA7"</string>
+    <string name="sos.call.police.icon">"\uEA2F"</string>
+    <string name="sos.call.firemen.icon">"\uEAAA"</string>
+    <string name="sos.hospital.icon">"\uE9C4"</string>
+    <string name="sos.police.icon">"\uEA2F"</string>
+    <string name="sos.gasStation.icon">"\uEBF4"</string>
+    <string name="sos.pharmacy.icon">"\uEA3B"</string>
+    <string name="sos.next.icon">"\uE011"</string>
+
+    <string name="close.border.btn">"\uE0B2"</string>
+    <string name="circle">"\uE0A5"</string>
+    <string name="share">"\uE410"</string>
+    <string name="cart">"\uEC09"</string>
+    <string name="manage">"\uE352"</string>
+
+    <string name="search.expand">\uE0C8</string>
+    <string name="search.add">\uE412</string>
+    <string name="search.remove">\uE411</string>
+
+</resources>

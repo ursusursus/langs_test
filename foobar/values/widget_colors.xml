@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="widget_item_text">#E5E5E5</color>
+    <color name="widget_item_text_dark">#0f0f0f</color>
+    <color name="traffic_red_bg">#FF0000</color>
+    <color name="traffic_red_bg_top">#AA0000</color>
+    <color name="traffic_green_bg">#00FF00</color>
+    <color name="traffic_green_bg_top">#00AA00</color>
+    <color name="traffic_yellow_bg">#FFFF00</color>
+    <color name="traffic_yellow_bg_top">#AAAA00</color>
+    <color name="route_bg">#E5E5E5DD</color>
+    <color name="route_bg_top">#EAEAEACC</color>
+    <color name="main_bg">#1111AADD</color>
+    <color name="main_bg_top">#1111FFAA</color>
+    <color name="empty_color">#FFFFFF</color>
+
+</resources>

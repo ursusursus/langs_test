@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="process_name">Sygic</string>
+
+    <!-- SEARCH -->
+    <!-- <string name="anui.search.button">naui.search.button</string> <!-- button.search --> <!-- Search -->
+    <string name="anui.search.button">pica</string> <!-- button.search --> <!-- Search -->
+
+    <string name="anui.search.hint">anui.search.hint</string> <!-- Search -->
+    <string name="anui.search.enterAddress.hint">anui.search.enterAddress.hint</string> <!-- actions.setViaFind --> <!-- Search or enter  address -->
+
+    <string name="anui.search.currentLocation">anui.search.currentLocation</string> <!-- ??? -->  <!-- Current Location -->
+    <string name="anui.search.countryState.hint">anui.search.countryState.hint</string> <!-- search.main.countryState.btn --> <!-- Select Country or State -->
+    <string name="anui.search.cityPostalCode.hint">anui.search.cityPostalCode.hint</string> <!-- search.label.cityPostalCode --> <!-- City or Zip Code -->
+    <string name="anui.search.street.hint">anui.search.street.hint</string> <!-- search.street.caption --> <!-- Select Street -->
+    <string name="anui.search.crossing.hint">anui.search.crossing.hint</string><!-- Crossing -->
+    <string name="anui.search.houseNumber.hint">anui.search.houseNumber.hint</string> <!-- search.crossing.caption --> <!-- House number -->
+
+    <string name="anui.search.poi.near.city">anui.search.poi.near.city</string> <!-- Near %city% -->
+    <string name="anui.search.poi.near.street">anui.search.poi.near.street</string> <!-- Near %street% -->
+    <string name="anui.search.poi.showNearby">anui.search.poi.showNearby</string> <!-- ??? --> <!-- Show nearby POIs -->
+    <string name="anui.search.poi.city.center">anui.search.poi.city.center</string> <!-- ??? --> <!-- City center -->
+
+    <string name="anui.search.houseNumberOutOfRange.warning">anui.search.houseNumberOutOfRange.warning</string> <!-- warning.houseNumberOutOfRange --> <!-- Entered house number is out of range. The nearest is %house_number%. -->
+
+    <string name="anui.search.nothingFound">anui.search.nothingFound</string> <!-- native.search.nothingfound --> <!--No items meet the search criteria. -->
+    <string name="anui.search.searching">anui.search.searching</string> <!-- search.listBox.searching --> <!-- One moment please -->
+
+    <string name="anui.search.actionAddViapoint.menu">anui.search.actionAddViapoint.menu</string> <!-- routeSumComp.waypoint --> <!-- Add viapoint -->
+    <string name="anui.search.actionChangeStart.menu">anui.search.actionChangeStart.menu</string> <!-- routeActionStart.changeStart --> <!-- Change start point -->
+    <string name="anui.search.actionClearSearch.menu">anui.search.actionClearSearch.menu</string> <!-- ??? --> <!-- Clear Search -->
+    <string name="anui.search.actionDeleteViapoint.menu">anui.search.actionDeleteViapoint.menu</string> <!-- routeActionEnd.delete --> <!-- Delete viapoint -->
+
+    <string name="anui.search.google">anui.search.google</string> <!-- Google -->
+    <string name="anui.search.4square">anui.search.4square</string> <!-- Foursquare -->
+    <string name="anui.search.yelp">anui.search.yelp</string> <!-- Yelp -->
+    <string name="anui.search.tripAdvisor">anui.search.tripAdvisor</string> <!-- Tripadvisor -->
+    <string name="anui.search.viator">anui.search.viator</string> <!-- Viator -->
+    <string name="anui.search.history.more">anui.search.history.more</string> <!-- More from history... -->
+
+    <!-- GPS SEARCH -->
+    <string name="anui.search.gpsCoord.enter">anui.search.gpsCoord.enter</string> <!-- search.gpsCoordinates.static --> <!-- Enter GPS Coordinates -->
+    <string name="anui.search.gpsCoord.title">anui.search.gpsCoord.title</string> <!-- settings.gps.static --> <!-- GPS coordinates -->
+    <string name="anui.search.gpsCoord.enterLat">anui.search.gpsCoord.enterLat</string> <!-- gpsCoordinates.enterLat --> <!-- Enter Latitude -->
+    <string name="anui.search.gpsCoord.enterLon">anui.search.gpsCoord.enterLon</string> <!-- gpsCoordinates.enterLon --> <!-- Enter Longitude -->
+    <string name="anui.search.gpsCoord.invalid">anui.search.gpsCoord.invalid</string> <!-- search.gpsCoordinates.locNotFound --> <!-- Location could not be found. -->
+    <string name="anui.search.gpsCoord.outofmap">anui.search.gpsCoord.outofmap</string> <!-- message.customScheme.outofmap --> <!-- The coordinates are outside the map. -->
+
+    <string name="anui.search.gpsCoord.degrees">anui.search.gpsCoord.degrees</string> <!-- settings.gps.degrees --> <!-- Degrees (0.0°) -->
+    <string name="anui.search.gpsCoord.minutes">anui.search.gpsCoord.minutes</string> <!-- settings.gps.minutes --> <!-- Minutes (0°0.0') -->
+    <string name="anui.search.gpsCoord.seconds">anui.search.gpsCoord.seconds</string> <!-- settings.gps.seconds --> <!-- Seconds (0°0'0'') -->
+
+    <!-- DASHBOARD -->
+    <string name="anui.dashboard">anui.dashboard</string> <!-- native.dashboard --> <!-- Dashboard -->
+    <string name="anui.dashboard.settings">anui.dashboard.settings</string> <!-- menu.main.settings --> <!-- Settings -->
+    <string name="anui.dashboard.marketplace">anui.dashboard.marketplace</string> <!-- native.menu.marketplace --> <!-- Sygic Store -->
+    <string name="anui.dashboard.signIn">anui.dashboard.signIn</string> <!-- uu.signIn -->   <!-- Sign In -->
+
+    <string name="anui.dashboard.home">anui.dashboard.home</string> <!-- native.home --> <!-- Home -->
+    <string name="anui.dashboard.work">anui.dashboard.work</string> <!-- ? --> <!-- Work -->
+    <string name="anui.dashboard.hud">anui.dashboard.hud</string> <!-- HUD -->
+    <string name="anui.dashboard.blackbox">anui.dashboard.blackbox</string> <!-- Black Box -->
+    <string name="anui.dashboard.travelbook">anui.dashboard.travelbook</string> <!-- Travelbook -->
+    <string name="anui.dashboard.sos">anui.dashboard.sos</string> <!-- SOS -->
+    <string name="anui.dashboard.navigateToPhoto">anui.dashboard.navigateToPhoto</string> <!-- Navigate to photo -->
+    <string name="anui.dashboard.homeNotSet">anui.dashboard.homeNotSet</string> <!-- native.homeNotSet --> <!-- Home address is not set yet -->
+    <string name="anui.dashboard.workNotSet">anui.dashboard.workNotSet</string> <!-- ? --> <!-- Work address is not set yet -->
+    <string name="anui.dashboard.addWidget">anui.dashboard.addWidget</string> <!-- native.addPlugin --> <!-- Add Widget -->
+    <string name="anui.dashboard.addWidget.summary">anui.dashboard.addWidget.summary</string> <!-- Touch to add Widget -->
+
+    <string name="anui.dashboard.pluginSelection">anui.dashboard.pluginSelection</string> <!-- ??? --> <!-- %d selected -->
+    <string name="anui.dashboard.dialog.removeWidgetTitle">anui.dashboard.dialog.removeWidgetTitle</string> <!-- ??? --> <!-- Remove dashboard widget -->
+    <string name="anui.dashboard.dialog.removeWidget">anui.dashboard.dialog.removeWidget</string> <!-- native.removeWidget --> <!-- Do you want to remove selected items ? -->
+
+    <string name="anui.plugin.hud.title">anui.plugin.hud.title</string> <!-- Head-Up Display -->
+    <string name="anui.plugin.blackbox.title">anui.plugin.blackbox.title</string> <!-- Blackbox -->
+
+    <!-- FAVORITES -->
+    <string name="anui.favorites.favorites">anui.favorites.favorites</string> <!-- native.favorites --> <!-- Favorites -->
+    <string name="anui.favorites.contacts">anui.favorites.contacts</string> <!-- subMenu.where.contacts --> <!-- Contacts -->
+    <string name="anui.favorites.recent">anui.favorites.recent</string> <!-- ??? --> <!-- Recent -->
+    
+    <string name="anui.favorites.sort.fullname">anui.favorites.sort.fullname</string> <!-- ??? --> <!-- Sort fullname -->
+    <string name="anui.favorites.sort.lastname">anui.favorites.sort.lastname</string> <!-- ??? --> <!-- Sort lastname-->
+
+    <string name="anui.favorites.noItems">anui.favorites.noItems</string> <!-- search.listBox.emptyDatabase --> <!-- No items found -->
+
+    <string name="anui.favorites.selectContact">anui.favorites.selectContact</string> <!-- native.contacts.addressChooser --><!-- Choose contact address -->
+    <string name="anui.favorites.numberOfAddresses">anui.favorites.numberOfAddresses</string> <!-- Multiple addresses-->
+
+    <!-- prakticky poi detail akcie, ale tykaju sa favoritov -->
+    <string name="anui.favorites.addFavorite">anui.favorites.addFavorite</string> <!-- ??? --> <!-- Add to favourites -->
+    <string name="anui.favorites.dialog.setHomeName">anui.favorites.dialog.setHomeName</string> <!-- ??? --> <!-- Set home favourite name -->
+    <string name="anui.favorites.dialog.setWorkName">anui.favorites.dialog.setWorkName</string> <!-- ??? --> <!-- Set work favourite name -->
+    <string name="anui.favorites.dialog.setRouteName">anui.favorites.dialog.setRouteName</string> <!-- ??? --> <!-- Set route name -->
+    <string name="anui.favorites.dialog.removeHomeFavorite">anui.favorites.dialog.removeHomeFavorite</string> <!-- ??? --> <!-- Remove home favorite -->
+    <string name="anui.favorites.dialog.removeWorkFavorite">anui.favorites.dialog.removeWorkFavorite</string> <!-- ??? --> <!-- Remove work favorite -->
+    <string name="anui.favorites.dialog.updateHomeFavorite">anui.favorites.dialog.updateHomeFavorite</string> <!-- ??? --> <!-- Update home favorite -->
+    <string name="anui.favorites.dialog.updateWorkFavorite">anui.favorites.dialog.updateWorkFavorite</string> <!-- ??? --> <!-- Update work favorite -->
+    <string name="anui.favorites.dialog.wannaRemoveHome">anui.favorites.dialog.wannaRemoveHome</string> <!-- ??? --> <!-- Do you want to remove home? -->
+    <string name="anui.favorites.dialog.wannaRemoveWork">anui.favorites.dialog.wannaRemoveWork</string> <!-- ??? --> <!-- Do you want to remove work? -->
+    <string name="anui.favorites.dialog.homeAlreadyExists">anui.favorites.dialog.homeAlreadyExists</string> <!-- ??? --> <!-- The home already exists:\n&#37;s\n -->
+    <string name="anui.favorites.dialog.workAlreadyExists">anui.favorites.dialog.workAlreadyExists</string> <!-- ??? --> <!-- The work already exists:\n&#37;s\n -->
+    <string name="anui.favorites.dialog.keep">anui.favorites.dialog.keep</string> <!-- ??? --> <!-- Keep -->
+    <string name="anui.favorites.dialog.replace">anui.favorites.dialog.replace</string> <!-- ??? --> <!-- Replace -->
+
+    <!-- ACTION BAR -->
+    <string name="anui.actionBar.search">anui.actionBar.search</string> <!-- search.title --> <!-- Search -->
+    <string name="anui.actionBar.favorites">anui.actionBar.favorites</string> <!-- native.favorites --> <!-- Favorites -->
+    <string name="anui.actionBar.nearbyPoi">anui.actionBar.nearbyPoi</string> <!-- subMenu.where.neigh --> <!-- Nearby POI -->
+    <string name="anui.actionBar.poiOnRoute">anui.actionBar.poiOnRoute</string> <!-- subMenu.where.poiOnRoute --> <!-- POI on route -->
+    <string name="anui.actionBar.addHome">anui.actionBar.addHome</string> <!-- ??? --> <!-- Add Home -->
+    <string name="anui.actionBar.addWork">anui.actionBar.addWork</string> <!-- ??? --> <!-- Add Work -->
+    <string name="anui.actionBar.addFavorite">anui.actionBar.addFavorite</string> <!-- ??? --> <!-- Add Favorite -->
+    <string name="anui.actionBar.routeSelection">anui.actionBar.routeSelection</string> <!-- ??? --> <!-- Route Selection -->
+    <string name="anui.actionBar.routeOverview">anui.actionBar.routeOverview</string> <!-- ??? --> <!-- Route Overview -->
+    <string name="anui.actionBar.routeOptions">anui.actionBar.routeOptions</string> <!-- ??? --> <!-- Route Options -->
+    <string name="anui.actionBar.poiDetail">anui.actionBar.poiDetail</string> <!-- ??? --> <!-- POI Detail -->
+    <string name="anui.actionBar.myAccount">anui.actionBar.myAccount</string> <!-- uu.myAccount --> <!-- My Account -->
+    <string name="anui.actionBar.travelBook">anui.actionBar.travelBook</string> <!-- ??? --> <!-- Travel book -->
+    <string name="anui.actionBar.productDetails">anui.actionBar.productDetails</string> <!-- ??? --> <!-- Product details -->
+    <string name="anui.actionBar.webViewCheckout">anui.actionBar.webViewCheckout</string> <!-- ??? --> <!-- Sygic checkout -->
+
+	<!-- TRAVEL BOOK -->
+    <string name="anui.travelbook.history">anui.travelbook.history</string> <!-- ??? --> <!-- History -->
+    <string name="anui.travelbook.liked">anui.travelbook.liked</string> <!-- ??? --> <!-- Liked -->
+    
+    <!-- ROUTE OVERVIEW -->
+    <string name="anui.routeOverview.start">anui.routeOverview.start</string> <!-- native.start.label --> <!-- Start: -->
+    <string name="anui.routeOverview.end">anui.routeOverview.end</string> <!-- native.end.label --> <!-- End: -->
+    <string name="anui.routeOverview.routeInfo">anui.routeOverview.routeInfo</string> <!-- native.routeOverview.routeInfo --> <!-- ETA %ETA% (%DURATION%), distance %DISTANCE% -->
+    <string name="anui.routeOverview.labelIncidents">anui.routeOverview.labelIncidents</string> <!-- !PREROBIT! --> <!-- &#37;s incidents -->
+    <string name="anui.routeOverview.routeOptions">anui.routeOverview.routeOptions</string> <!-- routeActionMain.routeOptions --> <!-- Route options -->
+    <string name="anui.routeOverview.routeInstructions">anui.routeOverview.routeInstructions</string> <!-- route.instructionsText.static --> <!-- Route Instructions -->
+    <string name="anui.routeOverview.noIncident">anui.routeOverview.noIncident</string> <!-- routeSum.noIncident --> <!-- No incidents on route -->
+    <string name="anui.routeOverview.processingTraffic">anui.routeOverview.processingTraffic</string> <!-- native.processingTraffic --> <!-- Processing traffic… -->
+    <string name="anui.routeOverview.noTraffic">anui.routeOverview.noTraffic</string> <!-- No traffic on your route! -->
+    <string name="anui.routeOverview.noSpeedCams">anui.routeOverview.noSpeedCams</string> <!-- No speed cams on your route! -->
+    <string name="anui.routeOverview.speedcamsOffline">anui.routeOverview.speedcamsOffline</string> <!-- You are offline. No speed cams on your route! Connect device to refresh -->
+    <string name="anui.routeOverview.noTrafficLicence">anui.routeOverview.noTrafficLicence</string> <!-- Buy traffic -->
+    <string name="anui.routeOverview.noSpeedCamsLicence">anui.routeOverview.noSpeedCamsLicence</string> <!-- Buy speed cams -->
+    <string name="anui.routeOverview.goToStore">anui.routeOverview.goToStore</string> <!-- Go to store -->
+    <string name="anui.routeOverview.learnMore">anui.routeOverview.learnMore</string> <!-- Learn more -->
+    <string name="anui.routeOverview.waypoints.expand">anui.routeOverview.waypoints.expand</string>
+    <string name="anui.routeOverview.waypoints.colapse">anui.routeOverview.waypoints.colapse</string>
+
+    <string name="anui.routeOverview.routeInfoETA">anui.routeOverview.routeInfoETA</string> <!-- Estimated time of arrival: -->
+    <string name="anui.routeOverview.routeInfoETAValue" formatted="false">anui.routeOverview.routeInfoETAValue</string> <!-- %ETA% (%DURATION%) -->
+    <string name="anui.routeOverview.routeInfoDistance">anui.routeOverview.routeInfoDistance</string> <!-- Distance: -->
+    <string name="anui.routeOverview.routeInfoIncidents">anui.routeOverview.routeInfoIncidents</string> <!-- Incidents on route: -->
+    <plurals name="anui_routeOverview_routeInfoIncidents">
+        <item quantity="zero">anui.routeOverview_routeInfoIncidents.zero</item>
+        <item quantity="one">anui.routeOverview_routeInfoIncidents.one</item>
+        <item quantity="two">anui.routeOverview_routeInfoIncidents.two</item>
+        <item quantity="few">anui.routeOverview_routeInfoIncidents.few</item>
+        <item quantity="many">anui.routeOverview_routeInfoIncidents.many</item>
+        <item quantity="other">anui.routeOverview_routeInfoIncidents.other</item>
+    </plurals>
+
+    <string name="anui.routeOverview.buyCamsFragment">anui.routeOverview.storeSpeedcamsFragmentTitle</string>
+    <string name="anui.routeOverview.buyTrafficFragment">anui.routeOverview.storeTrafficFragmentTitle</string>
+
+    <string name="anui.routeSelection.routeCount">anui.routeSelection.routeCount</string> <!-- native.routecompute.routecount --> <!-- %CURRENT% of %TOTAL% routes -->
+
+    <!-- Start from map -->
+    <string name="anui.startFromMap.find">anui.startFromMap.find</string> <!-- actions.setFromMap --> <!-- Select from map -->
+    <string name="anui.startFromMap.position">anui.startFromMap.position</string> <!-- ??? copy one of our ids ??? --> <!-- Position -->
+
+
+    <!-- AVOIDS -->
+    <string name="anui.routeAvoid.highways">anui.routeAvoid.highways</string> <!-- nativee.highways --> <!-- Highways -->
+    <string name="anui.routeAvoid.tollRoads">anui.routeAvoid.tollRoads</string> <!-- native.tollroads --> <!-- Toll Roads -->
+    <string name="anui.routeAvoid.ferries">anui.routeAvoid.ferries</string> <!-- native.ferries --> <!-- Ferries -->
+    <string name="anui.routeAvoid.unpaved">anui.routeAvoid.unpaved</string> <!-- native.unpaved --> <!-- Unpaved Roads -->
+    
+    <string name="anui.routeAvoid.highways.unable">anui.routeAvoid.highways.unable</string> <!-- native.highways --> <!-- Highways unable -->
+    <string name="anui.routeAvoid.tollRoads.unable">anui.routeAvoid.tollRoads.unable</string> <!-- native.tollRoads --> <!-- Toll Roads unable -->
+    <string name="anui.routeAvoid.ferries.unable">anui.routeAvoid.ferries.unable</string> <!-- native.ferries --> <!-- Ferries unable -->
+    <string name="anui.routeAvoid.unpaved.unable">anui.routeAvoid.unpaved.unable</string> <!-- native.unpaved --> <!-- Unpaved Roads unable -->
+
+    <string name="anui.dialog.instructionAvoid.title">anui.dialog.instructionAvoid.title</string> <!-- native.dialog.avoid.title --> <!-- Avoid instruction -->
+    <string name="anui.dialog.trafficAvoid.title">anui.dialog.trafficAvoid.title</string> <!-- native.dialog.avoid.title --> <!-- Avoid traffic -->
+    <string name="anui.dialog.instructionAvoid">anui.dialog.instructionAvoid</string> <!-- native.dialog.instructionAvoid --> <!-- Do you want to avoid this instruction -->
+    <string name="anui.dialog.instructionUnavoidable">anui.dialog.instructionUnavoidable</string> <!-- native.dialog.instructionUnavoidable --> <!-- It is not possible to avoid this instruction -->
+
+
+    <!-- GPS DIALOG -->
+    <string name="anui.gps.noSignal">anui.gps.noSignal</string> <!-- navigation.mainInfo.noSignal --> <!-- No GPS signal -->
+    <string name="anui.gps.waiting">anui.gps.waiting</string> <!-- routeCompute.waiting --> <!-- Waiting for valid GPS positions... -->
+    <string name="anui.gps.lastPos">anui.gps.lastPos</string><!-- actions.lastPos --> <!-- Last valid position -->
+    <string name="anui.gps.fromMap">anui.gps.fromMap</string><!-- actions.fromMap --> <!-- Select from map -->
+    <string name="anui.gps.enterAddress">anui.gps.enterAddress</string><!-- Search -->
+
+
+    <!-- ROUTE -->
+    <string name="anui.route.button">anui.route.button</string> <!-- mainMenu.route --> <!-- Route -->
+    <string name="anui.cancelRoute.button">anui.cancelRoute.button</string> <!-- actions.cancelRoute --> <!-- Cancel route -->
+    <string name="anui.navigate.button">anui.navigate.button</string> <!-- button.navigate --> <!-- Navigate -->
+
+    <string name="anui.navigation.resume">anui.navigation.resume</string> <!-- native.navigation.resumeBtn --> <!-- Resume -->
+
+    <string name="anui.dialog.routeComputeError.title">anui.dialog.routeComputeError.title</string> <!-- ??? --> <!-- Compute error -->
+
+    <string name="anui.routeCompute">anui.routeCompute</string> <!-- routeCompute.static --> <!-- Computing route -->
+
+
+    <!-- STORE -->
+    <string name="anui.store.free">anui.store.free</string> <!-- store.free --><!-- Free -->
+    <string name="anui.store.install">anui.store.install</string> <!-- store.install --> <!-- Install -->
+    <string name="anui.store.manage">anui.store.manage</string> <!-- store.manage --> <!-- Manage -->
+    <string name="anui.store.preview">anui.store.preview</string> <!-- store.preview --> <!-- Preview -->
+    <string name="anui.store.selectRegion">anui.store.selectRegion</string> <!-- Select region -->
+
+    <string name="anui.store.productStatus.purchased">anui.store.productStatus.purchased</string> <!-- store.productStatus.activated --> <!-- Purchased -->
+    <string name="anui.store.buy">anui.store.buy</string> <!-- button.buy --> <!-- Buy -->
+    <string name="anui.store.prolong">anui.store.prolong</string> <!-- ??? --> <!-- Prolong -->
+    <string name="anui.store.inappPurchase.failed">anui.store.inappPurchase.failed</string> <!-- shop.inappPurchase.failed --> <!-- Ooops. There was an erroro processing the in-app purchase. Please... -->
+    <string name="anui.store.enterProductCode">anui.store.enterProductCode</string> <!-- store.noproductcode --> <!-- Please enter your product code. -->
+
+    <string name="anui.error.download">anui.error.download</string> <!-- shop.download.connectionError --> <!-- An error occurred during download. Please try again later. -->
+    <string name="anui.error.notEnoughSpace">anui.error.notEnoughSpace</string> <!-- shop.error.notEnoughSpace --> <!--Not enough memory for data download. %size% is needed.-->
+
+    <string name="anui.error.compute.csEDiscontinuousNetwork">anui.error.compute.csEDiscontinuousNetwork</string> <!-- error.compute.csEDiscontinuousNetwork --> <!-- download missing maps -->
+
+    <string name="anui.maps.updateAll">anui.maps.updateAll</string> <!-- native.update.all --> <!-- Update all -->
+    <string name="anui.search.newMapReload">anui.search.newMapReload</string> <!-- ??? --> <!-- "New map was installed or removed, reloading..." -->
+
+    <string name="anui.item.message">anui.item.message</string> <!-- delete.message --> <!-- Do you really want to delete the item &quot;%item%&quot;? -->
+    <string name="anui.mapss.deleteOld">anui.mapss.deleteOld</string> <!-- ??? native.update.msg --> <!-- This will remove old maps from your device.TODO: z langov -->
+
+    <string name="anui.item.applicationResources">anui.item.applicationResources</string> <!-- ??? --> <!-- Application resources -->
+
+    <string name="pattern_product_code">xxxx-xxxx-xxxx-xxxx</string> <!-- NERIESIT -->
+
+
+
+    <!-- FIRST RUN WIZARD -->
+    <string name="anui.frw.welcome">anui.frw.welcome</string> <!-- uu.firstrunwizard.welcome.label --> <!-- Welcome -->
+    <string name="anui.frw.proceed">anui.frw.proceed</string> <!-- buttonDark.proceed --> <!--Proceed-->
+    <string name="anui.frw.proceed_anyway">anui.frw.proceed_anyway</string> <!--??? --> <!--Proceed anyway -->
+
+    <string name="anui.frw.download">anui.frw.download</string> <!-- native.frw.download --> <!-- Data download -->
+    <string name="anui.frw.download.message">anui.frw.download.message</string> <!-- ??? --> <!-- You are about to download %size% over mobile network. It's recommended to use WiFi connection. -->
+    <string name="anui.frw.download.notification.title">anui.frw.download.notification.title</string> <!-- ??? --> <!-- Maps download -->
+
+    <string name="anui.frw.downloading">anui.frw.downloading</string> <!-- additionalDownload.title --> <!-- Downloading... -->
+    <string name="anui.frw.activate"></string> <!-- support.category.Activate -->  <!-- Activation/Reactivation -->
+    <string name="anui.frw.productCode">anui.frw.productCode</string> <!-- ??? --> <!-- I Have a Product Code -->
+    <string name="anui.frw.restoreGP">anui.frw.restoreGP</string> <!-- ??? --> <!-- Google Play Restore -->
+    <string name="anui.frw.restore.error">anui.frw.restore.error</string> <!-- shop.restore.error --> <!-- An error occurred during product restore. -->
+    <string name="anui.frw.activate.success">anui.frw.activate.success</string> <!-- message.activate.success.name --> <!-- %productmlm% was successfully activated. -->
+    <string name="anui.frw.activate.error">anui.frw.activate.error</string> <!-- message.activate.errorInternal --> <!-- An internal error occurred. Please try again later -->
+
+    <!--welcome screen-->
+    <string name="anui.frw.welcome.version">anui.frw.welcome.version</string>
+    <string name="anui.frw.email.enter">anui.frw.email.enter</string>
+    <string name="anui.frw.email.invalid">anui.frw.email.invalid</string>
+    <string name="anui.frw.allDone">anui.frw.allDone</string>
+    <string name="anui.frw.email.example">mail@example.com</string>
+    <string name="anui.frw.restore.success">anui.frw.restore.success</string>
+    <string name="anui.frw.restore.failure">anui.frw.restore.failure</string>
+    <string name="anui.frw.welcome.text">anui.frw.welcome.text</string>
+    <string name="anui.frw.thankYou.text">anui.frw.thankYou.text</string>
+
+    <string name="anui.frw.btn.restore">anui.frw.btn.restore</string>
+    <string name="anui.frw.btn.start">anui.frw.btn.start</string>
+    <string name="anui.frw.btn.next">anui.frw.btn.next</string>
+    <string name="anui.frw.btn.continue">anui.frw.btn.continue</string>
+    <string name="anui.frw.btn.back">anui.frw.btn.back</string>
+    <string name="anui.frw.btn.skip">anui.frw.btn.skip</string>
+    <string name="anui.frw.btn.help">anui.frw.btn.help</string>
+    <string name="anui.frw.btn.goPremium">anui.frw.btn.goPremium</string>
+
+    <string name="anui.frw.pendingUpdates">anui.frw.pendingUpdates</string> <!-- ??? --> <!-- You have pending updates -->
+    <string name="anui.frw.proceedNoUpdate">anui.frw.proceedNoUpdate</string> <!-- ??? --> <!-- Proceed without updating -->
+
+    <string name="aniu.frw.contact_support">aniu.frw.contact_support</string> <!-- uu.firstrunwizard.restore.failed.helpButton --> <!-- Contact our Support Team -->
+    <string name="anui.connection.disconnected">warning.disconnected</string>   <!-- Connection lost -->
+
+    <!-- trial texts -->
+    <string name="anui.trial.promotion_text1">anui.trial.promotion_text1</string>   <!-- uu.productteaser.teaserLabel1 -->   <!-- Turn-by-turn navigation -->
+    <string name="anui.trial.promotion_text2">anui.trial.promotion_text2</string>   <!-- uu.productteaser.teaserLabel2 -->   <!-- Voice guidance -->
+    <string name="anui.trial.promotion_text3">anui.trial.promotion_text3</string>   <!-- uu.productteaser.teaserLabel3 -->   <!-- Beautiful 3D -->
+    <string name="anui.trial.promotion_text4">anui.trial.promotion_text4</string>   <!-- uu.productteaser.teaserLabel4 -->   <!-- Lane guidance -->
+    <string name="anui.trial.promotion_text5">anui.trial.promotion_text5</string>   <!-- uu.productteaser.teaserLabel5 -->   <!-- Speed limit warnings -->
+
+    <!-- enjoy texts -->
+    <string name="anui.frw.offline">anui.frw.offline</string>
+    <string name="anui.frw.route">anui.frw.route</string>
+    <string name="anui.frw.search">anui.frw.search</string>
+    <string name="anui.frw.updates">anui.frw.updates</string>
+    <string name="anui.frw.worldwide">anui.frw.worldwide</string>
+
+
+    <!-- BUTTONS -->
+    <string name="anui.button.yes">anui.button.yes</string> <!-- button.yes --> <!-- Yes -->
+    <string name="anui.button.no">anui.button.no</string> <!-- button.no --> <!-- No -->
+    <string name="anui.button.ok">anui.button.ok</string> <!-- button.ok --> <!-- OK -->
+    <string name="anui.button.cancel">anui.button.cancel</string> <!-- button.cancel --> <!-- Cancel -->
+
+    <string name="anui.button.retry">anui.button.retry</string> <!-- button.retry -->   <!-- Try again -->
+    <string name="anui.button.connect">anui.button.connect</string> <!-- button.login -->  <!-- Connect -->
+
+    <string name="anui.button.select">anui.button.select</string> <!-- button.select --> <!-- Select -->
+
+    <!-- POI -->
+    <string name="anui.poi.group.button">anui.poi.group.button</string> <!-- button.group --> <!-- Groups -->
+    <string name="anui.poi.list.button">anui.poi.list.button</string> <!-- button.list --> <!-- List -->
+    <string name="anui.poi.category.button">anui.poi.category.button</string><!-- Categories -->
+    <string name="anui.button.premium">label.premium</string> <!-- ? -->  <!-- Premium -->
+
+    <!-- POI import-->
+    <string name="anui.button.poi.import.title">anui.button.poi.import.title</string> <!-- ??? -->  <!-- POI import  -->
+    <string name="anui.button.poi.import.text">anui.button.poi.import.text</string> <!-- message.custompoi.import -->  <!-- New POI database was detected. Do you want to import it now? -->
+    <string name="anui.button.poi.import.success">anui.button.poi.import.success</string> <!-- message.custompoi.importSuccess -->  <!-- POI database was imported successfully. -->
+    <string name="anui.button.poi.import.failure">anui.button.poi.import.failure</string> <!-- message.custompoi.importFailed -->  <!-- An error occurred during the import. -->
+    <string name="anui.button.poi.import.progress">anui.button.poi.import.progress</string> <!-- warning.custompoi.importing -->  <!-- Importing… -->
+
+    <!-- POI DETAIL -->
+    <string name="anui.poiDetail.passBy">anui.poiDetail.passBy</string> <!-- actions.travelViaCity -->	<!-- Pass by -->
+    <string name="anui.poiDetail.travelVia">anui.poiDetail.travelVia</string> <!-- actions.travelVia -->	<!-- Travel via -->
+    <string name="anui.poiDetail.setAsHome">@string/anui.favorites.dialog.setHomeName</string> <!-- ??? --> <!-- Set as home -->
+    <string name="anui.poiDetail.setAsWork">@string/anui.favorites.dialog.setWorkName</string> <!-- ??? --> <!-- Set as work -->
+    <string name="anui.poiDetail.addFavorite">anui.poiDetail.addFavorite</string>	<!-- Add to Favorites -->
+
+    <string name="anui.poiDetail.phone">anui.poiDetail.phone</string> <!-- poi_details.phone --> <!-- Telephone -->
+    <string name="anui.poiDetail.url">anui.poiDetail.url</string> <!-- poi_details.url --> <!-- URL -->
+    <string name="anui.poiDetail.mail">anui.poiDetail.mail</string> <!-- poi_details.mail --> <!-- Email -->
+    <string name="anui.poiDetail.directionHere">anui.poiDetail.directionHere</string> <!-- ??? --> <!-- Get Direction -->
+    <string name="anui.poiDetail.exploreNearby">anui.poiDetail.exploreNearby</string> <!-- actions.exploreNearby -->	<!-- Explore Nearby -->
+    <string name="anui.poiDetail.copy">anui.poiDetail.copy</string> <!-- ??? -->	<!-- Copy -->
+    <string name="anui.poiDetail.sizeOnDevice">anui.poiDetail.sizeOnDevice</string> <!-- Size on device: -->
+    <string name="anui.poiDetail.support">anui.poiDetail.support</string> <!-- Support: -->
+    <string name="anui.poiDetail.version">anui.poiDetail.version</string> <!-- Version: -->
+    <string name="anui.poiDetail.size">anui.poiDetail.size</string> <!-- Size: -->
+    <string name="anui.poiDetail.lastUpdate">anui.poiDetail.lastUpdate</string> <!-- Last update: -->
+    <string name="anui.poiDetail.share">anui.poiDetail.share</string><!-- Share location -->
+    <string name="anui.poiDetail.shareSubjectLocation">anui.poiDetail.shareSubjectLocation</string><!-- Shared location from Sygic -->
+    <string name="anui.poiDetail.shareSubjectMyLocation">anui.poiDetail.shareSubjectMyLocation</string><!-- Here is my location from Sygic -->
+    <string name="anui.poiDetail.shareGpsCoords">anui.poiDetail.shareGpsCoords</string><!-- GPS coordinates: %s -->
+    <string name="anui.poiDetail.shareOpenInAndroid">anui.poiDetail.shareOpenInAndroid</string><!-- Open in Android -->
+    <string name="anui.poiDetail.shareOpenInIphone">anui.poiDetail.shareOpenInIphone</string><!-- Open in iPhone -->
+    <string name="anui.poiDetail.shareAppOnGooglePlay">anui.poiDetail.shareAppOnGooglePlay</string><!-- Android App on Google Play -->
+    <string name="anui.poiDetail.shareAppOnAppStore">anui.poiDetail.shareAppOnAppStore</string><!-- iPhone App on App Store -->
+    <string name="anui.poiDetail.saveCurrentPos">anui.poiDetail.saveCurrentPos</string> <!-- Save current position -->
+    <string name="anui.poiDetail.navigateToSavedPos">anui.poiDetail.navigateToSavedPos</string> <!-- Navigate to saved position -->
+    <string name="anui.poiDetail.currentPosSaved">anui.poiDetail.currentPosSaved</string> <!-- Current position saved -->
+
+
+    <!-- ACCOUNT -->
+    <string name="anui.account.userId">anui.account.userId</string> <!-- ??? --> <!-- User ID -->
+
+    <string name="anui.account.signIn.google">anui.account.signIn.google</string> <!-- native.signin.google --> <!-- Sign in with Google -->
+    <string name="anui.account.signIn.facebook">anui.account.signIn.facebook</string> <!-- native.signin.facebook --> <!-- Sign in with Facebook -->
+    <string name="anui.account.signIn.sygic">anui.account.signIn.sygic</string> <!-- uu.signIn --> <!-- Sign in -->
+    <string name="anui.account.signOut">anui.account.signOut</string> <!-- uu.account.logout --> <!-- Sign out -->
+    <string name="anui.account.signSygic">anui.account.signSygic</string> <!-- native.sygicsignin.info --> <!-- or sign in with Sygic account -->
+    <string name="anui.account.createNew">anui.account.createNew</string> <!-- login.dialog.newaccount.static --> <!-- Create New Account -->
+    <string name="anui.account.forgotPassword">anui.account.forgotPassword</string> <!-- uu.login.forgotPassword -->  <!--Forgot password-->
+    <string name="anui.account.email">anui.account.email</string>  <!-- uu.login.name -->  <!--Email-->
+    <string name="anui.account.password">anui.account.password</string> <!-- uu.login.password -->  <!--Password-->
+    <string name="anui.account.submit">anui.account.submit</string> <!-- ??? --> <!-- Submit -->
+    <string name="anui.account.clearData">anui.account.clearData</string> <!-- login.dialog.clear.data --> <!-- Clear login data -->
+    <string name="anui.account.invalidEmail">anui.account.invalidEmail</string> <!-- uu.register.loginNoMail --> <!-- Login must be in email address format -->
+
+    <string name="anui.passwordReset.resultFailed">anui.passwordReset.resultFailed</string> <!-- passwordReset.resultFailed.message --> <!-- An error occurred please try again later. -->
+    <string name="anui.passwordReset.resultOk">anui.passwordReset.resultOk</string> <!-- passwordReset.resultOk.message -->  <!-- Please check your e-mail to reset your password. -->
+
+    <string name="anui.account.title">anui.account.title</string> <!-- login.dialog.account.options --> <!-- Account options -->
+    <string name="anui.account.autologin">anui.account.autologin</string> <!-- settings.connection.afterstart --> <!-- Sign me in automatically -->
+    <string name="anui.account.trafficData">anui.account.trafficData</string> <!-- settings.connection.services.traffic --> <!-- Traffic -->
+    <string name="anui.account.newsAndUpdates">anui.account.newsAndUpdates</string> <!-- friends.profile.agree --> <!-- News &amp; Updates -->
+
+    <string name="anui.login.badLogin">anui.login.badLogin</string> <!-- login.resultfalse.message --> <!-- Thre user name or password is incorrect -->
+    <string name="anui.login.connectError">anui.login.connectError</string> <!-- settings.google.connect.error --> <!-- Unable to connect. Please try again later -->
+    <string name="anui.login.disconnected">anui.login.disconnected</string> <!-- online.sessionlost.message --> <!-- You have been disconnected -->
+    <string name="anui.login.serverError">anui.login.serverError</string> <!-- online.serverError.message --> <!-- Cannot connect to server -->
+
+    <!-- QUICK MENU -->
+    <string name="anui.quickMenu.reportIncident.added">anui.quickMenu.reportIncident.added</string> <!-- warning.reportIncident.added --> <!-- Thank you for reporting. -->
+    <string name="anui.quickMenu.warning.reportIncident.notRunning">anui.quickMenu.warning.reportIncident.notRunning</string> <!-- warning.reportIncident.notRunning --> <!-- Traps reporting is turned off. Do you want turn this service on? -->
+    <string name="anui.quickMenu.warning.reportIncident.noPosition">anui.quickMenu.warning.reportIncident.noPosition</string> <!-- warning.reportIncident.noPosition --> <!-- No GPS position available -->
+    <string name="anui.quickMenu.drivingMode">anui.quickMenu.drivingMode</string>
+    <string name="anui.quickMenu.pedestrianMode">anui.quickMenu.pedestrianMode</string>
+    <string name="anui.quickMenu.skipViaPoint">anui.quickMenu.skipViaPoint</string>
+    <string name="anui.quickMenu.cancelRoute">@string/anui.cancelRoute.button</string>
+    <string name="anui.quickMenu.demonstration">anui.quickMenu.demonstration</string>
+    <string name="anui.quickMenu.traffic">anui.quickMenu.traffic</string>
+    <string name="anui.quickMenu.police">anui.quickMenu.police</string>
+    <string name="anui.quickMenu.nearbyPois">anui.quickMenu.nearbyPois</string>
+    <string name="anui.quickMenu.mute">anui.quickMenu.mute</string>
+    <string name="anui.quickMenu.unmute">anui.quickMenu.unmute</string>
+
+    <string name="anui.quickMenu.voiceMute">anui.quickMenu.voiceMute</string>
+    <string name="anui.quickMenu.voiceUnmute">anui.quickMenu.voiceUnmute</string>
+
+    <!-- INFOBAR -->
+    <string name="anui.infoBar.inaccurate.signal">anui.infoBar.inaccurate.signal</string> <!-- native.inaccurateSignalForCarNavigation --> <!-- Inaccurate GPS signal -->
+
+    <!-- RATE DIALOG -->
+    <string name="anui.rating.dialog.title">anui.rating.dialog.title</string> <!-- popup.rating.nuiTitle --> <!-- Rate %shortproduct -->
+    <string name="anui.rating.dialog.message">anui.rating.dialog.message</string> <!-- popup.rating.nuiMessage --> <!-- If you enjoy using %shortproduct%, please take a moment to rate it 5 stars and motivate our developers. -->
+    <string name="anui.rating.dialog.rate">anui.rating.dialog.rate</string> <!-- popup.rating.nuiRate --> <!-- Rate now -->
+    <string name="anui.rating.dialog.later">anui.rating.dialog.later</string> <!-- popup.rating.nuiLater --> <!-- Remind me later -->
+    <string name="anui.rating.dialog.cancel">anui.rating.dialog.cancel</string> <!-- popup.rating.nuiCancel --> <!-- Later -->
+
+
+    <!-- ... -->
+    <string name="anui.text.unknown">anui.text.unknown</string> <!-- route.instructionsText.listBox.unknown --> <!-- N/A -->
+    <string name="anui.input.rename">anui.input.rename</string> <!-- travelOptions.rename.static --> <!-- Enter new name -->
+
+    <string name="anui.warning.title">anui.warning.title</string> <!-- native.warning.info --> <!-- Warning -->
+
+    <string name="anui.exit.message">anui.exit.message</string> <!-- exit.message --> <!-- Do you want to exit %product%? -->
+
+    <string name="anui.traffic.inactive">anui.traffic.inactive</string> <!-- nv.traffic.inactive --> <!-- Inactive -->
+    <string name="anui.traffic.online">anui.traffic.online</string> <!-- nv.traffic.online --> <!-- Online -->
+	<string name="anui.traffic.offline">anui.traffic.offline</string> <!-- nv.traffic.offline --> <!-- Offline -->
+
+    <string name="anui.text.freeSpace">anui.text.freeSpace</string> <!-- uu.freeSpace -->  <!-- Free space -->
+
+    <string name="anui.autoclose.resume">anui.autoclose.resume</string> <!-- %TIME% native.navigation.resumeBtn --> <!-- %TIME% Resume -->
+
+    <string name="anui.message.position.outofmap">@string/anui.search.gpsCoord.outofmap</string>
+
+    <!-- SETTINGS -->
+    <string name="anui.settings.tellFriend">anui.settings.tellFriend</string> <!-- mainMenu.tellYourFrines -->  <!-- Tell your friends -->
+    <string name="anui.settings.whatsNew">anui.settings.whatsNew</string> <!-- settings.about.whatsnew --> <!-- What\'s new -->
+
+
+
+
+    <!-- PREFERENCES -->
+    <string name="anui.settings.category.map">anui.settings.category.map</string> <!-- settings.display.static --> <!-- Map -->
+    <string name="anui.settings.category.voiceNotifications">anui.settings.category.voiceNotifications</string> <!-- ??? --> <!-- Voice and Notifications -->
+    <string name="anui.settings.category.display">anui.settings.category.display</string> <!-- ??? --> <!-- Display -->
+    <string name="anui.settings.category.regional">anui.settings.category.regional</string> <!-- settings.regional.static --> <!-- Regional -->
+    <string name="anui.settings.category.routePlanning">anui.settings.category.routePlanning</string> <!-- settings.planning.static --> <!-- Route Planning -->
+    <string name="anui.settings.category.batteryManagement">anui.settings.category.batteryManagement</string> <!-- settings.batteryManagement.static --> <!-- Battery Management -->
+    <string name="anui.settings.category.info">anui.settings.category.info</string> <!-- ??? --> <!-- Information -->
+    <string name="anui.settings.category.debug">anui.settings.category.debug</string> <!-- ??? --> <!-- Debug -->
+
+    <!-- Display -->
+    <string name="anui.settings.display.colorScheme">anui.settings.display.colorScheme</string> <!-- settings.colorScheme.static --> <!-- Color Scheme -->
+    <string name="anui.settings.display.infoBar">anui.settings.display.infoBar</string> <!-- settings.infobar.static --> <!-- Information bar -->
+    <string name="anui.settings.display.laneGuidance">anui.settings.display.laneGuidance</string> <!-- settings.laneAssistant.static --> <!-- Lane guidance -->
+    <string name="anui.settings.display.junctionView">anui.settings.display.junctionView</string> <!-- settings.junctionview --> <!-- Junction view -->
+
+    <string name="anui.settings.display.secondary_instruction">anui.settings.display.secondary_instruction</string> <!-- Secondary Instruction -->
+    <string name="anui.settings.display.secondary_instruction.subtitle">anui.settings.display.secondary_instruction.subtitle</string> <!-- Secondary instruction mode -->
+
+    <string name="anui.settings.display.secondary_instruction.mode.normal">anui.settings.display.secondary_instruction.mode.normal</string> <!-- Normal -->
+    <string name="anui.settings.display.secondary_instruction.mode.early">anui.settings.display.secondary_instruction.mode.early</string> <!-- Early -->
+    <string name="anui.settings.display.secondary_instruction.mode.always">anui.settings.display.secondary_instruction.mode.always</string> <!-- Always -->
+
+    <string name="anui.settings.display.trafficIncidents">anui.settings.display.trafficIncidents</string> <!-- settings.trafficAutoAvoid.static --> <!-- Traffic incidents -->
+    <string name="anui.settings.display.rotationLock">anui.settings.display.rotationLock</string> <!-- settings.screenLock --> <!-- Lock screen rotation -->
+    <string name="anui.settings.display.zoomControl">anui.settings.display.zoomControl</string> <!-- native.settings.zoomControl --> <!-- Zoom control -->
+    <string name="anui.settings.display.fullscreen">anui.settings.display.fullscreen</string> <!-- settings.fullscreen --> <!-- Fullscreen -->
+
+    <string name="anui.settings.display.autoclose">anui.settings.display.autoclose</string> <!-- settings.autoclose.static --> <!-- Autoclose dialog -->
+    <string name="anui.settings.display.autoclose.limits">anui.settings.display.autoclose.limits</string> <!-- ??? --> <!-- Autoclose limits -->
+    <string name="anui.settings.display.autoclose.driving">anui.settings.display.autoclose.driving</string> <!-- settings.autoclose.driving --> <!-- In movement -->
+    <string name="anui.settings.display.autoclose.always">anui.settings.display.autoclose.always</string> <!-- settings.autoclose.always --> <!-- Otherwise -->
+
+    <string name="anui.settings.display.laneGuidance.dynamic">anui.settings.display.laneGuidance.dynamic</string> <!-- settings.laneassist.en --> <!-- Dynamic -->
+    <string name="anui.settings.display.laneGuidance.simplified">anui.settings.display.laneGuidance.simplified</string> <!-- settings.laneassist.minimized --> <!-- Simplified -->
+    <string name="anui.settings.display.laneGuidance.off">anui.settings.display.laneGuidance.off</string> <!-- settings.laneassist.off --> <!-- Off -->
+
+    <string name="anui.settings.display.infoBar.drivingMode">anui.settings.display.infoBar.drivingMode</string> <!-- settings.infobar.car --> <!-- Driving mode -->
+    <string name="anui.settings.display.infoBar.walkingMode">anui.settings.display.infoBar.walkingMode</string> <!-- native.settings.infobar.ped --> <!-- Walking mode -->
+    <string name="anui.settings.display.infoBar.slot_left">anui.settings.display.infoBar.slot_left</string> <!-- native.settings.infobar.side0 --> <!-- Left -->
+    <string name="anui.settings.display.infoBar.slot_middle">anui.settings.display.infoBar.slot_middle</string> <!-- native.settings.infobar.side1 --> <!-- Middle -->
+    <string name="anui.settings.display.infoBar.slot_right">anui.settings.display.infoBar.slot_right</string> <!-- native.settings.infobar.side2 --> <!-- Right -->
+
+    <string name="anui.settings.display.trafficIncidents.enable">anui.settings.display.trafficIncidents.enable</string> <!-- traffic.options.showOnMap --> <!-- Show traffic info on map -->
+    <string name="anui.settings.display.trafficIncidents.autoAvoid">anui.settings.display.trafficIncidents.autoAvoid</string> <!-- settings.trafficAutoAvoid.enable --> <!-- Avoid automatically -->
+
+    <string name="anui.settings.display.colorScheme.day">anui.settings.display.colorScheme.day</string> <!-- settings.colorScheme.day --> <!-- Day -->
+    <string name="anui.settings.display.colorScheme.night">anui.settings.display.colorScheme.night</string> <!-- settings.colorScheme.night --> <!-- Night -->
+    <string name="anui.settings.display.colorScheme.automatic">anui.settings.display.colorScheme.automatic</string> <!-- settings.colorScheme.automatic --> <!-- Automatic -->
+
+    <string name="anui.settings.display.infoBar.none">anui.settings.display.infoBar.none</string> <!-- ??? --> <!-- None -->
+    <string name="anui.settings.display.infoBar.time">anui.settings.display.infoBar.time</string> <!-- infobox.time --> <!-- Time -->
+    <string name="anui.settings.display.infoBar.traveledDistance">anui.settings.display.infoBar.traveledDistance</string> <!-- settings.infobaritems.fromStart --> <!-- Traveled distance -->
+    <string name="anui.settings.display.infoBar.remainingDistance">anui.settings.display.infoBar.remainingDistance</string> <!-- settings.infobaritems.remDistance --> <!-- Remaining distance -->
+    <string name="anui.settings.display.infoBar.elevation">anui.settings.display.infoBar.elevation</string> <!-- settings.infobaritems.elevation --> <!-- Elevation -->
+    <string name="anui.settings.display.infoBar.speed">anui.settings.display.infoBar.speed</string> <!-- settings.infobaritems.speed --> <!-- Speed -->
+    <string name="anui.settings.display.infoBar.eta">anui.settings.display.infoBar.eta</string> <!-- settings.infobaritems.eta --> <!-- Estimated time of arrival -->
+    <string name="anui.settings.display.infoBar.routeLength">anui.settings.display.infoBar.routeLength</string> <!-- settings.infobaritems.routeLength --> <!-- Route length -->
+    <string name="anui.settings.display.infoBar.remainingTime">anui.settings.display.infoBar.remainingTime</string> <!-- settings.infobaritems.remTime --> <!-- Remaining time -->
+
+    <!-- Sounds and Notification -->
+    <string name="anui.settings.soundsNotifications.voiceInstructions">anui.settings.soundsNotifications.voiceInstructions</string> <!-- settings.sound.voiceGuidance.static --> <!-- Voice instructions -->
+    <string name="anui.settings.soundsNotifications.notifications">anui.settings.soundsNotifications.notifications</string> <!-- settings.sound.notification --> <!-- Notification -->
+    <string name="anui.settings.soundsNotifications.advanced">anui.settings.soundsNotifications.advanced</string> <!-- settings.soundsAdvanced.static--> <!-- Advanced -->
+
+    <string name="anui.settings.soundsNotifications.voiceInstructions.roadNumbers">anui.settings.soundsNotifications.voiceInstructions.roadNumbers</string> <!-- settings.sound.voiceGuidance.readNumbers --> <!-- Road numbers -->
+    <string name="anui.settings.soundsNotifications.sound.phoneSpeaker">anui.settings.soundsNotifications.sound.phoneSpeaker</string> <!-- settings.soundAdvanced.forceSpeaker --> <!-- Phone speaker -->
+
+    <string name="anui.settings.soundsNotifications.notifications.speedCameras">anui.settings.soundsNotifications.notifications.speedCameras</string> <!-- settings.safetyCameras.static --> <!-- Speed cameras -->
+    <string name="anui.settings.soundsNotifications.notifications.speedLimits">anui.settings.soundsNotifications.notifications.speedLimits</string> <!-- settings.sound.speedLimits --> <!-- Speed limits -->
+    <string name="anui.settings.soundsNotifications.notifications.traffic">anui.settings.soundsNotifications.notifications.traffic</string> <!-- settings.trafficNotification --> <!-- Traffic notification -->
+
+    <string name="anui.settings.soundsNotifications.notifications.railway">anui.settings.soundsNotifications.notifications.railway</string> <!-- settings.sound.railway.static --> <!-- Railway crossings -->
+    <string name="anui.settings.soundsNotifications.notifications.railway.warning">anui.settings.soundsNotifications.notifications.speedCameras.warning</string> <!-- Zamerne to iste -->
+
+    <string name="anui.settings.soundsNotifications.notifications.sound">anui.settings.soundsNotifications.notifications.sound</string> <!-- settings.sound.speedLimits.setSound --> <!-- Sound -->
+    <string name="anui.settings.soundsNotifications.notifications.trigger.inArea">anui.settings.soundsNotifications.notifications.trigger.inArea</string> <!-- settings.sound.speedCams.inCity --> <!-- Inside build-up areas -->
+    <string name="anui.settings.soundsNotifications.notifications.trigger.outArea">anui.settings.soundsNotifications.notifications.trigger.outArea</string> <!-- settings.sound.speedCams.outsideCity --> <!-- Outside build-up areas -->
+
+    <string name="anui.settings.soundsNotifications.notifications.speedCameras.warning">anui.settings.soundsNotifications.notifications.speedCameras.warning</string> <!-- settings.sound.speedCams.warningHead --> <!-- Warnings in advance -->
+    <string name="anui.settings.soundsNotifications.notifications.speedCameras.uninstall">anui.settings.soundsNotifications.notifications.speedCameras.uninstall</string> <!-- settings.sound.uninstall --> <!-- Uninstall speed cameras -->
+    <string name="anui.settings.soundsNotifications.notifications.speedCameras.uninstall.text">anui.settings.soundsNotifications.notifications.speedCameras.uninstall.text</string> <!-- message.speedcams.uninstall --> <!-- Do you really want to uninstall speed cameras? -->
+    <string name="anui.settings.soundsNotifications.notifications.speedCameras.sound.notification">anui.settings.soundsNotifications.speedCameras.sound.notification</string> <!-- settings.sound.speedcams.setSound --> <!-- Sound -->
+    <string name="anui.settings.soundsNotifications.notifications.speedCameras.custom.notification">anui.settings.soundsNotifications.speedCameras.custom.notification</string> <!-- settings.sound.speedcams.setSound --> <!-- Sound -->
+				  
+	<string name="anui.settings.soundsNotifications.notifications.speedLimits.weather">anui.settings.soundsNotifications.notifications.speedLimits.weather</string> <!-- settings.sound.speedLimits.showExtInfo --> <!-- Weather speed limits -->
+    <string name="anui.settings.soundsNotifications.notifications.speedLimits.trigger">anui.settings.soundsNotifications.notifications.speedLimits.trigger</string> <!-- settings.sound.speedLimits.triggerHead --> <!-- Speed limit sound trigger -->
+    <string name="anui.settings.soundsNotifications.notifications.speedLimits.formater">anui.settings.soundsNotifications.notifications.speedLimits.formater</string> <!-- settings.sound.speedLimits.triggerHead.before --> <!--nad %SPEED%-->
+
+    <string name="anui.settings.soundsNotifications.notifications.sharpCurve">anui.settings.soundsNotifications.notifications.sharpCurve</string> <!-- settings.dangerturnNotification --> <!-- Sharp curve warning -->
+    <string name="anui.settings.soundsNotifications.notifications.sharpCurve.advanced">anui.settings.soundsNotifications.notifications.sharpCurve.advanced</string> <!-- settings.sound.dangerturn.advanced --> <!-- Advanced settings -->
+    <string name="anui.settings.soundsNotifications.notifications.sharpCurve.easy">anui.settings.soundsNotifications.notifications.sharpCurve.easy</string> <!-- dangerTurnTypeEasy --> <!-- Easy -->
+    <string name="anui.settings.soundsNotifications.notifications.sharpCurve.medium">anui.settings.soundsNotifications.notifications.sharpCurve.medium</string> <!-- dangerTurnTypeMedium --> <!-- Medium -->
+    <string name="anui.settings.soundsNotifications.notifications.sharpCurve.hard">anui.settings.soundsNotifications.notifications.sharpCurve.hard</string> <!-- dangerTurnTypeHard --> <!-- Hard -->
+    <string name="anui.settings.soundsNotifications.notifications.sharpCurve.message">anui.settings.soundsNotifications.notifications.sharpCurve.message</string> <!-- settings.sound.dangerturn.sharpText --> <!-- There are four types of curves: Easy, Medium, Hard and Sharp curve. The top value for “Hard curve” is the beginning of “Sharp curve” -->
+    <string name="anui.settings.soundsNotifications.notifications.dangerturn.angle">anui.settings.soundsNotifications.notifications.dangerturn.angle</string>
+
+    <string name="anui.settings.soundsNotifications.sound.none">anui.settings.soundsNotifications.sound.none</string> <!-- settings.sound.none --> <!-- muted -->
+    <string name="anui.settings.soundsNotifications.tts.notSet">anui.settings.soundsNotifications.tts.notSet</string> <!-- settings.sound.ttsNotSet --> <!-- Set your own warning -->
+    <string name="anui.settings.soundsNotifications.tts.default">anui.settings.soundsNotifications.tts.default</string> <!-- settings.sound.default --> <!-- Default warning -->
+
+    <string name="anui.settings.soundsNotifications.category.details">anui.settings.soundsNotifications.category.details</string> <!-- Details -->
+
+    <!-- Voice -->
+    <string name="anui.settings.voices.installed">anui.settings.voices.installed</string> <!-- Installed -->
+    <string name="anui.settings.voices.get_more">anui.settings.voices.get_more</string> <!-- Get More -->
+    <string name="anui.settings.voices.standard">anui.settings.voices.standard</string> <!-- Standard voices -->
+    <string name="anui.settings.voices.tts">anui.settings.voices.tts</string> <!-- TTS voices -->
+    <string name="anui.settings.voices.funny">anui.settings.voices.funny</string> <!-- Funny voices -->
+    <string name="anui.settings.voices.tts.configure">anui.settings.voices.tts.configure</string> <!-- Configure Android TTS -->
+    <string name="anui.settings.voices.tts.no_engine">anui.settings.voices.tts.no_engine</string> <!-- No tts engine -->
+
+    <!-- Map -->
+    <string name="anui.settings.map.details">anui.settings.map.details</string> <!-- settings.mapDetails.static --> <!-- Map details -->
+    <string name="anui.settings.map.details.buildings">anui.settings.map.details.buildings</string> <!-- settings.citymaps.static --> <!-- Buildings -->
+    <string name="anui.settings.map.details.landmarks">anui.settings.map.details.landmarks</string> <!-- settings.mapDetails.landmarks --> <!-- Landmarks -->
+    <string name="anui.settings.map.details.signposts">anui.settings.map.details.signposts</string> <!-- settings.signpostInfo.static --> <!-- Signpost info -->
+    <string name="anui.settings.map.details.currentStreet">anui.settings.map.details.currentStreet</string> <!-- settings.currentStreet --> <!-- Current street -->
+
+    <string name="anui.settings.map.autozoom">anui.settings.map.autozoom</string> <!-- settings.autozoom.static --> <!-- Autozoom -->
+    <string name="anui.settings.map.photos">anui.settings.map.photos</string> <!-- settings.connection.services.photos --> <!-- Photos -->
+
+    <string name="anui.settings.map.pois">anui.settings.map.pois</string> <!-- settings.mapDetails.pois --> <!-- Points of interest -->
+    <string name="anui.settings.map.poiOnRoute">anui.settings.map.poiOnRoute</string> <!-- settings.poiOnRoute.static --> <!-- POI on route -->
+    <string name="anui.settings.map.manage">anui.settings.map.manage</string> <!-- settings.mapmanagment.static --> <!-- Manage Maps -->
+
+    <string name="anui.settings.map.details.buildings.elevated">anui.settings.map.details.buildings.elevated</string> <!-- settings.citymaps.elevated --> <!-- Elevated -->
+    <string name="anui.settings.map.details.buildings.footprint">anui.settings.map.details.buildings.footprint</string> <!-- settings.citymaps.footprint --> <!-- Footprint -->
+    <string name="anui.settings.map.details.buildings.none">anui.settings.map.details.buildings.none</string> <!-- settings.citymaps.none --> <!-- Off -->
+
+    <string name="anui.settings.map.poiOnRoute.off">anui.settings.map.poiOnRoute.off</string> <!-- settings.poiOnRoute.off --> <!-- Off -->
+    <string name="anui.settings.map.poiOnRoute.on">anui.settings.map.poiOnRoute.on</string> <!-- settings.poiOnRoute.on --> <!-- Always on -->
+    <string name="anui.settings.map.poiOnRoute.dynamic">anui.settings.map.poiOnRoute.dynamic</string> <!-- settings.poiOnRoute.auto --> <!-- Dynamic -->
+
+    <string name="anui.settings.category.map.poi">anui.settings.category.map.poi</string> <!-- settings.mapDetails.pois --> <!-- Points of interest -->
+
+     <!-- Regional -->
+    <string name="anui.settings.regional.voice">anui.settings.regional.voice</string> <!-- settings.voice.static --> <!-- Voice -->
+    <string name="anui.settings.regional.language">anui.settings.regional.language</string> <!-- settings.language.static --> <!-- Language -->
+    <string name="anui.settings.regional.units">anui.settings.regional.units</string> <!-- native.settings.unitsandtime.static --> <!-- Units and time -->
+    <string name="anui.settings.regional.units.distance">anui.settings.regional.units.distance</string> <!-- settings.units.static --> <!-- Distance units -->
+    <string name="anui.settings.regional.units.time">anui.settings.regional.units.time</string> <!-- settings.time.static --> <!-- Time format -->
+    <string name="anui.settings.regional.units.temperature">anui.settings.regional.units.temperature</string> <!-- settings.temperature.static --> <!-- Temperature -->
+    <string name="anui.settings.regional.units.GPS_cord">anui.settings.regional.units.GPS_cord</string>  <!-- settings.gps.static --> <!-- GPS coordinates -->
+
+    <string name="anui.settings.regional.units.distance.kilometers">anui.settings.regional.units.distance.kilometers</string> <!-- settings.units.km --> <!-- Kilometers -->
+    <string name="anui.settings.regional.units.distance.milesYards">anui.settings.regional.units.distance.milesYards</string> <!-- settings.units.milesYards --> <!-- Miles / Yards -->
+    <string name="anui.settings.regional.units.distance.milesFeets">anui.settings.regional.units.distance.milesFeets</string> <!-- settings.units.milesFeets --> <!-- Miles / Feets -->
+
+    <string name="anui.settings.regional.units.time.24">anui.settings.regional.units.time.24</string> <!-- settings.time.24 --> <!-- 14:00 -->
+    <string name="anui.settings.regional.units.time.12">anui.settings.regional.units.time.12</string> <!-- settings.time.24 --> <!-- 14:00 -->
+    <string name="anui.settings.regional.units.time.12AmPm">anui.settings.regional.units.time.12AmPm</string> <!-- settings.time.12AmPm --> <!-- 2:00 PM -->
+
+    <string name="anui.settings.regional.units.temperature.celsius">anui.settings.regional.units.temperature.celsius</string> <!-- extras.convUnit.celsius --> <!-- °C -->
+    <string name="anui.settings.regional.units.temperature.fahrenheit">anui.settings.regional.units.temperature.fahrenheit</string> <!-- extras.convUnit.fahrenheit --> <!-- °F -->
+
+    <string name="anui.settings.regional.units.gps.degrees">anui.settings.regional.units.gps.degrees</string> <!-- settings.gps.degrees --> <!-- Degrees (0.0°) -->
+    <string name="anui.settings.regional.units.gps.minutes">anui.settings.regional.units.gps.minutes</string> <!-- settings.gps.minutes --> <!-- Minutes (0°0.0') -->
+    <string name="anui.settings.regional.units.gps.seconds">anui.settings.regional.units.gps.seconds</string> <!-- settings.gps.seconds --> <!-- Seconds (0°0'0") -->
+
+    <!-- Route planning -->
+    <string name="anui.settings.route.avoidToll">anui.settings.route.avoidToll</string> <!-- routeAvoids.avoidToll --> <!-- Avoid toll roads -->
+    <string name="anui.settings.route.avoidUnpaved">anui.settings.route.avoidUnpaved</string> <!-- routeAvoids.avoidUnpaved --> <!-- Avoid unpaved roads -->
+    <string name="anui.settings.route.avoidMotorways">anui.settings.route.avoidMotorways</string> <!-- routeAvoids.avoidMotor --> <!-- Avoid motorways -->
+    <string name="anui.settings.route.avoidFerries">anui.settings.route.avoidFerries</string> <!-- routeAvoids.avoidFerry --> <!-- Avoid ferries -->
+    <string name="anui.settings.route.compute">anui.settings.route.compute</string> <!-- settings.routeComp.static --> <!-- Route computing -->
+
+    <string name="anui.settings.route.compute.fast">anui.settings.route.compute.fast</string> <!-- settings.routeComp.fast --> <!-- Fastest route -->
+    <string name="anui.settings.route.compute.short">anui.settings.route.compute.short</string> <!-- settings.routeComp.short --> <!-- Shortest route -->
+    <string name="anui.settings.route.compute.eco">anui.settings.route.compute.eco</string> <!-- settings.routeComp.eco --> <!-- Economic route -->
+
+    <!-- Battery management -->
+    <string name="anui.settings.battery.runBackground">anui.settings.battery.runBackground</string> <!-- power.management.backgroundNavigation --> <!-- Run in background -->
+    <string name="anui.settings.battery.onPower">anui.settings.battery.onPower</string> <!-- power.management.external --> <!-- On external power -->
+    <string name="anui.settings.battery.onBattery">anui.settings.battery.onBattery</string> <!-- power.management.battery --> <!-- On battery -->
+
+    <string name="anui.settings.powerManagement.powerSaver">anui.settings.powerManagement.powerSaver</string> <!-- power.management.powerSaver --> <!-- Power saver -->
+    <string name="anui.settings.powerManagement.optimized">anui.settings.powerManagement.optimized</string> <!-- power.management.optimized --> <!-- Optimized -->
+    <string name="anui.settings.powerManagement.highPerformance">anui.settings.powerManagement.highPerformance</string> <!-- power.management.highPerformance --> <!-- High performance -->
+
+    <!-- POI on Route -->
+    <string name="anui.settings.POR_exits.enable">anui.settings.POR_exits.enable</string> <!-- settings.poionrouteGroups.exit --> <!-- Exits -->
+    <string name="anui.settings.POR_show.enable">anui.settings.POR_show.enable</string> <!-- travelMenu.show --> <!-- Show -->
+
+    <!-- POI -->
+    <string name="anui.settings.POI.enable">anui.settings.POI.enable</string> <!-- settings.display.poi.mainText --> <!-- Show POI on Map -->
+    <string name="anui.settings.POI.enabled">anui.settings.POI.enabled</string> <!-- settings.enabled --> <!-- Enabled -->
+    <string name="anui.settings.POI.disabled">anui.settings.POI.disabled</string> <!-- settings.disabled --> <!-- Disabled -->
+
+    <string name="anui.settings.gpslog">anui.settings.gpslog</string> <!-- settings.gpsLogs.static --> <!-- GPS logs -->
+    <string name="anui.settings.gpslog.error">anui.settings.gpslog.error</string> <!-- ??? --> <!-- Invalid log file -->
+    <string name="anui.settings.gpslog.stop">anui.settings.gpslog.stop</string> <!-- subMenu.gpsLogs.stop --> <!-- Stop -->
+    <string name="anui.settings.gpslog.load">anui.settings.gpslog.load</string> <!-- settings.loadLog.static --> <!-- Load GPS log -->
+    <string name="anui.settings.gpslog.record">anui.settings.gpslog.record</string> <!-- subMenu.gpsLogs.record --> <!-- Record new log -->
+
+    <string name="anui.settings.quick_tips.enable">anui.settings.quick_tips.enable</string> <!-- Enable Quick Tips -->
+
+    <string name="anui.settings.reset">anui.settings.reset</string> <!-- settings.resetToDefaults --> <!-- Reset to defaults -->
+    <string name="anui.settings.reset.text">anui.settings.reset.text</string> <!-- ??? --> <!-- Are you sure you want do this?\nYou will lose your settings. -->
+
+    <!-- INFO SECTION -->
+    <string name="anui.settings.info.noStore">anui.settings.info.noStore</string> <!-- ??? --> <!-- "Unable to find market app." -->
+    <string name="anui.settings.info.noBrowser">anui.settings.info.noBrowser</string> <!-- ??? --> <!-- "Unable to find webbrowser." -->
+    <string name="anui.settings.info.noMailClient">anui.settings.info.noMailClient</string> <!-- ??? --> <!-- "Unable to find mail client." -->
+    <string name="anui.settings.info.sendMail.chooser">anui.settings.info.sendMail.chooser</string> <!-- poiActionsMenu.sendmail --> <!-- Send e-mail -->
+
+    <string name="anui.settings.info.feedback">anui.settings.info.feedback</string> <!-- native.giveusfeedback --> <!-- Give us feedback -->
+    <string name="anui.settings.info.help">anui.settings.info.help</string> <!-- native.onlineHelp --> <!-- Help -->
+    <string name="anui.settings.info.about">anui.settings.info.about</string> <!-- settings.about.static --> <!-- About -->
+    <string name="anui.settings.info.copyright">anui.settings.info.copyright</string> <!-- settings.about.copyright --> <!-- Copyright -->
+    <string name="anui.settings.info.rate">anui.settings.info.rate</string> <!-- feedback.rate --> <!-- Rate this Application -->
+    <string name="anui.settings.info.rate.notification.msg">anui.settings.info.rate.notification.msg</string>
+    <string name="anui.settings.info.rate.notification.title">anui.settings.info.rate.notification.title</string>
+    <string name="anui.settings.info.progress.notification.msg">anui.settings.info.progress.notification.msg</string> <!-- ??? --> <!-- "Download in progress." -->
+    <string name="anui.settings.info.progress.notification.complete.msg">anui.settings.info.progress.notification.complete.msg</string> <!-- ??? --> <!-- "Download complete." -->
+
+    <string name="anui.settings.about.product">anui.settings.about.product</string> <!-- settings.about.product --> <!-- Product -->
+    <string name="anui.settings.about.version">anui.settings.about.version</string> <!-- settings.about.version --> <!-- Version -->
+    <string name="anui.settings.about.build">anui.settings.about.build</string> <!-- settings.about.build --> <!-- Build -->
+    <string name="anui.settings.about.ram">anui.settings.about.ram</string> <!-- settings.about.ram --> <!-- RAM -->
+    <string name="anui.settings.about.gitHash">anui.settings.about.gitHash</string> <!-- ??? --> <!-- Git hash: -->
+    <string name="anui.settings.about.gitBranch">anui.settings.about.gitBranch</string> <!-- ??? --> <!-- Git branch: -->
+    <string name="anui.settings.about.gitDate">anui.settings.about.gitDate</string> <!-- ??? --> <!-- Build date: -->
+    <string name="anui.settings.about.mapVersion">anui.settings.about.mapVersion</string> <!-- settings.about.mapVersion --> <!-- Map version -->
+    <string name="anui.settings.about.deviceName">anui.settings.about.deviceName</string> <!-- settings.about.deviceName --> <!-- Device name -->
+    <string name="anui.settings.about.glVendor">anui.settings.about.glVendor</string> <!-- settings.about.glVendor --> <!-- GL Vendor -->
+    <string name="anui.settings.about.glRenderer">anui.settings.about.glRenderer</string> <!-- settings.about.glRenderer --> <!-- GL Renderer -->
+    <string name="anui.settings.about.glVersion">anui.settings.about.glVersion</string> <!-- settings.about.glVersion --> <!-- GL Version -->
+    <string name="anui.settings.about.tmcVendor">anui.settings.about.tmcVendor</string> <!-- settings.about.tmcVendor --> <!-- TMC Vendor -->
+    <string name="anui.settings.about.resolution">anui.settings.about.resolution</string> <!-- settings.about.resolution --> <!-- Resolution -->
+    <string name="anui.settings.about.update">anui.settings.about.update</string> <!-- settings.about.update --> <!-- Update -->
+    <string name="anui.settings.about.enterprise">anui.settings.about.enterprise</string> <!-- settings.about.enterprise> --> <!-- Enterprise -->
+
+    <!-- Backup and Restore -->
+    <string name="anui.settings.category.backup">anui.settings.category.backup</string> <!-- ??? --> <!-- Backup and Restore -->
+    <string name="anui.settings.backup.dropbox">anui.settings.backup.dropbox</string> <!-- lb.sett.group.Dropbox --> <!-- Dropbox -->
+    <string name="anui.dialog.dropbox.title">anui.dialog.dropbox.title</string> <!-- ??? --> <!-- Connect Your Dropbox Account -->
+    <string name="anui.dialog.dropbox.message">anui.dialog.dropbox.message</string> <!-- ??? --> <!-- %app_name% will backup and restore your account information in your Dropbox. -->
+
+
+    <!-- Restore route after start -->
+    <string name="anui.compute.afterStart">anui.compute.afterStart</string>  <!-- native.compute.afterstart --> <!-- Restoring last route... -->
+
+    <!-- Product valid until -->
+    <string name="anui.product.validUntil">anui.product.validUntil</string>
+	<string name="native.speedWarn.exclamationMark">!</string>
+    <string name="native.speedWarn.usSpeedLimit">SPEED\nLIMIT</string>
+
+    <!-- BlackBox -->
+    <string name="anui.blackbox.video.saved">anui.blackbox.video.saved</string> <!-- uu.blackbox.video.saved --> <!-- Video saved -->
+    <string name="anui.blackbox.video.saving">anui.blackbox.video.saving</string> <!-- ??? --> <!-- Saving... -->
+    <string name="anui.blackbox.video.recordingFailed">anui.blackbox.video.recordingFailed</string> <!-- Recording failed -->
+    <string name="anui.blackbox.dialog.title">anui.blackbox.dialog.title</string> <!-- ??? --> <!-- Save Video -->
+    <string name="anui.blackbox.dialog.body">anui.blackbox.dialog.body</string> <!-- ??? --> <!-- Do you want to save your record? -->
+    <string name="anui.blackbox.dialog.save">anui.blackbox.dialog.save</string> <!-- ??? --> <!-- Save -->
+    <string name="anui.blackbox.dialog.discard">anui.blackbox.dialog.discard</string> <!-- ??? --> <!-- Discard -->
+    <string name="anui.blackbox.notification.share">anui.blackbox.notification.share</string> <!-- ??? --> <!-- Share -->
+    <string name="anui.blackbox.noCamera">anui.blackbox.noCamera</string> <!-- ??? --> <!-- No camera found -->
+    <string name="anui.blackbox.settings.title">anui.blackbox.settings.title</string> <!-- ??? --> <!-- Black Box -->
+    <string name="anui.blackbox.settings.autosave">anui.blackbox.settings.autosave</string> <!-- ??? --> <!-- Autosave -->
+    <string name="anui.blackbox.settings.autosave.summary">anui.blackbox.settings.autosave.summary</string> <!-- ??? --> <!-- Autosave on collision description -->
+    <string name="anui.blackbox.settings.autostart">anui.blackbox.settings.autostart</string> <!-- ??? --> <!-- Autostart -->
+    <string name="anui.blackbox.settings.autostart.summary">anui.blackbox.settings.autostart.summary</string> <!-- ??? --> <!-- Autostart on launch description -->
+    <string name="anui.blackbox.settings.videoOnly">anui.blackbox.settings.videoOnly</string> <!-- ??? --> <!-- Record video without sound -->
+    <string name="anui.blackbox.settings.quality">anui.blackbox.settings.quality</string> <!-- ??? --> <!-- Video quality -->
+
+    <!-- Trial swipe -->
+    <string name="anui.trial.swipe.goPremium">anui.trial.swipe.goPremium</string> <!-- uu.productteaser.buyLicenseButton --> <!-- Go premium forever -->
+    <string name="anui.trial.swipe.notNow">anui.trial.swipe.notNow</string> <!-- uu.productteaser.continueTrialLink --> <!-- Not now -->
+    <string name="anui.trial.swipe.goWithoutPremium">anui.trial.swipe.goWithoutPremium</string> <!-- uu.productteaser.continueLimitedLink --> <!-- Continue without Premium -->
+    <string name="anui.trial.swipe.sorry">anui.trial.swipe.sorry</string> <!-- store.trial.over --> <!-- Sorry, 7 days with Premium features are over -->
+    <string name="anui.trial.swipe.enjoy">anui.trial.swipe.enjoy</string> <!-- ??? --> <!-- Enjoy 7 days of full navigation experience -->
+
+    <!-- Trial navigation banner -->
+    <string name="anui.trial.unlock">anui.trial.unlock</string> <!-- store.unlock --> <!-- UNLOCK -->
+    <string name="anui.trial.left">anui.trial.left</string> <!-- sidebar.trial.text --> <!-- Premium: %days% day(s) left -->
+
+    <!-- Trial navigation banner in dashboard-->
+    <string name="anui.dashboard.trial.expired">anui.dashboard.trial.expired</string> <!-- store.trial.over.dashboard --> <!-- Premium: expired -->
+    <string name="anui.dashboard.trial.left">anui.dashboard.trial.left</string> <!-- sidebar.trial.text.dashboard --> <!-- Premium: %days% days left -->
+
+    <!-- Rate dialog -->
+    <string name="anui.ratedialog.title">anui.ratedialog.title</string> <!-- Enjoying Sygic? -->
+    <string name="anui.ratedialog.text">anui.ratedialog.text</string> <!-- Please, give us 5 stars.\nIt helps us deliver free updates -->
+    <string name="anui.ratedialog.buttonLike">anui.ratedialog.buttonLike</string> <!-- Like Sygic -->
+    <string name="anui.ratedialog.buttonQuestion">anui.ratedialog.buttonQuestion</string> <!-- Question -->
+
+    <!-- Feedback dialog -->
+    <string name="anui.feedbackdialog.title">anui.feedbackdialog.title</string> <!-- Send us feedback -->
+    <string name="anui.feedbackdialog.emailHint">anui.feedbackdialog.emailHint</string> <!-- Your e-mail -->
+    <string name="anui.feedbackdialog.messageHint">anui.feedbackdialog.messageHint</string> <!-- Message -->
+    <string name="anui.feedbackdialog.buttonSend">anui.feedbackdialog.buttonSend</string> <!-- Send message -->
+    <string name="anui.feedbackdialog.success">anui.feedbackdialog.success</string> <!-- Thanks for your feedback! -->
+    <string name="anui.feedbackdialog.errorEmailInvalid">anui.feedbackdialog.errorEmailInvalid</string> <!-- Please enter valid e-mail address -->
+    <string name="anui.feedbackdialog.errorEmailEmpty">anui.feedbackdialog.errorEmailEmpty</string> <!-- Please enter your e-mail address -->
+    <string name="anui.feedbackdialog.errorMessageEmpty">anui.feedbackdialog.errorMessageEmpty</string> <!-- Please enter a message -->
+
+    <!-- Time data -->
+    <string name="anui.time.today">anui.time.today</string> <!-- Today -->
+    <string name="anui.time.yesterday">anui.time.yesterday</string> <!-- Yesterday -->
+    <string name="anui.time.lastWeek">anui.time.lastWeek</string> <!-- Last week -->
+    <string name="anui.time.lastMonth">anui.time.lastMonth</string> <!-- Last month -->
+    <string name="anui.time.older">anui.time.older</string> <!-- Older -->
+
+    <!-- Favourites context menu -->
+    <string name="anui.favorites.rename">anui.favorites.rename</string> <!-- Rename -->
+    <string name="anui.favorites.delete">anui.favorites.delete</string> <!-- Delete -->
+    <string name="anui.favorites.deleteAll">anui.favorites.deleteAll</string> <!-- Delete all -->
+    <string name="anui.favorites.recentsToFavorites">@string/anui.poiDetail.addFavorite</string> <!-- ??? --> <!-- Add to favorites -->
+    <string name="anui.favorites.already.set">anui.favorites.already.set</string> <!-- ??? --> <!-- This location is already set as favorite -->
+
+    <!-- Quick tips -->
+    <string name="anui.quickTip.title">anui.quickTip.title</string> <!-- Quick tip -->
+
+    <string name="anui.quickTip.search.hint">anui.quickTip.search.hint</string> <!-- Enter your destination. You can look for: -->
+    <string name="anui.quickTip.search.address">anui.quickTip.search.address</string> <!-- Addresses -->
+    <string name="anui.quickTip.search.poi">anui.quickTip.search.poi</string> <!-- Points of Interest -->
+    <string name="anui.quickTip.search.GPS">anui.quickTip.search.GPS</string> <!-- GPS Coordinates -->
+
+    <string name="anui.quickTip.deleteWaypoint.hint">anui.quickTip.deleteWaypoint.hint</string> <!-- Long click on waypoint to access options -->
+
+    <string name="anui.quickTip.poiDetail.actionbar.hint">anui.quickTip.poiDetail.actionbar.hint</string> <!-- In the action bar you can find practical options.  For example mark an address as a favorite. -->
+    <string name="anui.quickTip.poiDetail.hint">anui.quickTip.poiDetail.hint</string> <!-- Other actions, such as navigate or explore nearby, are below. -->
+
+    <string name="anui.quickTip.dashboard.hint">anui.quickTip.dashboard.hint</string> <!-- Swipe right to access menu with application options. -->
+
+    <string name="anui.quickTip.route.hint">anui.quickTip.route.hint</string> <!-- Click on „ROUTE” to calculate your route. -->
+
+    <string name="anui.quickTip.routeSelect.actionbar.hint">anui.quickTip.routeSelect.actionbar.hint</string> <!-- Click on “NAVIGATE” to start navigating. -->
+    <string name="anui.quickTip.routeSelect.hint">anui.quickTip.routeSelect.hint</string> <!-- Click on offered routes to switch between different route alternatives. To access route details click on the “Information” icon in the bottom right corner. To switch between Driving and Walking mode click on the icons on the left. -->
+
+    <string name="anui.quickTip.dontShowAgain">anui.quickTip.dontShowAgain</string> <!-- Don't show again -->
+
+    <!-- Smart Progress Bar -->
+    <string name="anui.smartprogressbar.errorMessage">anui.smartprogressbar.errorMessage</string>
+    <string name="anui.smartprogressbar.errorButton">anui.smartprogressbar.errorButton</string>
+    <string name="anui.smartprogressbar.emptyFavMessage">anui.smartprogressbar.emptyFavMessage</string>
+    <string name="anui.smartprogressbar.emptyRecMessage">anui.smartprogressbar.emptyRecMessage</string>
+    <string name="anui.smartprogressbar.emptyContMessage">anui.smartprogressbar.emptyContMessage</string>
+
+    <!-- Plugin manager -->
+    <string name="anui.pluginManager.title">anui.pluginManager.title</string>
+    <string name="anui.pluginManager.recents">anui.pluginManager.recents</string>
+    <string name="anui.pluginManager.favourites">anui.pluginManager.favourites</string>
+    <string name="anui.pluginManager.contacts">anui.pluginManager.contacts</string>
+    <string name="anui.pluginManager.work">anui.pluginManager.work</string>
+    <string name="anui.pluginManager.travelbook">anui.pluginManager.travelbook</string>
+    <string name="anui.pluginManager.premiumWidgets">anui.pluginManager.premiumWidgets</string>
+    <string name="anui.pluginManager.freeWidgets">anui.pluginManager.freeWidgets</string>
+    <string name="anui.pluginManager.shortcuts">anui.pluginManager.shortcuts</string>
+
+    <!-- Trip detail -->
+    <string name="anui.tripDetail.title">anui.tripDetail.title</string> <!-- Trip detail -->
+    <string name="anui.tripDetail.showOnMap">anui.tripDetail.showOnMap</string> <!-- Show on map -->
+    <string name="anui.tripDetail.like">anui.tripDetail.like</string> <!-- Like -->
+    <string name="anui.tripDetail.unlike">anui.tripDetail.unlike</string> <!-- Unlike -->
+    <string name="anui.tripDetail.time">anui.tripDetail.time</string> <!-- Time -->
+    <string name="anui.tripDetail.date">anui.tripDetail.date</string> <!-- Date -->
+    <string name="anui.tripDetail.duration">anui.tripDetail.duration</string> <!-- Duration -->
+    <string name="anui.tripDetail.distance">anui.tripDetail.distance</string> <!-- Distance -->
+    <string name="anui.tripDetail.speed">anui.tripDetail.speed</string> <!-- Speed -->
+    <string name="anui.tripDetail.pace">anui.tripDetail.pace</string> <!-- Pace -->
+    <string name="anui.tripDetail.uphill">anui.tripDetail.uphill</string> <!-- Uphill -->
+    <string name="anui.tripDetail.downhill">anui.tripDetail.downhill</string> <!-- Downhill -->
+    <string name="anui.tripDetail.altitude">anui.tripDetail.altitude</string> <!-- Altitude -->
+    <string name="anui.tripDetail.min">anui.tripDetail.min</string> <!-- Min -->
+    <string name="anui.tripDetail.max">anui.tripDetail.max</string> <!-- Max -->
+    <string name="anui.tripDetail.noGraphData">anui.tripDetail.noGraphData</string> <!-- No graph data -->
+
+    <string name="anui.tripDetail.showOnMapDialogTitle">anui.tripDetail.showOnMapDialogTitle</string> <!-- Sorry -->
+    <string name="anui.tripDetail.showOnMapDialogMsg">anui.tripDetail.showOnMapDialogMsg</string> <!-- Cannot show trip log on the map while navigating. Cancel route first -->
+    <string name="anui.tripDetail.showOnMapDialogButton">anui.tripDetail.showOnMapDialogButton</string> <!-- Dismiss -->
+
+    <!-- Sos widget -->
+    <string name="anui.sos.title">anui.sos.title</string> <!-- Sos / Help -->
+    <string name="anui.sos.last.position.label">anui.sos.last.position.label</string> <!-- Last valid position -->
+    <string name="anui.sos.missing.numbers">anui.sos.missing.numbers</string> <!-- No emergency numbers found -->
+    <string name="anui.sos.hospital">anui.sos.hospital</string> <!-- Hospital -->
+    <string name="anui.sos.police">anui.sos.police</string> <!-- Police -->
+    <string name="anui.sos.gasStation">anui.sos.gasStation</string> <!-- Gas Station -->
+    <string name="anui.sos.pharmacy">anui.sos.pharmacy</string> <!-- Pharmacy -->
+
+    <string name="anui.sos.call">anui.sos.call</string> <!-- Emergency Call -->
+    <string name="anui.sos.call.ambulance">anui.sos.call.ambulance</string> <!-- Ambulance -->
+    <string name="anui.sos.call.police">anui.sos.call.police</string> <!-- Police -->
+    <string name="anui.sos.call.firemen">anui.sos.firemen</string> <!-- Fire Dept. -->
+
+    <!-- Navigate to photo -->
+    <string name="anui.navigateToPhoto.noAction">anui.navigateToPhoto.noAction</string> <!-- Cannot complete this action -->
+    <string name="anui.navigateToPhoto.choose">anui.navigateToPhoto.choose</string> <!-- Choose photo with... -->
+
+    <!-- *************************************************************************** -->
+    <!-- Nemozu byt Core langy - vyuzivaju sa pri starte, ked este nie je Core ready -->
+    <string name="anui.navigateToPhoto.unableToRead">Unable to read photos exif data</string>
+    <string name="anui.navigateToPhoto.noGpsCoords">Sorry, this photo has no GPS coordinates</string>
+
+    <string name="anui.speedcam.toast.reported">anui.speedcam.toast.reported</string>
+    <string name="anui.speedcam.toast.prohibited">anui.speedcam.toast.prohibited</string>
+    <string name="anui.speedcam.toast.undo">anui.speedcam.toast.undo</string>
+
+    <!-- Widget settings -->
+    <string name="anui.widget.settings">anui.widget.settings</string>
+    <string name="anui.widget.settings.showHome">anui.widget.settings.showHome</string>
+    <string name="anui.widget.settings.showWork">anui.widget.settings.showWork</string>
+    <string name="anui.widget.settings.selectPlaces">anui.widget.settings.selectPlaces</string>
+
+    <!-- Widget strings - musia byt napriamo - lebo widget o core nic nevie-->
+    <string name="anui.widget.traffic.noItems">Add some Home, Work or Favorite places for instant navigation.</string>
+
+    <!-- Webview eshop -->
+    <string name="anui.webview.title">anui.webview.title</string> <!-- Sygic Checkout -->
+    <string name="anui.webview.purchaseSuccess">anui.webview.purchaseSuccess</string> <!-- Your purchase was activated bla bla. Vymyslet este -->
+    <string name="anui.webview.error">anui.webview.error</string> <!-- Sorry, something went wrong -->
+    <string name="anui.webview.eshopExitDialogBody">Do you really want to exit checkout process?</string> <!-- Sorry, something went wrong -->
+    <string name="anui.webview.eshopExitPositiveButton">Yes</string> <!-- Sorry, something went wrong -->
+    <string name="anui.webview.eshopExitNegativeButton">No</string> <!-- Sorry, something went wrong -->
+
+
+    <!-- Traffic infobar -->
+    <string name="anui.traffic.infobar.eta">anui.traffic.infobar.eta</string> <!-- ETA -->
+    <string name="anui.traffic.infobar.header">anui.traffic.infobar.header</string> <!-- Avoid Traffic -->
+    <string name="anui.traffic.infobar.confirm">anui.traffic.infobar.confirm</string> <!-- Tap to confirm -->
+
+    <!-- Traffic bubble -->
+    <string name="anui.traffic.bubble.trafficAhead">anui.traffic.bubble.trafficAhead</string> <!-- Traffic ahead-->
+    <string name="anui.traffic.bubble.confirm">anui.traffic.bubble.confirm</string> <!-- Tap for a better route -->
+
+    <!-- Nearby Poi Dash -->
+    <string name="anui.nearbydash.title">anui.nearbydash.title</string> <!-- Nearby Points -->
+    <string name="anui.pois.all_categories">anui.pois.all_categories</string> <!-- All  -->
+    <string name="anui.pois.show_on_map">@string/anui.tripDetail.showOnMap</string> <!-- Show on map  -->
+
+    <plurals name="anui_online_poi_votesCount">
+        <item quantity="zero">anui.online.poi.votesCount.zero</item>
+        <item quantity="one">anui.anui.online.poi.votesCount.one</item>
+        <item quantity="two">anui.anui.online.poi.votesCount.two</item>
+        <item quantity="few">anui.anui.online.poi.votesCount.few</item>
+        <item quantity="many">anui.anui.online.poi.votesCount.many</item>
+        <item quantity="other">anui.anui.online.poi.votesCount.other</item>
+    </plurals>
+
+	<!--  See More  -->
+	<string name="anui.button.enableWifi">anui.button.enableWifi</string> <!-- Enable WiFi -->
+	<string name="anui.poiNoConnectivity.title">anui.poiNoConnectivity.title</string> <!-- See More -->
+	<string name="anui.poiNoConnectivity.description">anui.poiNoConnectivity.description</string> <!-- Some of the results or their details might be missing while you are offline.\n\n<b>Go online</b> to enhance your search results with <b>ratings</b>, <b>street view</b> pictures and more. -->
+
+	<string name="fileProviderAuthority" translatable="false">com.sygic.aura.fileprovider</string>
+    <string name="routeOverViewInfo">info</string>
+
+    <string name="anui.showcase.main.menu.title">anui.showcase.main.menu.title</string> <!-- Main menu -->
+    <string name="anui.showcase.main.menu.text">anui.showcase.main.menu.text</string> <!-- You will find all app\'s important sections like Store and Settings in here -->
+    <string name="anui.showcase.search.search.title">anui.showcase.search.search.title</string> <!-- Search bar -->
+    <string name="anui.showcase.search.search.text">anui.showcase.search.search.text</string> <!-- Search your destination in steps by country, city and street or right away directly -->
+    <string name="anui.showcase.search.route.title">anui.showcase.search.route.title</string> <!-- Calculate route -->
+    <string name="anui.showcase.search.route.text">anui.showcase.search.route.text</string> <!-- When you are done with your search, tap here to calculate the route -->
+    <string name="anui.showcase.routeselection.alternative.title">anui.showcase.routeselection.alternative.title</string> <!-- Choose alternatives -->
+    <string name="anui.showcase.routeselection.alternative.text">anui.showcase.routeselection.alternative.text</string> <!-- You can choose from up to 3 alternative routes if offered -->
+    <string name="anui.showcase.routeselection.start.title">anui.showcase.routeselection.start.title</string> <!-- Start navigating -->
+    <string name="anui.showcase.routeselection.start.text">anui.showcase.routeselection.start.text</string> <!-- When you are happy with your chosen route tap here. Bon voyage! -->
+
+    <!-- Booking -->
+    <string name="anui.search.reservation.viator.book_from">anui.search.reservation.viator.book_from</string>
+    <string name="anui.search.reservation.viator.book_now">anui.search.reservation.viator.book_now</string>
+
+    <string name="anui.webview.no_app">anui.webview.no_app</string> <!-- Sorry, there is no app to handle this -->
+    <string name="anui.webview.open_external">anui.webview.open_external</string> <!-- Open in browser -->
+
+</resources>

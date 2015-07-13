@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="settingsFragment">com.sygic.aura.settings.fragments.SettingsFragment</string>
+
+    <string name="settings.map.autozoom">pref_map_autozoom</string>
+    <string name="settings.map.photos">pref_map_photos</string>
+
+    <string name="settings.map.poi.enable">pref_map_poi_enable</string>
+
+    <string name="settings.map.poi.accommodation.enable">pref_map_poi_accommodation</string>
+    <string name="settings.map.poi.accommodation.hotel">pref_map_poi_accommodation_hotel_motel</string>
+
+    <string name="settings.map.poi.city_guides.enable">pref_map_poi_city</string>
+    <string name="settings.map.poi.city_guides.wcities">pref_map_poi_city_wcities</string>
+    <string name="settings.map.poi.city_guides.wiki">pref_map_poi_city_wiki</string>
+
+    <string name="settings.map.poi.eat_drink.enable">pref_map_poi_eat_drink</string>
+    <string name="settings.map.poi.eat_drink.cafe">pref_map_poi_eat_drink_cafe</string>
+    <string name="settings.map.poi.eat_drink.food">pref_map_poi_eat_drink_food</string>
+    <string name="settings.map.poi.eat_drink.pastry">pref_map_poi_eat_drink_pastry</string>
+    <string name="settings.map.poi.eat_drink.restaurant">pref_map_poi_eat_drink_restaurant</string>
+    <string name="settings.map.poi.eat_drink.restaurant_area">pref_map_poi_eat_drink_restaurant_area</string>
+    <string name="settings.map.poi.eat_drink.road_side_diner">pref_map_poi_eat_drink_road</string>
+    <string name="settings.map.poi.eat_drink.winery">pref_map_poi_eat_drink_winery</string>
+
+    <string name="settings.map.poi.emergency.enable">pref_map_poi_emergency</string>
+    <string name="settings.map.poi.emergency.breakdown">pref_map_poi_emergency_breakdown</string>
+    <string name="settings.map.poi.emergency.dentist">pref_map_poi_emergency_dentist</string>
+    <string name="settings.map.poi.emergency.doctor">pref_map_poi_emergency_doctor</string>
+    <string name="settings.map.poi.emergency.emergency_call_service">pref_map_poi_emergency_emergency_call</string>
+    <string name="settings.map.poi.emergency.emergency_medial_service">pref_map_poi_emergency_emergency</string>
+    <string name="settings.map.poi.emergency.fire_brigade">pref_map_poi_emergency_fire</string>
+    <string name="settings.map.poi.emergency.first_aid">pref_map_poi_emergency_first</string>
+    <string name="settings.map.poi.emergency.hospital">pref_map_poi_emergency_hospital</string>
+    <string name="settings.map.poi.emergency.pharmacy">pref_map_poi_emergency_pharmacy</string>
+    <string name="settings.map.poi.emergency.police">pref_map_poi_emergency_police</string>
+    <string name="settings.map.poi.emergency.veterinarian">pref_map_poi_emergency_veterinarian</string>
+
+    <string name="settings.map.poi.entertainment.enable">pref_map_poi_social</string>
+    <string name="settings.map.poi.entertainment.abbey">pref_map_poi_social_abbey</string>
+    <string name="settings.map.poi.entertainment.amusement_park">pref_map_poi_social_amusement</string>
+    <string name="settings.map.poi.entertainment.arts_centre">pref_map_poi_social_arts</string>
+    <string name="settings.map.poi.entertainment.casino">pref_map_poi_social_casino</string>
+    <string name="settings.map.poi.entertainment.church">pref_map_poi_social_church</string>
+    <string name="settings.map.poi.entertainment.cinema">pref_map_poi_social_cinema</string>
+    <string name="settings.map.poi.entertainment.concert_hall">pref_map_poi_social_concert</string>
+    <string name="settings.map.poi.entertainment.cultural_centre">pref_map_poi_social_cultural</string>
+    <string name="settings.map.poi.entertainment.ecotourism_sites">pref_map_poi_social_ecotourism</string>
+    <string name="settings.map.poi.entertainment.entertainment">pref_map_poi_social_entertainment</string>
+    <string name="settings.map.poi.entertainment.hunting">pref_map_poi_social_hunting</string>
+    <string name="settings.map.poi.entertainment.kids_place">pref_map_poi_social_kids</string>
+    <string name="settings.map.poi.entertainment.leisure_centre">pref_map_poi_social_leisure</string>
+    <string name="settings.map.poi.entertainment.library">pref_map_poi_social_library</string>
+    <string name="settings.map.poi.entertainment.monastery">pref_map_poi_social_monastery</string>
+    <string name="settings.map.poi.entertainment.mosque">pref_map_poi_social_mosque</string>
+    <string name="settings.map.poi.entertainment.music_centre">pref_map_poi_social_music</string>
+    <string name="settings.map.poi.entertainment.nightlife">pref_map_poi_social_nightlife</string>
+    <string name="settings.map.poi.entertainment.opera">pref_map_poi_social_opera</string>
+    <string name="settings.map.poi.entertainment.place_of_worship">pref_map_poi_social_place</string>
+    <string name="settings.map.poi.entertainment.poi">pref_map_poi_social_poi</string>
+    <string name="settings.map.poi.entertainment.theatre">pref_map_poi_social_theatre</string>
+
+    <string name="settings.map.poi.parking.enable">pref_map_poi_parking</string>
+    <string name="settings.map.poi.parking.coach">pref_map_poi_parking_coach</string>
+    <string name="settings.map.poi.parking.open_parking">pref_map_poi_parking_open</string>
+    <string name="settings.map.poi.parking.parking_garage">pref_map_poi_parking_parking</string>
+    <string name="settings.map.poi.parking.rent_parking">pref_map_poi_parking_rent</string>
+
+    <string name="settings.map.poi.petrol_station.enable">pref_map_poi_petrol</string>
+    <string name="settings.map.poi.petrol_station.petrol_station">pref_map_poi_petrol_station</string>
+
+    <string name="settings.map.poi.services.enable">pref_map_poi_services</string>
+    <string name="settings.map.poi.services.agricultural">pref_map_poi_services_agricultural</string>
+    <string name="settings.map.poi.services.atm">pref_map_poi_services_atm</string>
+    <string name="settings.map.poi.services.bank">pref_map_poi_services_bank</string>
+    <string name="settings.map.poi.services.border_point">pref_map_poi_services_border</string>
+    <string name="settings.map.poi.services.business">pref_map_poi_services_business</string>
+    <string name="settings.map.poi.services.cargo">pref_map_poi_services_cargo</string>
+    <string name="settings.map.poi.services.cash">pref_map_poi_services_cash</string>
+    <string name="settings.map.poi.services.cemetery">pref_map_poi_services_cemetery</string>
+    <string name="settings.map.poi.services.city_hall">pref_map_poi_services_city</string>
+    <string name="settings.map.poi.services.college">pref_map_poi_services_college</string>
+    <string name="settings.map.poi.services.commercial_building">pref_map_poi_services_commercial</string>
+    <string name="settings.map.poi.services.community">pref_map_poi_services_community</string>
+    <string name="settings.map.poi.services.company">pref_map_poi_services_company</string>
+    <string name="settings.map.poi.services.condominium">pref_map_poi_services_condominium</string>
+    <string name="settings.map.poi.services.construction">pref_map_poi_services_construction</string>
+    <string name="settings.map.poi.services.convention_centre">pref_map_poi_services_convention</string>
+    <string name="settings.map.poi.services.courthouse">pref_map_poi_services_courthouse</string>
+    <string name="settings.map.poi.services.customs">pref_map_poi_services_customs</string>
+    <string name="settings.map.poi.services.embassy">pref_map_poi_services_embassy</string>
+    <string name="settings.map.poi.services.exchange">pref_map_poi_services_exchange</string>
+    <string name="settings.map.poi.services.exhibition">pref_map_poi_services_exhibition</string>
+    <string name="settings.map.poi.services.factories">pref_map_poi_services_factories</string>
+    <string name="settings.map.poi.services.factory_ground_philips">pref_map_poi_services_factory</string>
+    <string name="settings.map.poi.services.freeport">pref_map_poi_services_freeport</string>
+    <string name="settings.map.poi.services.frontier_crossing">pref_map_poi_services_frontier</string>
+    <string name="settings.map.poi.services.government">pref_map_poi_services_government</string>
+    <string name="settings.map.poi.services.industrial">pref_map_poi_services_industrial</string>
+    <string name="settings.map.poi.services.kindergarten">pref_map_poi_services_kindergarten</string>
+    <string name="settings.map.poi.services.local_names">pref_map_poi_services_local</string>
+    <string name="settings.map.poi.services.media">pref_map_poi_services_media</string>
+    <string name="settings.map.poi.services.medical">pref_map_poi_services_medical</string>
+    <string name="settings.map.poi.services.military_cemetery">pref_map_poi_services_military_cemetery</string>
+    <string name="settings.map.poi.services.military_installation">pref_map_poi_services_military_inst</string>
+    <string name="settings.map.poi.services.money_transfer">pref_map_poi_services_money</string>
+    <string name="settings.map.poi.services.personal_services">pref_map_poi_services_personal</string>
+    <string name="settings.map.poi.services.post">pref_map_poi_services_post</string>
+    <string name="settings.map.poi.services.prison">pref_map_poi_services_prison</string>
+    <string name="settings.map.poi.services.professionals">pref_map_poi_services_professionals</string>
+    <string name="settings.map.poi.services.public_phone">pref_map_poi_services_public</string>
+    <string name="settings.map.poi.services.real_estate">pref_map_poi_services_real</string>
+    <string name="settings.map.poi.services.school">pref_map_poi_services_school</string>
+    <string name="settings.map.poi.services.services">pref_map_poi_services_services</string>
+    <string name="settings.map.poi.services.squares">pref_map_poi_services_squares</string>
+    <string name="settings.map.poi.services.state_police">pref_map_poi_services_state</string>
+    <string name="settings.map.poi.services.toll">pref_map_poi_services_toll</string>
+    <string name="settings.map.poi.services.transport">pref_map_poi_services_transport</string>
+    
+    <string name="settings.map.poi.shopping.enable">pref_map_poi_shopping</string>
+    <string name="settings.map.poi.shopping.accessories">pref_map_poi_shopping_accessories</string>
+    <string name="settings.map.poi.shopping.books">pref_map_poi_shopping_books</string>
+    <string name="settings.map.poi.shopping.children_toys">pref_map_poi_shopping_children_toys</string>
+    <string name="settings.map.poi.shopping.cosmetics">pref_map_poi_shopping_cosmetics</string>
+    <string name="settings.map.poi.shopping.departmentstore">pref_map_poi_shopping_departmentstore</string>
+    <string name="settings.map.poi.shopping.electronics">pref_map_poi_shopping_electronics</string>
+    <string name="settings.map.poi.shopping.fashion">pref_map_poi_shopping_fashion</string>
+    <string name="settings.map.poi.shopping.fashion_children">pref_map_poi_shopping_fashion_children</string>
+    <string name="settings.map.poi.shopping.fashion_ladies">pref_map_poi_shopping_fashion_ladies</string>
+    <string name="settings.map.poi.shopping.fashion_men">pref_map_poi_shopping_fashion_men</string>
+    <string name="settings.map.poi.shopping.fashion_mixed">pref_map_poi_shopping_fashion_mixed</string>
+    <string name="settings.map.poi.shopping.fashion_traditional">pref_map_poi_shopping_fashion_traditional</string>
+    <string name="settings.map.poi.shopping.gifts">pref_map_poi_shopping_gifts</string>
+    <string name="settings.map.poi.shopping.groceries">pref_map_poi_shopping_groceries</string>
+    <string name="settings.map.poi.shopping.hair_beauty">pref_map_poi_shopping_hair_beauty</string>
+    <string name="settings.map.poi.shopping.jewellery">pref_map_poi_shopping_jewellery</string>
+    <string name="settings.map.poi.shopping.lifestyle">pref_map_poi_shopping_lifestyle</string>
+    <string name="settings.map.poi.shopping.mobile_shop">pref_map_poi_shopping_mobile_shop</string>
+    <string name="settings.map.poi.shopping.opticians">pref_map_poi_shopping_opticians</string>
+    <string name="settings.map.poi.shopping.shoes">pref_map_poi_shopping_shoes</string>
+    <string name="settings.map.poi.shopping.shop">pref_map_poi_shopping_shop</string>
+    <string name="settings.map.poi.shopping.shopping_center">pref_map_poi_shopping_shopping_center</string>
+    <string name="settings.map.poi.shopping.sports">pref_map_poi_shopping_sports</string>
+    <string name="settings.map.poi.shopping.supermarket">pref_map_poi_shopping_supermarket</string>
+    <string name="settings.map.poi.shopping.warehouse">pref_map_poi_shopping_warehouse</string>
+    
+    <string name="settings.map.poi.sports.enable">pref_map_poi_sports</string>
+    <string name="settings.map.poi.sports.car_racetrack">pref_map_poi_sports_car_racetrack</string>
+    <string name="settings.map.poi.sports.golf_course">pref_map_poi_sports_golf_course</string>
+    <string name="settings.map.poi.sports.hippodrome">pref_map_poi_sports_hippodrome</string>
+    <string name="settings.map.poi.sports.ice_skating_rink">pref_map_poi_sports_ice_skating_rink</string>
+    <string name="settings.map.poi.sports.skating_rink">pref_map_poi_sports_ice_skating</string>
+    <string name="settings.map.poi.sports.sports_centre">pref_map_poi_sports_sports_centre</string>
+    <string name="settings.map.poi.sports.sports_hall">pref_map_poi_sports_sports_hall</string>
+    <string name="settings.map.poi.sports.stadium">pref_map_poi_sports_stadium</string>
+    <string name="settings.map.poi.sports.swimming_pool">pref_map_poi_sports_swimming_pool</string>
+    <string name="settings.map.poi.sports.tennis_court">pref_map_poi_sports_tennis_court</string>
+    <string name="settings.map.poi.sports.water_sport">pref_map_poi_sports_water_sport</string>
+    <string name="settings.map.poi.sports.yacht_basin">pref_map_poi_sports_yacht_basin</string>
+    
+    <string name="settings.map.poi.tourist_atractions.enable">pref_map_poi_tourist_atractions</string>
+    <string name="settings.map.poi.tourist_atractions.archeology">pref_map_poi_tourist_atractions_archeology</string>
+    <string name="settings.map.poi.tourist_atractions.beach">pref_map_poi_tourist_atractions_beach</string>
+    <string name="settings.map.poi.tourist_atractions.building_footprint">pref_map_poi_tourist_atractions_building_footprint</string>
+    <string name="settings.map.poi.tourist_atractions.camping_ground">pref_map_poi_tourist_atractions_camping_ground</string>
+    <string name="settings.map.poi.tourist_atractions.caravan_site">pref_map_poi_tourist_atractions_caravan_site</string>
+    <string name="settings.map.poi.tourist_atractions.castle">pref_map_poi_tourist_atractions_castle</string>
+    <string name="settings.map.poi.tourist_atractions.forest_area">pref_map_poi_tourist_atractions_forest_area</string>
+    <string name="settings.map.poi.tourist_atractions.fortress">pref_map_poi_tourist_atractions_fortress</string>
+    <string name="settings.map.poi.tourist_atractions.holiday_area">pref_map_poi_tourist_atractions_holiday_area</string>
+    <string name="settings.map.poi.tourist_atractions.important_tourist_attraction">pref_map_poi_tourist_atractions_important_tourist_attraction</string>
+    <string name="settings.map.poi.tourist_atractions.Lighthouse">pref_map_poi_tourist_atractions_Lighthouse</string>
+    <string name="settings.map.poi.tourist_atractions.monument">pref_map_poi_tourist_atractions_monument</string>
+    <string name="settings.map.poi.tourist_atractions.mountain_pass">pref_map_poi_tourist_atractions_mountain_pass</string>
+    <string name="settings.map.poi.tourist_atractions.mountain_peak">pref_map_poi_tourist_atractions_mountain_peak</string>
+    <string name="settings.map.poi.tourist_atractions.museum">pref_map_poi_tourist_atractions_museum</string>
+    <string name="settings.map.poi.tourist_atractions.natives_reservation">pref_map_poi_tourist_atractions_natives_reservation</string>
+    <string name="settings.map.poi.tourist_atractions.natural_reserve">pref_map_poi_tourist_atractions_natural_reserve</string>
+    <string name="settings.map.poi.tourist_atractions.park_and_recreation_area">pref_map_poi_tourist_atractions_park_and_recreation_area</string>
+    <string name="settings.map.poi.tourist_atractions.recreation_facility">pref_map_poi_tourist_atractions_recreation_facility</string>
+    <string name="settings.map.poi.tourist_atractions.rocks">pref_map_poi_tourist_atractions_rocks</string>
+    <string name="settings.map.poi.tourist_atractions.scenic_panoramatic_view">pref_map_poi_tourist_atractions_scenic_panoramatic_view</string>
+    <string name="settings.map.poi.tourist_atractions.tourist_information_office">pref_map_poi_tourist_atractions_tourist_information_office</string>
+    <string name="settings.map.poi.tourist_atractions.travel_agency">pref_map_poi_tourist_atractions_travel_agency</string>
+    <string name="settings.map.poi.tourist_atractions.walking_area">pref_map_poi_tourist_atractions_walking_area</string>
+    <string name="settings.map.poi.tourist_atractions.water_mill">pref_map_poi_tourist_atractions_water_mill</string>
+    <string name="settings.map.poi.tourist_atractions.wind_mill">pref_map_poi_tourist_atractions_wind_mill</string>
+    <string name="settings.map.poi.tourist_atractions.zoo">pref_map_poi_tourist_atractions_zoo</string>
+    
+    <string name="settings.map.poi.transportation.enable">pref_map_poi_transportation</string>
+    <string name="settings.map.poi.transportation.airline_access">pref_map_poi_transportation_airline_access</string>
+    <string name="settings.map.poi.transportation.airport">pref_map_poi_transportation_airport</string>
+    <string name="settings.map.poi.transportation.bus_station">pref_map_poi_transportation_bus_station</string>
+    <string name="settings.map.poi.transportation.car_shipping_terminal">pref_map_poi_transportation_car_shipping_terminal</string>
+    <string name="settings.map.poi.transportation.ferry_terminal">pref_map_poi_transportation_ferry_terminal</string>
+    <string name="settings.map.poi.transportation.metro">pref_map_poi_transportation_metro</string>
+    <string name="settings.map.poi.transportation.port">pref_map_poi_transportation_port</string>
+    <string name="settings.map.poi.transportation.public_transport_stop">pref_map_poi_transportation_public_transport_stop</string>
+    <string name="settings.map.poi.transportation.railway_station">pref_map_poi_transportation_railway_station</string>
+    <string name="settings.map.poi.transportation.ski_lift_station">pref_map_poi_transportation_ski_lift_station</string>
+    
+    <string name="settings.map.poi.vehicle_services.enable">pref_map_poi_vehicle_services</string>
+    <string name="settings.map.poi.vehicle_services.bovag_garage">pref_map_poi_vehicle_services_bovag_garage</string>
+    <string name="settings.map.poi.vehicle_services.car_dealer">pref_map_poi_vehicle_services_car_dealer</string>
+    <string name="settings.map.poi.vehicle_services.car_repair_facility">pref_map_poi_vehicle_services_car_repair_facility</string>
+    <string name="settings.map.poi.vehicle_services.car_services">pref_map_poi_vehicle_services_car_services</string>
+    <string name="settings.map.poi.vehicle_services.chevrolet_car_dealer">pref_map_poi_vehicle_services_chevrolet_car_dealer</string>
+    <string name="settings.map.poi.vehicle_services.chevrolet_car_repair">pref_map_poi_vehicle_services_chevrolet_car_repair</string>
+    <string name="settings.map.poi.vehicle_services.motoring_organization_office">pref_map_poi_vehicle_services_motoring_organization_office</string>
+    <string name="settings.map.poi.vehicle_services.park_and_ride">pref_map_poi_vehicle_services_park_and_ride</string>
+    <string name="settings.map.poi.vehicle_services.rent_a_car_facility">pref_map_poi_vehicle_services_rent_a_car_facility</string>
+    <string name="settings.map.poi.vehicle_services.rest_area">pref_map_poi_vehicle_services_rest_area</string>
+    <string name="settings.map.poi.vehicle_services.speed_cameras">pref_map_poi_vehicle_services_speed_cameras</string>
+    <string name="settings.map.poi.vehicle_services.traffic_lights">pref_map_poi_vehicle_services_traffic_lights</string>
+    <string name="settings.map.poi.vehicle_services.vehicle_equipment_provider">pref_map_poi_vehicle_services_vehicle_equipment_provider</string>
+
+    <string name="settings.map.details.buildings">pref_map_buildings</string>
+    <string name="settings.map.details.landmarks">pref_map_landmarks</string>
+    <string name="settings.map.details.signposts">pref_map_signpost</string>
+    <string name="settings.map.details.current_street">pref_map_street</string>
+
+    <string name="settings.map.poi_on_route">pref_map_poi_on_route</string>
+
+    <string name="settings.display.autoclose">pref_display_autoclose</string>
+    <string name="settings.display.autoclose.driving">pref_display_autoclose_driving</string>
+    <string name="settings.display.autoclose.always">pref_display_autoclose_always</string>
+
+    <string name="settings.display.colour_scheme">pref_display_colour</string>
+    <string name="settings.display.lane_guidance">pref_display_lane_guidance</string>
+    <string name="settings.display.junction_view">pref_display_junction_view</string>
+    <string name="settings.display.secondary_instruction">pref_display_secondary_instruction</string>
+    <string name="settings.display.rotation_lock">pref_display_rotation_lock</string>
+    <string name="settings.display.zoom_controls">pref_display_zoom</string>
+    <string name="settings.display.fullscreen">pref_display_fullscreen</string>
+
+    <string name="settings.display.traffic">pref_display_traffic</string>
+    <string name="settings.display.traffic_avoid_auto">pref_display_traffic_avoid</string>
+
+    <string name="settings.display.infobar.drive.slot1">pref_display_information_drive_1</string>
+    <string name="settings.display.infobar.drive.slot2">pref_display_information_drive_2</string>
+    <string name="settings.display.infobar.drive.slot3">pref_display_information_drive_3</string>
+    <string name="settings.display.infobar.walk.slot1">pref_display_information_walk_1</string>
+    <string name="settings.display.infobar.walk.slot2">pref_display_information_walk_2</string>
+    <string name="settings.display.infobar.walk.slot3">pref_display_information_walk_3</string>
+
+    <string name="settings.regional.voice">pref_regional_voice</string>
+    <string name="settings.regional.voice.hash">pref_regional_voice_hash</string>
+    <string name="settings.regional.language">pref_regional_lang</string>
+    <string name="settings.regional.language.name">pref_regional_lang_name</string>
+    <string name="settings.regional.units.distance">pref_regional_distance</string>
+    <string name="settings.regional.units.time">pref_regional_time</string>
+    <string name="settings.regional.units.temperature">pref_regional_temp</string>
+    <string name="settings.regional.units.GPS_cord">pref_regional_coords</string>
+
+    <string name="settings.route.avoid_toll">pref_route_avoid_toll</string>
+    <string name="settings.route.avoid_unpaved">pref_route_avoid_unpaved</string>
+    <string name="settings.route.avoid_motorways">pref_route_avoid_motorways</string>
+    <string name="settings.route.avoid_ferries">pref_route_avoid_ferries</string>
+    <string name="settings.route.compute">pref_route_compute</string>
+
+    <string name="settings.battery.background">pref_battery_background</string>
+    <string name="settings.battery.on_power">pref_battery_on_power</string>
+    <string name="settings.battery.on_battery">pref_battery_on_battery</string>
+
+    <string name="settings.sound.road_number.dependency_publisher">pref_sound_road_num_dependency_publisher</string>
+<!--     <string name="settings.sound.volume">pref_sound_volume</string> -->
+    <string name="settings.sound.voice_instructions">pref_sound_voice_instr</string>
+<!--     <string name="settings.sound.street_number">pref_sound_street_num</string> -->
+<!--     <string name="settings.sound.street_name">pref_sound_street_name</string> -->
+    <string name="settings.sound.road_number">pref_sound_road_num</string>
+<!--     <string name="settings.sound.relative_vol">pref_sound_relative_vol</string> -->
+<!--     <string name="settings.sound.fade_music">pref_sound_fade</string> -->
+    <string name="settings.sound.phone_speaker">pref_sound_phone_spkr</string>
+
+    
+    <string name="settings.sound.notifications.category.speedCameras">pref_sound_speed_cameras</string>
+    <string name="settings.sound.notifications.category.speedLimits">pref_sound_speed_limits</string>
+    <string name="settings.sound.notifications.category.traffic">pref_sound_traffic_notifications</string>
+    <string name="settings.sound.notifications.category.sharpCurve">pref_sound_sharp_curve_notifications</string>
+    <string name="settings.sound.notifications.category.railway">pref_sound_railway_crossings</string>
+    
+    <string name="settings.sound.notifications.railway">pref_notif_railway</string>
+    <string name="settings.sound.notifications.railway.warning">pref_notif_railway_warning</string>
+    <string name="settings.sound.notifications.railway.sound">pref_notif_railway_sound</string>
+
+    <string name="settings.sound.notifications.speed_cam">pref_notif_speed_cam</string>
+    <string name="settings.sound.notifications.speed_cam.warning.in">pref_notif_speed_cam_warning_in</string>
+    <string name="settings.sound.notifications.speed_cam.warning.out">pref_notif_speed_cam_warning_out</string>
+    <string name="settings.sound.notifications.speed_cam.sound">pref_notif_speed_cam_sound</string>
+    <string name="settings.sound.notifications.speed_cam.uninstall">pref_notif_speed_cam_uninstall</string>
+	<string name="settings.sound.notifications.speed_cam.sound.notification">pref_notif_speed_cam_sound_notification</string>
+    <string name="settings.sound.notifications.speed_cam.custom.notification">pref_notif_speed_cam_custom_notification</string>
+    
+    <string name="settings.sound.notifications.speed_limit">pref_notif_speed_lim</string>
+    <string name="settings.sound.notifications.speed_limit.sound">pref_notif_speed_lim_sound</string>
+    <string name="settings.sound.notifications.speed_limit.trigger.in">pref_notif_speed_lim_warning_in</string>
+    <string name="settings.sound.notifications.speed_limit.trigger.out">pref_notif_speed_lim_warning_out</string>
+    <string name="settings.sound.notifications.speed_limit.weather_restrictions">pref_notif_speed_lim_weather</string>
+
+    <string name="settings.sound.notifications.sharp_curve">pref_notif_sharp_curve</string>
+    <string name="settings.sound.notifications.sharp_curve.sound">pref_notif_sharp_curve_sound</string>
+    <string name="settings.sound.notifications.sharp_curve.easy">pref_notif_sharp_curve_easy</string>
+    <string name="settings.sound.notifications.sharp_curve.medium">pref_notif_sharp_curve_medium</string>
+    <string name="settings.sound.notifications.sharp_curve.hard">pref_notif_sharp_curve_hard</string>
+
+    <string name="settings.sound.notifications.traffic">pref_notif_traffic</string>
+    <string name="settings.sound.notifications.traffic.sound">pref_notif_traffic_sound</string>
+
+    <string name="settings.debug">pref_debug</string>
+    <string name="settings.gpslog.load">pref_gpslog_load</string>
+    <string name="settings.gpslog.record">pref_gpslog_record</string>
+    <string name="settings.reset">pref_reset</string>
+    <string name="settings.first_run">pref_first_run</string>
+
+    <string name="settings.info.rate_this_app">pref_rate_app</string>
+    <string name="settings.info.help_online">pref_help_online</string>
+    <string name="settings.info.feedback_online">pref_feedback_online</string>
+    <string name="account.dependency_publisher">dependency_publisher</string>
+    <string name="account.login_details">login_details</string>
+<!--    <string name="account.facebook">pref_facebook</string>
+    <string name="account.google">pref_google</string>
+    <string name="account.sygic">pref_sygic</string>-->
+
+    <!-- <string name="settings.display.information">pref_display_information</string> -->
+
+    <string name="settings.display.information_bar">pref_display_information_bar</string>
+
+    <string name="settings.display.stopwatch">pref_display_stopwatch</string>
+
+
+    
+    <string name="settings.regional.correction_mode">pref_regional_correction_mode</string>
+
+
+    <string name="settings.notif.railway">pref_notif_railway</string>
+    <string name="settings.notif.railway.vibrate">pref_notif_railway_vibrate</string>
+    <string name="settings.notif.railway.sound">pref_notif_railway_sound</string>
+    <string name="settings.map.poi">pref_map_poi</string>
+
+
+
+    <string name="settings.map.poi_onroute">pref_map_poi_onroute</string>
+    <string name="settings.map.poi_onroute.automatic">pref_map_poi_onroute_automatic</string>
+
+    
+    <!-- pois on route visibility-->
+
+    <string name="settings.map.poi_onroute.accommodation">pref_map_poi_onroute_accommodation_hotel_motel
+    </string>
+    <string name="settings.map.poi_onroute.city">pref_map_poi_onroute_city</string>
+    <string name="settings.map.poi_onroute.city.wcities">pref_map_poi_onroute_city_wcities</string>
+    <string name="settings.map.poi_onroute.city.wiki">pref_map_poi_onroute_city_wiki</string>
+    <string name="settings.map.poi_onroute.eat_drink">pref_map_poi_onroute_eat_drink</string>
+    <string name="settings.map.poi_onroute.eat_drink.cafe">pref_map_poi_onroute_eat_drink_cafe</string>
+    <string name="settings.map.poi_onroute.eat_drink.food">pref_map_poi_onroute_eat_drink_food</string>
+    <string name="settings.map.poi_onroute.eat_drink.pastry">pref_map_poi_onroute_eat_drink_pastry</string>
+    <string name="settings.map.poi_onroute.eat_drink.restaurant">pref_map_poi_onroute_eat_drink_restaurant</string>
+    <string name="settings.map.poi_onroute.eat_drink.restaurant_area">pref_map_poi_onroute_eat_drink_restaurant_area</string>
+    <string name="settings.map.poi_onroute.eat_drink.road">pref_map_poi_onroute_eat_drink_road</string>
+    <string name="settings.map.poi_onroute.eat_drink.winery">pref_map_poi_onroute_eat_drink_winery</string>
+    <string name="settings.map.poi_onroute.emergency">pref_map_poi_onroute_emergency</string>
+    <string name="settings.map.poi_onroute.emergency.breakdown">pref_map_poi_onroute_emergency_breakdown</string>
+    <string name="settings.map.poi_onroute.emergency.dentist">pref_map_poi_onroute_emergency_dentist</string>
+    <string name="settings.map.poi_onroute.emergency.doctor">pref_map_poi_onroute_emergency_doctor</string>
+    <string name="settings.map.poi_onroute.emergency.emergency_call">pref_map_poi_onroute_emergency_emergency_call</string>
+    <string name="settings.map.poi_onroute.emergency.emergency">pref_map_poi_onroute_emergency_emergency</string>
+    <string name="settings.map.poi_onroute.emergency.fire">pref_map_poi_onroute_emergency_fire</string>
+    <string name="settings.map.poi_onroute.emergency.first">pref_map_poi_onroute_emergency_first</string>
+    <string name="settings.map.poi_onroute.emergency.hospital">pref_map_poi_onroute_emergency_hospital</string>
+    <string name="settings.map.poi_onroute.emergency.pharmacy">pref_map_poi_onroute_emergency_pharmacy</string>
+    <string name="settings.map.poi_onroute.emergency.police">pref_map_poi_onroute_emergency_police</string>
+    <string name="settings.map.poi_onroute.emergency.veterinarian">pref_map_poi_onroute_emergency_veterinarian</string>
+    
+    <string name="settings.map.poi_onroute.social">pref_map_poi_onroute_social</string>
+    <string name="settings.map.poi_onroute.social.abbey">pref_map_poi_onroute_social_abbey</string>
+    <string name="settings.map.poi_onroute.social.amusement">pref_map_poi_onroute_social_amusement</string>
+    <string name="settings.map.poi_onroute.social.arts">pref_map_poi_onroute_social_arts</string>
+    <string name="settings.map.poi_onroute.social.casino">pref_map_poi_onroute_social_casino</string>
+    <string name="settings.map.poi_onroute.social.church">pref_map_poi_onroute_social_church</string>
+    <string name="settings.map.poi_onroute.social.cinema">pref_map_poi_onroute_social_cinema</string>
+    <string name="settings.map.poi_onroute.social.concert">pref_map_poi_onroute_social_concert</string>
+    <string name="settings.map.poi_onroute.social.cultural">pref_map_poi_onroute_social_cultural</string>
+    <string name="settings.map.poi_onroute.social.ecotourism">pref_map_poi_onroute_social_ecotourism</string>
+    <string name="settings.map.poi_onroute.social.entertainment">pref_map_poi_onroute_social_entertainment</string>
+    <string name="settings.map.poi_onroute.social.hunting">pref_map_poi_onroute_social_hunting</string>
+    <string name="settings.map.poi_onroute.social.kids">pref_map_poi_onroute_social_kids</string>
+    <string name="settings.map.poi_onroute.social.leisure">pref_map_poi_onroute_social_leisure</string>
+    <string name="settings.map.poi_onroute.social.library">pref_map_poi_onroute_social_library</string>
+    <string name="settings.map.poi_onroute.social.monastery">pref_map_poi_onroute_social_monastery</string>
+    <string name="settings.map.poi_onroute.social.mosque">pref_map_poi_onroute_social_mosque</string>
+    <string name="settings.map.poi_onroute.social.music">pref_map_poi_onroute_social_music</string>
+    <string name="settings.map.poi_onroute.social.nightlife">pref_map_poi_onroute_social_nightlife</string>
+    <string name="settings.map.poi_onroute.social.opera">pref_map_poi_onroute_social_opera</string>
+    <string name="settings.map.poi_onroute.social.place">pref_map_poi_onroute_social_place</string>
+    <string name="settings.map.poi_onroute.social.poi">pref_map_poi_onroute_social_poi</string>
+    <string name="settings.map.poi_onroute.social.theatre">pref_map_poi_onroute_social_theatre</string>
+    <string name="settings.map.poi_onroute.parking">pref_map_poi_onroute_parking</string>
+    <string name="settings.map.poi_onroute.parking.coach">pref_map_poi_onroute_parking_coach</string>
+    <string name="settings.map.poi_onroute.parking.open">pref_map_poi_onroute_parking_open</string>
+    <string name="settings.map.poi_onroute.parking.parking">pref_map_poi_onroute_parking_parking</string>
+    <string name="settings.map.poi_onroute.parking.rent">pref_map_poi_onroute_parking_rent</string>
+    <string name="settings.map.poi_onroute.petrol">pref_map_poi_onroute_petrol</string>
+    <string name="settings.map.poi_onroute.services">pref_map_poi_onroute_services</string>
+    <string name="settings.map.poi_onroute.services.agricultural">pref_map_poi_onroute_services_agricultural</string>
+    <string name="settings.map.poi_onroute.services.atm">pref_map_poi_onroute_services_atm</string>
+    <string name="settings.map.poi_onroute.services.bank">pref_map_poi_onroute_services_bank</string>
+    <string name="settings.map.poi_onroute.services.border">pref_map_poi_onroute_services_border</string>
+    <string name="settings.map.poi_onroute.services.business">pref_map_poi_onroute_services_business</string>
+    <string name="settings.map.poi_onroute.services.cargo">pref_map_poi_onroute_services_cargo</string>
+    <string name="settings.map.poi_onroute.services.cash">pref_map_poi_onroute_services_cash</string>
+    <string name="settings.map.poi_onroute.services.cemetery">pref_map_poi_onroute_services_cemetery</string>
+    <string name="settings.map.poi_onroute.services.city">pref_map_poi_onroute_services_city</string>
+    <string name="settings.map.poi_onroute.services.college">pref_map_poi_onroute_services_college</string>
+    <string name="settings.map.poi_onroute.services.commercial">pref_map_poi_onroute_services_commercial</string>
+    <string name="settings.map.poi_onroute.services.community">pref_map_poi_onroute_services_community</string>
+    <string name="settings.map.poi_onroute.services.company">pref_map_poi_onroute_services_company</string>
+    <string name="settings.map.poi_onroute.services.condominium">pref_map_poi_onroute_services_condominium</string>
+    <string name="settings.map.poi_onroute.services.construction">pref_map_poi_onroute_services_construction</string>
+    <string name="settings.map.poi_onroute.services.convention">pref_map_poi_onroute_services_convention</string>
+    <string name="settings.map.poi_onroute.services.courthouse">pref_map_poi_onroute_services_courthouse</string>
+    <string name="settings.map.poi_onroute.services.customs">pref_map_poi_onroute_services_customs</string>
+    <string name="settings.map.poi_onroute.services.embassy">pref_map_poi_onroute_services_embassy</string>
+    <string name="settings.map.poi_onroute.services.exchange">pref_map_poi_onroute_services_exchange</string>
+    <string name="settings.map.poi_onroute.services.exhibition">pref_map_poi_onroute_services_exhibition</string>
+    <string name="settings.map.poi_onroute.services.factories">pref_map_poi_onroute_services_factories</string>
+    <string name="settings.map.poi_onroute.services.factory">pref_map_poi_onroute_services_factory</string>
+    <string name="settings.map.poi_onroute.services.freeport">pref_map_poi_onroute_services_freeport</string>
+    <string name="settings.map.poi_onroute.services.frontier">pref_map_poi_onroute_services_frontier</string>
+    <string name="settings.map.poi_onroute.services.government">pref_map_poi_onroute_services_government</string>
+    <string name="settings.map.poi_onroute.services.industrial">pref_map_poi_onroute_services_industrial</string>
+    <string name="settings.map.poi_onroute.services.kindergarten">pref_map_poi_onroute_services_kindergarten</string>
+    <string name="settings.map.poi_onroute.services.local">pref_map_poi_onroute_services_local</string>
+    <string name="settings.map.poi_onroute.services.media">pref_map_poi_onroute_services_media</string>
+    <string name="settings.map.poi_onroute.services.medical">pref_map_poi_onroute_services_medical</string>
+    <string name="settings.map.poi_onroute.services.military_cemetery">pref_map_poi_onroute_services_military_cemetery</string>
+    <string name="settings.map.poi_onroute.services.military_inst">pref_map_poi_onroute_services_military_inst</string>
+    <string name="settings.map.poi_onroute.services.money">native_sepref_notif_speed_lim_weatherttings_map_poi_onroute_services_money</string>
+    <string name="settings.map.poi_onroute.services.personal">pref_map_poi_onroute_services_personal</string>
+    <string name="settings.map.poi_onroute.services.post">pref_map_poi_onroute_services_post</string>
+    <string name="settings.map.poi_onroute.services.prison">pref_map_poi_onroute_services_prison</string>
+    <string name="settings.map.poi_onroute.services.professionals">pref_map_poi_onroute_services_professionals</string>
+    <string name="settings.map.poi_onroute.services.public">pref_map_poi_onroute_services_public</string>
+    <string name="settings.map.poi_onroute.services.real">pref_map_poi_onroute_services_real</string>
+    <string name="settings.map.poi_onroute.services.school">pref_map_poi_onroute_services_school</string>
+    <string name="settings.map.poi_onroute.services.services">pref_map_poi_onroute_services_services</string>
+    <string name="settings.map.poi_onroute.services.squares">pref_map_poi_onroute_services_squares</string>
+    <string name="settings.map.poi_onroute.services.state">pref_map_poi_onroute_services_state</string>
+    <string name="settings.map.poi_onroute.services.toll">pref_map_poi_onroute_services_toll</string>
+    <string name="settings.map.poi_onroute.services.transport">pref_map_poi_onroute_services_transport</string>
+    <string name="settings.map.poi_onroute.shop">pref_map_poi_onroute_shop</string>
+    <string name="settings.map.poi_onroute.shop.accessories">pref_map_poi_onroute_shop_accessories</string>
+    <string name="settings.map.poi_onroute.shop.books">pref_map_poi_onroute_shop_books</string>
+    <string name="settings.map.poi_onroute.shop.children">pref_map_poi_onroute_shop_children</string>
+    <string name="settings.map.poi_onroute.shop.cosmetics">pref_map_poi_onroute_shop_cosmetics</string>
+    <string name="settings.map.poi_onroute.shop.department">pref_map_poi_onroute_shop_department</string>
+    <string name="settings.map.poi_onroute.shop.electronics">pref_map_poi_onroute_shop_electronics</string>
+    <string name="settings.map.poi_onroute.shop.fashion_acc">pref_map_poi_onroute_shop_fashion_acc</string>
+    <string name="settings.map.poi_onroute.shop.fashion_child">pref_map_poi_onroute_shop_fashion_child</string>
+    <string name="settings.map.poi_onroute.shop.fashion_ladies">pref_map_poi_onroute_shop_fashion_ladies</string>
+    <string name="settings.map.poi_onroute.shop.fashion_men">pref_map_poi_onroute_shop_fashion_men</string>
+    <string name="settings.map.poi_onroute.shop.fashion_mix">pref_map_poi_onroute_shop_fashion_mix</string>
+    <string name="settings.map.poi_onroute.shop.fashion_trad">pref_map_poi_onroute_shop_fashion_trad</string>
+    <string name="settings.map.poi_onroute.shop.gifts">pref_map_poi_onroute_shop_gifts</string>
+    <string name="settings.map.poi_onroute.shop.groceries">pref_map_poi_onroute_shop_groceries</string>
+    <string name="settings.map.poi_onroute.shop.hair">pref_map_poi_onroute_shop_hair</string>
+    <string name="settings.map.poi_onroute.shop.jewellery">pref_map_poi_onroute_shop_jewellery</string>
+    <string name="settings.map.poi_onroute.shop.lifestyle">pref_map_poi_onroute_shop_lifestyle</string>
+    <string name="settings.map.poi_onroute.shop.mobile">pref_map_poi_onroute_shop_mobile</string>
+    <string name="settings.map.poi_onroute.shop.opticians">pref_map_poi_onroute_shop_opticians</string>
+    <string name="settings.map.poi_onroute.shop.shoes">pref_map_poi_onroute_shop_shoes</string>
+    <string name="settings.map.poi_onroute.shop.shop">pref_map_poi_onroute_shop_shop</string>
+    <string name="settings.map.poi_onroute.shop.shipping">pref_map_poi_onroute_shop_shipping</string>
+    <string name="settings.map.poi_onroute.shop.sports">pref_map_poi_onroute_shop_sports</string>
+    <string name="settings.map.poi_onroute.shop.supermarket">pref_map_poi_onroute_shop_supermarket</string>
+    <string name="settings.map.poi_onroute.shop.warehouse">pref_map_poi_onroute_shop_warehouse</string>
+    <string name="settings.map.poi_onroute.sport">pref_map_poi_onroute_sport</string>
+    <string name="settings.map.poi_onroute.sport.car">pref_map_poi_onroute_sport_car</string>
+    <string name="settings.map.poi_onroute.sport.golf">pref_map_poi_onroute_sport_golf</string>
+    <string name="settings.map.poi_onroute.sport.hippodrome">pref_map_poi_onroute_sport_hippodrome</string>
+    <string name="settings.map.poi_onroute.sport.ice">pref_map_poi_onroute_sport_ice</string>
+    <string name="settings.map.poi_onroute.sport.skating">pref_map_poi_onroute_sport_skating</string>
+    <string name="settings.map.poi_onroute.sport.sports_centre">pref_map_poi_onroute_sport_sports_centre</string>
+    <string name="settings.map.poi_onroute.sport.sports_hall">pref_map_poi_onroute_sport_sports_hall</string>
+    <string name="settings.map.poi_onroute.sport.stadium">pref_map_poi_onroute_sport_stadium</string>
+    <string name="settings.map.poi_onroute.sport.swimming">pref_map_poi_onroute_sport_swimming</string>
+    <string name="settings.map.poi_onroute.sport.tennis">pref_map_poi_onroute_sport_tennis</string>
+    <string name="settings.map.poi_onroute.sport.water">pref_map_poi_onroute_sport_water</string>
+    <string name="settings.map.poi_onroute.sport.yacht">pref_map_poi_onroute_sport_yacht</string>
+    <string name="settings.map.poi_onroute.tourist">pref_map_poi_onroute_tourist</string>
+    <string name="settings.map.poi_onroute.tourist.archeology">pref_map_poi_onroute_tourist_archeology</string>
+    <string name="settings.map.poi_onroute.tourist.beach">pref_map_poi_onroute_tourist_beach</string>
+    <string name="settings.map.poi_onroute.tourist.building">pref_map_poi_onroute_tourist_building</string>
+    <string name="settings.map.poi_onroute.tourist.camping">pref_map_poi_onroute_tourist_camping</string>
+    <string name="settings.map.poi_onroute.tourist.caravan">pref_map_poi_onroute_tourist_caravan</string>
+    <string name="settings.map.poi_onroute.tourist.castle">pref_map_poi_onroute_tourist_castle</string>
+    <string name="settings.map.poi_onroute.tourist.forest">pref_map_poi_onroute_tourist_forest</string>
+    <string name="settings.map.poi_onroute.tourist.fortress">pref_map_poi_onroute_tourist_fortress</string>
+    <string name="settings.map.poi_onroute.tourist.holiday">pref_map_poi_onroute_tourist_holiday</string>
+    <string name="settings.map.poi_onroute.tourist.important">pref_map_poi_onroute_tourist_important</string>
+    <string name="settings.map.poi_onroute.tourist.lighthouse">pref_map_poi_onroute_tourist_lighthouse</string>
+    <string name="settings.map.poi_onroute.tourist.monument">pref_map_poi_onroute_tourist_monument</string>
+    <string name="settings.map.poi_onroute.tourist.mountain_pass">pref_map_poi_onroute_tourist_mountain_pass</string>
+    <string name="settings.map.poi_onroute.tourist.mountain_peak">pref_map_poi_onroute_tourist_mountain_peak</string>
+    <string name="settings.map.poi_onroute.tourist.museum">pref_map_poi_onroute_tourist_museum</string>
+    <string name="settings.map.poi_onroute.tourist.natives">pref_map_poi_onroute_tourist_natives</string>
+    <string name="settings.map.poi_onroute.tourist.natural">pref_map_poi_onroute_tourist_natural</string>
+    <string name="settings.map.poi_onroute.tourist.park">pref_map_poi_onroute_tourist_park</string>
+    <string name="settings.map.poi_onroute.tourist.recreation">pref_map_poi_onroute_tourist_recreation</string>
+    <string name="settings.map.poi_onroute.tourist.rocks">pref_map_poi_onroute_tourist_rocks</string>
+    <string name="settings.map.poi_onroute.tourist.scenic">pref_map_poi_onroute_tourist_scenic</string>
+    <string name="settings.map.poi_onroute.tourist.tourist">pref_map_poi_onroute_tourist_tourist</string>
+    <string name="settings.map.poi_onroute.tourist.travel">pref_map_poi_onroute_tourist_travel</string>
+    <string name="settings.map.poi_onroute.tourist.walking">pref_map_poi_onroute_tourist_walking</string>
+    <string name="settings.map.poi_onroute.tourist.water">pref_map_poi_onroute_tourist_water</string>
+    <string name="settings.map.poi_onroute.tourist.windmill">pref_map_poi_onroute_tourist_windmill</string>
+    <string name="settings.map.poi_onroute.tourist.zoo">pref_map_poi_onroute_tourist_zoo</string>
+    <string name="settings.map.poi_onroute.transport">pref_map_poi_onroute_transport</string>
+    <string name="settings.map.poi_onroute.transport.airline">pref_map_poi_onroute_transport_airline</string>
+    <string name="settings.map.poi_onroute.transport.airport">pref_map_poi_onroute_transport_airport</string>
+    <string name="settings.map.poi_onroute.transport.bus">pref_map_poi_onroute_transport_bus</string>
+    <string name="settings.map.poi_onroute.transport.car">pref_map_poi_onroute_transport_car</string>
+    <string name="settings.map.poi_onroute.transport.ferry">pref_map_poi_onroute_transport_ferry</string>
+    <string name="settings.map.poi_onroute.transport.metro">pref_map_poi_onroute_transport_metro</string>
+    <string name="settings.map.poi_onroute.transport.port">pref_map_poi_onroute_transport_port</string>
+    <string name="settings.map.poi_onroute.transport.public">pref_map_poi_onroute_transport_public</string>
+    <string name="settings.map.poi_onroute.transport.railway">pref_map_poi_onroute_transport_railway</string>
+    <string name="settings.map.poi_onroute.transport.ski">pref_map_poi_onroute_transport_ski</string>
+    <string name="settings.map.poi_onroute.vehicle">pref_map_poi_onroute_vehicle</string>
+    <string name="settings.map.poi_onroute.vehicle.bovag">pref_map_poi_onroute_vehicle_bovag</string>
+    <string name="settings.map.poi_onroute.vehicle.car_deal">pref_map_poi_onroute_vehicle_car_deal</string>
+    <string name="settings.map.poi_onroute.vehicle.car_repair">pref_map_poi_onroute_vehicle_car_repair</string>
+    <string name="settings.map.poi_onroute.vehicle.car_services">pref_map_poi_onroute_vehicle_car_services</string>
+    <string name="settings.map.poi_onroute.vehicle.chevrolet_deal">pref_map_poi_onroute_vehicle_chevrolet_deal</string>
+    <string name="settings.map.poi_onroute.vehicle.chevrolet_repair">pref_map_poi_onroute_vehicle_chevrolet_repair</string>
+    <string name="settings.map.poi_onroute.vehicle.motoring">pref_map_poi_onroute_vehicle_motoring</string>
+    <string name="settings.map.poi_onroute.vehicle.park">pref_map_poi_onroute_vehicle_park</string>
+    <string name="settings.map.poi_onroute.vehicle.rent">pref_map_poi_onroute_vehicle_rent</string>
+    <string name="settings.map.poi_onroute.vehicle.rest">pref_map_poi_onroute_vehicle_rest</string>
+    <string name="settings.map.poi_onroute.vehicle.speed">pref_map_poi_onroute_vehicle_speed</string>
+    <string name="settings.map.poi_onroute.vehicle.traffic">pref_map_poi_onroute_vehicle_traffic</string>
+    <string name="settings.map.poi_onroute.vehicle.vehicle">pref_map_poi_onroute_vehicle_vehicle</string>
+
+    <string name="account.user_name">pref_account_username</string>
+    <string name="account.signin">pref_account_sign_in</string>
+    <string name="account.ask">pref_account_ask</string>
+    <string name="account.traffic">pref_account_traffic</string>
+    <string name="account.news_updates">pref_account_news_updates</string>
+    
+    <string name="settings.backup.dropbox">settings_backup_dropbox</string>
+
+    <string name="settings.favourites.lastTab">settings_favourites_last_tab</string>
+    <string name="settings.travelbook.lastTab">settings_travelbook_last_tab</string>
+    
+    <string name="settings.quickmenu.reportincident">settings_quickmenu_reportincident</string>
+
+    <!-- QUICK TIPS -->
+    <string name="settings.quick_tip.enable">settings_quicktip_enable</string>
+    <string name="settings.quick_tip.search.enable">settings_quicktip_search</string>
+    <string name="settings.quick_tip.dashboard.enable">settings_quicktip_dashboard</string>
+    <string name="settings.quick_tip.routeSelection.enable">settings_quicktip_alternative</string>
+
+    <!-- BLACK BOX -->
+    <string name="settings.blackbox.collision.autosave">pref_blackbox_autosave</string>
+    <string name="settings.blackbox.autostart">pref_blackbox_autostart</string>
+    <string name="settings.blackbox.videoOnly">pref_blackbox_videoOnly</string>
+    <string name="settings.blackbox.quality">pref_blackbox_quality</string>
+    <string name="settings.blackbox.lastUpdateVersion">pref_blackbox_lastUpdate</string>
+
+    <!-- ROUTE OVERVIEW START -->
+    <string name="route_overview.start.label">pref_start_label</string>
+
+    <string name="last_session_crash_free">last_session_crash_free</string>
+
+</resources>

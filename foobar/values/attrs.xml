@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- DASHBOARD -->
+    <declare-styleable name="SpanVariableGridView">
+
+        <attr name="numColumns" format="integer" />
+
+        <attr name="itemMargin" format="dimension" />
+
+    </declare-styleable>
+
+    <!-- SLIDE VIEW -->
+    <declare-styleable name="SlideView">
+        <attr name="viewRight" format="reference" />
+        <attr name="viewLeft" format="reference" />
+    </declare-styleable>
+
+    <!-- BUBBLE SEARCH BAR -->
+    <declare-styleable name="BubbleSearchBar">
+        <attr name="simpleTheme" format="boolean" />
+    </declare-styleable>
+
+    <!-- Base attributes available to VolumePreference. -->
+    <declare-styleable name="VolumePreference">
+        <!-- Different audio stream types. -->
+        <attr name="streamType">
+            <enum name="voice" value="0" />
+            <enum name="system" value="1" />
+            <enum name="ring" value="2" />
+            <enum name="music" value="3" />
+            <enum name="alarm" value="4" />
+        </attr>
+    </declare-styleable>
+
+    <attr name="premium" format="boolean" />
+
+    <!-- FRAGMENT PREFERENCE -->
+    <declare-styleable name="SettingsFragmentPreference">
+        <attr name="preferences" format="reference" />
+        <attr name="lastDivider" format="boolean" />
+        <attr name="premium" />
+        <attr name="registerOnChange" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="FragmentPreference">
+        <attr name="fragment_class" format="string" />
+        <attr name="fragment_data" format="string" />
+        <attr name="updatable" format="boolean" />
+    </declare-styleable>
+
+    <!-- LOGIN PREFERENCE -->
+    <declare-styleable name="LoginDetailsPreference">
+        <attr name="show_name" format="boolean" />
+        <attr name="show_password" format="boolean" />
+        <attr name="load_name" format="boolean" />
+    </declare-styleable>
+
+    <!-- SEEK BAR PREFERENCE -->
+    <declare-styleable name="SeekBarPreference">
+        <attr name="rangeMax" format="integer" />
+    </declare-styleable>
+
+    <attr name="keySecondary" format="string" />
+    <attr name="keyTertiary" format="string" />
+
+    <!-- SEEK BAR PREFERENCE -->
+    <declare-styleable name="SeekBarsPreference">
+        <attr name="titleSeekBarPrimary" format="string" />
+        <attr name="titleSeekBarSecondary" format="string" />
+        <attr name="titleSeekBarTertiary" format="string" />
+        <attr name="keySecondary" />
+        <attr name="keyTertiary" />
+        <attr name="iconSecondary" format="reference" />
+        <attr name="iconTertiary" format="reference" />
+        <attr name="rangeMaxPrimary" format="integer" />
+        <attr name="rangeMaxSecondary" format="integer" />
+        <attr name="rangeMaxTertiary" format="integer" />
+        <attr name="message" format="string" />
+        <attr name="formaterTypePrimary" format="string" />
+        <attr name="formaterTypeSecondary" format="string" />
+        <attr name="formaterTypeTertiary" format="string" />
+        <attr name="formatterCustomValuesPrimary" format="reference" />
+        <attr name="formatterCustomValuesSecondary" format="reference" />
+        <attr name="formatterCustomValuesTertiary" format="reference" />
+    </declare-styleable>
+
+    <!-- DYNAMIC SUMMARY LIST PREFERENCE -->
+    <declare-styleable name="LanguageListPreference">
+        <attr name="keySecondary" />
+    </declare-styleable>
+
+    <attr name="dialogTitle" format="string" />
+    <attr name="dialogMessage" format="string" />
+    <attr name="positiveButtonText" format="string" />
+    <attr name="negativeButtonText" format="string" />
+    <!-- DIALOG SWITCH PREFERENCE -->
+    <declare-styleable name="DialogSwitchPreference">
+        <attr name="dialogTitle" />
+        <attr name="dialogMessage" />
+        <attr name="positiveButtonText" />
+        <attr name="negativeButtonText" />
+        <attr name="premium" />
+    </declare-styleable>
+
+    <!-- DIALOG CHECKBOX PREFERENCE -->
+    <declare-styleable name="DialogCheckboxPreference">
+        <attr name="dialogTitle" />
+        <attr name="dialogMessage" />
+        <attr name="positiveButtonText" />
+        <attr name="negativeButtonText" />
+        <attr name="premium" />
+    </declare-styleable>
+
+    <!-- STYLEABLE SWITCH PREFERENCE -->
+    <declare-styleable name="StyleableSwitchPreference">
+        <attr name="premium" />
+    </declare-styleable>
+
+    <!-- STYLEABLE CHECKBOX PREFERENCE -->
+    <declare-styleable name="StyleableCheckBoxPreference">
+        <attr name="premium" />
+    </declare-styleable>
+
+
+    <!-- ACTION BAR -->
+    <declare-styleable name="ActionBar">
+        <attr name="abTitle" format="string" />
+        <attr name="abMode">
+            <flag name="entry" value="0x0" />
+            <flag name="search" value="0x1" />
+            <flag name="searchAdvanced" value="0x2" />
+            <flag name="favorities" value="0x3" />
+            <flag name="nearbyPoi" value="0x4" />
+            <flag name="route" value="0x6" />
+            <flag name="settings" value="0x9" />
+            <flag name="quickSearch" value="0x10" />
+            <flag name="poiDetail" value="0x11" />
+        </attr>
+        <attr name="abTheme">
+            <flag name="dark" value="0x0" />
+            <flag name="light" value="0x1" />
+        </attr>
+        <attr name="abButtonBg">
+            <flag name="grey" value="0x0" />
+            <flag name="red" value="0x1" />
+            <flag name="blue" value="0x2" />
+        </attr>
+
+    </declare-styleable>
+
+    <!--    <attr name="actionDropDownStyle" format="reference" />
+        <attr name="dropDownListViewStyle" format="reference" />
+
+        <attr name="listPopupWindowStyle" format="reference" />-->
+
+    <!-- SPINNER -->
+    <declare-styleable name="ICSSpinner">
+        <!-- The prompt to display when the spinner's dialog is shown. -->
+        <attr name="android:prompt" />
+        <!-- List selector to use for spinnerMode="dropdown" display. -->
+        <attr name="android:dropDownSelector" />
+        <!-- Background drawable to use for the dropdown in spinnerMode="dropdown". -->
+        <attr name="android:popupBackground" />
+        <!-- Vertical offset from the spinner widget for positioning the dropdown in
+             spinnerMode="dropdown". -->
+        <attr name="android:dropDownVerticalOffset" />
+        <!-- Horizontal offset from the spinner widget for positioning the dropdown
+             in spinnerMode="dropdown". -->
+        <attr name="android:dropDownHorizontalOffset" />
+        <!-- Width of the dropdown in spinnerMode="dropdown". -->
+        <attr name="android:dropDownWidth" />
+        <!-- Reference to a layout to use for displaying a prompt in the dropdown for
+             spinnerMode="dropdown". This layout must contain a TextView with the id
+             @android:id/text1 to be populated with the prompt text. -->
+        <attr name="popupPromptView" />
+        <!-- Gravity setting for positioning the currently selected item. -->
+        <attr name="android:gravity" />
+    </declare-styleable>
+
+    <!--    <attr name="textAppearanceListItemSmall" format="reference" />-->
+
+    <!-- 3 STATES BUTTON -->
+    <declare-styleable name="ThreeStateButton">
+        <attr name="state_one" format="boolean" />
+        <attr name="state_two" format="boolean" />
+        <attr name="state_three" format="boolean" />
+    </declare-styleable>
+
+    <!-- special font attributes -->
+    <attr name="textId" format="reference" />
+    <attr name="hintId" format="reference" />
+    <attr name="font" format="reference" />
+    <attr name="textSrc" format="reference" />
+    <attr name="textStyle">
+        <enum name="none" value="0" />
+        <enum name="lowercase" value="1" />
+        <enum name="uppercase" value="2" />
+    </attr>
+
+    <!-- STextView -->
+    <declare-styleable name="STextView">
+        <attr name="textId" />
+        <attr name="hintId" />
+        <attr name="font" />
+        <attr name="textStyle" />
+
+        <attr name="dynamicResize" format="boolean" />
+        <attr name="dynamicResizeHeight" format="boolean" />
+        <attr name="maxTextSize" format="dimension" />
+        <attr name="minTextSize" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="SRotatedTextView">
+        <attr name="rotation" format="float" />
+    </declare-styleable>
+
+    <!-- SEditText -->
+    <declare-styleable name="SEditText">
+        <attr name="textId" />
+        <attr name="hintId" />
+        <attr name="font" />
+        <attr name="textStyle" />
+    </declare-styleable>
+
+    <!-- SButton -->
+    <declare-styleable name="SButton">
+        <attr name="textId" />
+        <attr name="font" />
+        <attr name="textStyle" />
+    </declare-styleable>
+
+    <!-- SToggleButton -->
+    <declare-styleable name="SToggleButton">
+        <attr name="textId" />
+        <attr name="font" />
+        <attr name="textStyle" />
+        <attr name="textSrcOn" format="reference" />
+        <attr name="textSrcOff" format="reference" />
+        <attr name="colorOn" format="color" />
+        <attr name="colorOff" format="color" />
+    </declare-styleable>
+
+    <!-- SImageView -->
+    <declare-styleable name="SImageView">
+        <attr name="textSrc" />
+    </declare-styleable>
+
+    <!-- SImageView -->
+    <declare-styleable name="SImageButton">
+        <attr name="textSrc" />
+    </declare-styleable>
+
+    <!-- SCheckBox -->
+    <declare-styleable name="SCheckBox">
+        <attr name="textId" />
+        <attr name="font" />
+        <attr name="textStyle" />
+        <attr name="themeStyle" format="enum">
+            <enum name="Default" value="0" />
+            <enum name="Light" value="1" />
+            <enum name="Dark" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <!-- Different quick menu types. -->
+    <attr name="quickMenuType">
+        <enum name="startDemo" value="0" />
+        <enum name="reportTraffic" value="1" />
+        <enum name="reportPolice" value="2" />
+        <enum name="showPoiShop" value="3" />
+        <enum name="showPoiParking" value="4" />
+        <enum name="showPoiGasStation" value="5" />
+    </attr>
+
+    <!-- attributes available to QuickMenuItem enum -->
+    <declare-styleable name="QuickMenuItem">
+        <attr name="quickMenuType" />
+    </declare-styleable>
+
+    <declare-styleable name="FontDrawable">
+        <attr name="android:text" />
+        <attr name="android:textColor" />
+        <attr name="android:textSize" />
+        <attr name="font" />
+    </declare-styleable>
+
+    <declare-styleable name="LazyImageView">
+        <attr name="android:scaleType" />
+    </declare-styleable>
+
+    <attr name="progress" format="integer" />
+    <attr name="min" format="integer" />
+    <attr name="max" format="integer" />
+
+    <!-- Circle progress bar -->
+    <declare-styleable name="CircleProgressBar">
+        <attr name="min"/>
+        <attr name="max"/>
+        <attr name="progress"/>
+        <attr name="progressbarColor" format="color" />
+        <attr name="progressBarThickness" format="dimension" />
+
+    </declare-styleable>
+
+    <!-- Circle indicator -->
+    <declare-styleable name="ViewPagerIndicator">
+        <!-- Style of the circle indicator. -->
+        <attr name="vpiCirclePageIndicatorStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="CirclePageIndicator">
+        <!-- Whether or not the indicators should be centered. -->
+        <attr name="centered" format="boolean" />
+        <!-- Color of the filled circle that represents the current page. -->
+        <attr name="fillColor" format="color" />
+        <!-- Color of the filled circles that represents pages. -->
+        <attr name="pageColor" format="color" />
+        <!-- Orientation of the indicator. -->
+        <attr name="android:orientation" />
+        <!-- Radius of the circles. This is also the spacing between circles. -->
+        <attr name="radius" format="dimension" />
+        <!-- Whether or not the selected indicator snaps to the circles. -->
+        <attr name="snap" format="boolean" />
+        <!-- Color of the open circles. -->
+        <attr name="strokeColor" format="color" />
+        <!-- Width of the stroke used to draw the circles. -->
+        <attr name="strokeWidth" format="dimension" />
+        <!-- View background -->
+        <attr name="android:background" />
+    </declare-styleable>
+
+    <!-- GPS PREFERENCE -->  <!--TODO: asi sa casom zrusi, ale aktualne je to najrozumnejsie co mame -->
+    <declare-styleable name="GpsInputPreference">
+        <attr name="inputType">
+            <enum name="play" value="0" />
+            <enum name="record" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <!-- Sos Section -->
+    <declare-styleable name="SosSectionView">
+        <attr name="sosIcon" format="reference" />
+        <attr name="sosLabel" format="reference" />
+    </declare-styleable>
+    
+    <!-- Smart progressbar -->
+    <declare-styleable name="SmartProgressBar">
+        <attr name="progressLogo" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="BubbleView">
+        <attr name="layout"/>
+    </declare-styleable>
+
+	<declare-styleable name="DiscountTextView">
+		<attr name="discountTextViewStyle" format="reference" />
+	</declare-styleable>
+
+    <declare-styleable name="ShowcaseView">
+        <attr name="sv_backgroundColor" format="color|reference"/>
+        <attr name="sv_detailTextAppearance" format="reference"/>
+        <attr name="sv_titleTextAppearance" format="reference"/>
+        <!--<attr name="sv_showcaseColor" format="color|reference"/>-->
+    </declare-styleable>
+
+    <!-- FAB -->
+    <declare-styleable name="FloatingActionButton">
+        <attr name="fabIcon" format="reference"/>
+        <attr name="fabBackground" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="NotificationCenterView">
+        <attr name="accepts">
+            <flag name="none" value="0x0"/>
+            <flag name="warning_poi" value="0x01"/>
+            <flag name="warning_radar" value="0x02"/>
+            <flag name="warning_railway" value="0x04"/>
+            <flag name="warning_danger_turn" value="0x08"/>
+            <flag name="warning_poi_on_route" value="0x10"/>
+            <flag name="traffic" value="0x20"/>
+            <flag name="parking" value="0x40"/>
+            <flag name="scout_alternative" value="0x80"/>
+            <flag name="all" value="0xFF"/>
+        </attr>
+    </declare-styleable>
+    
+    <!-- Custom keyboard -->
+    <declare-styleable name="FocusableKeyboardView">
+        <!-- Default KeyboardView style -->
+        <attr name="keyboardViewStyle" format="reference" />
+        <attr name="keyBackground" format="reference" />
+        <attr name="keyFocusBackground" format="reference" />
+        <attr name="keyTextColor" format="color" />
+        <attr name="shadowColor" format="color" />
+        <attr name="keyTextSize" format="dimension" />
+        <attr name="labelTextSize" format="dimension" />
+        <attr name="shadowRadius" format="float" />
+        <attr name="verticalCorrection" format="dimension" />
+    </declare-styleable>
+</resources>

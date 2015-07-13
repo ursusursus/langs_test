@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="quickMenuItemsPerPage">3</integer>
+    <integer name="quickMenuItemsFreeDrivePerPage">3</integer>
+
+    <!-- initial Quick Meni items array
+    0 = EMPTY_ITEM 
+    1 = START_DEMO 
+	2 = REPORT_TRAFFIC
+	3 = POI_REST_AREA
+	4 = POI_PETROL_STATION;
+	5 = POI_SHOW_NEARBY;
+	6 = CANCEL_ROUTE;
+	7 = MUTE_BUTTON
+	8 = PEDESTRIAN_BUTTON
+	9 = SKIP_WAYPOINT
+	-->
+
+    <!-- Quick menu array in proper mode, for now
+    only Demo is hidden -->
+    <integer-array name="quickMenuItems">
+        <item>9</item>
+        <item>6</item>
+
+        <item>2</item>
+        <item>7</item>
+        <item>8</item>
+        <item>5</item>
+
+        <item>1</item>
+    </integer-array>
+
+    <integer-array name="quickMenuItemsDebug">
+        <item>9</item>
+        <item>6</item>
+
+        <item>2</item>
+        <item>7</item>
+        <item>8</item>
+        <item>5</item>
+
+        <item>1</item>
+    </integer-array>
+
+    <integer-array name="quickMenuItemsFreeDrive">
+        <item>8</item>
+        <item>7</item>
+        <item>5</item>
+    </integer-array>
+
+</resources>

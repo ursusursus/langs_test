@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- COLOR REFERENCES -->
+    <!-- TODO: every color here should be a reference to some base color -->
+
+    <color name="bgFragment">@color/white</color>
+    <color name="textDefault">@color/white</color>
+
+    <color name="dividerActiveBlue">@color/pacific_blue</color>
+    <color name="dividerDisabled">#CACACA</color>
+
+    <color name="dividerGrey">@color/tuna</color>
+    <color name="dividerGrey2">@color/tuna</color>
+    <color name="dividerPlugins">@color/white</color>
+    <color name="dividerLargeGrey">@color/silver_chalice</color>
+    <color name="dividerThinGrey">@color/black_25</color>
+    <color name="dividerLargeGrey2">@color/tuna</color>
+
+    <color name="dividerBlack">#1C1E20</color>
+
+    <color name="bgDashboardGrey">@color/dashboard.background</color>
+
+    <color name="dashboardTextColor">@color/white</color>
+
+    <color name="bgInfoSlotsText">@color/white</color>
+
+    <color name="bgSearchBarOptions">@color/black_40</color>
+    <color name="bgSearchBarOverlay">@color/tuna_a85</color>
+
+    <color name="bgSrchBarWhite">#E6E7E9</color>
+    <color name="bgSrchBarWhite2">@color/alto</color>
+    <color name="bgSrchBarWhite2Transp">#00D8D8D8</color>
+    <color name="bgSrchBubbleBlue">@color/rhino</color>
+    <color name="bgSrchBubbleRed">#D80000</color>
+    <color name="bgSrchBubbleGrey">@color/oxford_blue</color>
+    <color name="bgSrchBubbleGrey2">@color/silver</color>
+    <color name="searchBubbleTxtGrey">@color/tuna</color>
+    <color name="searchItemText">@color/silver_chalice</color>
+
+    <color name="bgAccountUser">#313539</color>
+    <color name="textSection">#AFB0B3</color>
+    <color name="textDialog">@color/black_75</color>
+
+    <color name="bgButtonGreyLightPressed">@color/bright_gray</color>
+    <color name="bgButtonStroke">#C0404040</color>
+    <color name="textButtonBlack">@color/black</color>
+    <color name="textButtonWhite">@color/white</color>
+
+    <color name="textButtonCurrentStreet">@color/white</color>
+    <color name="bgButtonCurrentStreet">@color/tuna_a85</color>
+
+    <color name="bgButtonBrowseControls">@color/white</color>
+    <color name="bgButtonBrowseControlsDisabled">@color/black_15</color>
+
+    <color name="textNoGpsSignalDialog">@color/azure_radiance</color>
+
+    <!-- AVOIDS -->
+    <color name="iconAvoids">@color/fiord</color>
+
+    <color name="actionBarIconColor">@color/black_75</color>
+    <color name="actionBarTitleColor">@color/black_75</color>
+    <color name="actionBarSubtitleColor">@color/black_60</color>
+    <color name="actionBarIconColorDisabled">@color/black_30</color>
+    <color name="actionBarColor">@color/black_5</color>
+    <color name="actionBarTabColor">@color/black_5</color>
+    <color name="cabIconColor">@color/white</color>
+    <color name="fabIconColorDark">@color/charade</color>
+    <color name="paintColor">#BAB399</color>
+    <color name="toolbarBackgroundLight">@color/morning_fog</color>
+    <color name="toolbarBackgroundDark">@color/gunpowder_blue</color>
+    <color name="toolbarTitleColorLight">@color/gunpowder_blue</color>
+    <color name="toolbarTitleColorDark">@color/morning_fog</color>
+    <color name="toolbarIconColorLight">@color/azure_radiance</color>
+    <color name="toolbarIconColorLightDisabled">@color/black_a25</color>
+    <color name="toolbarIconColorDark">@color/screamin_green</color>
+    <color name="toolbarIconColorDarkDisabled">@color/white_a20</color>
+
+    <!--<color name="textButtonBlue">@color/blue_light</color>-->
+    <color name="textButtonBlue">@color/toolbarIconColorLight</color>
+    <color name="textButtonGray">@color/black_a25</color>
+
+    <color name="textPoiDetailLabel">@color/black_90</color>
+    <color name="textPoiDetailText">@color/black_70</color>
+    <color name="textPoiDetailImg">@color/black_80</color>
+    <color name="textPoiDetailImg2">@color/black_30</color>
+    <color name="textPoiDetailStartPin">@color/mantis</color>
+    <color name="textPoiDetailFinishPin">@color/bittersweet</color>
+    <color name="textPoiDetailActionsLabel">@color/azure_radiance</color>
+    <color name="poiItemText">@color/silver_chalice</color>
+    <color name="bgPoiDetail">@color/white</color>
+    <color name="bgPoiPlaceholder">@color/black_5</color>
+
+    <!-- Direction kontrolka -->
+    <color name="bgDirectionPrimary">#FFFFFF</color>
+    <color name="bgDirectionSecondary">#DFE3E7</color>
+    <color name="bgDirectionFontPrimA">@color/black_65</color>
+    <color name="bgDirectionFontPrimB">#DDDFE1</color>
+    <color name="bgDirectionFontSecA">#757F8C</color>
+    <color name="bgDirectionFontSecB">#DDDFE1</color>
+    <color name="speedWarningRed">@color/flush_mahogany_a85</color>
+    <color name="bgDirectionFinishPin">@color/bittersweet</color>
+
+    <color name="bgTrafficLow">#B0F27F</color>
+    <color name="bgTrafficMedium">#FFF086</color>
+    <color name="bgTrafficHigh">#FF7683</color>
+    <color name="bgTrafficNone">@color/white</color>
+
+    <color name="bgRadarSpeed">#3366FF</color>
+    <color name="bgRadarWhite">@color/white</color>
+
+    <color name="speed_rect_color">@color/carrot_orange</color>
+    <color name="speed_shape_red">@color/crimson</color>
+    <color name="speed_shape_white">@color/white</color>
+    <color name="speed_shape_us_black">@color/black</color>
+    <color name="speed_shape_us_white">@color/white</color>
+
+    <color name="compas_bg">#EE3e4450</color>
+    <color name="compas_north">#EEFF5858</color>
+    <color name="compas_south">#EEFFFFFF</color>
+    <color name="bgButtonDefault">#E6E3E4E6</color>
+    <color name="strokeButtonDefault">#F8EBECED</color>
+
+    <color name="progressBarGrey">@color/alto</color>
+    <color name="progressBarBlue">@color/sygicNormal</color>
+    <color name="progressBarBlueishGreen">@color/mineral_green</color>
+    <color name="progressBarGreen">@color/screamin_green</color>
+    <color name="bgButtonPressed">#E6CDCDCD</color>
+    <color name="sygicNormal">@color/azure_radiance</color>
+    <color name="sygicDisabled">#FF808799</color>
+    <color name="sygicFocused">#FF5EACEC</color>
+    <color name="sygicPressed">#0076EC</color>
+    <color name="sygicDisabledFocused">#FF99A0B2</color>
+    <color name="disabledBtnTxt">@color/black_75</color>
+    <!-- az grafici dodaju farbu tak sa tu zmeni -->
+
+    <color name="progress_pin_default_circle_color">#80FFFFFF</color>
+    <color name="progress_pin_default_progress_color">@color/pacific_blue</color>
+
+    <color name="noMapsWarning">@color/carrot_orange</color>
+    <color name="acc_logo">#FF606060</color>
+
+    <!-- Store -->
+    <color name="textStoreText">@color/black_10</color>
+    <color name="textStorePrice">@color/screamin_green</color>
+    <color name="textStoreStrikedPrice">@color/white_a50</color>
+    <color name="textStoreFlagPrice">@color/white</color>
+    <color name="bgStoreDiscount">@color/crimson</color>
+
+    <color name="textProductDetailText">@color/white</color>
+    <color name="textProductDetailTitle">@color/white</color>
+    <color name="textProductDetailPurchased">#A7ADAF</color>
+    <color name="productDetailTitleBackground">@color/charade</color>
+    <color name="productDetailScreenshotsBackground">@color/bright_gray</color>
+
+    <color name="popupActionBackground">@color/tuna</color>
+    <color name="manageMapsInfo">@color/charade</color>
+    <color name="manageMapsCategory">@color/charade</color>
+
+    <color name="storeItemTitle">@color/white</color>
+    <color name="storeItemSubtitle">@color/white_a50</color>
+
+    <!-- Infobar -->
+    <color name="bgInfobar">@color/tuna_a85</color>
+    <color name="bgInfobarNoSignal">@color/flush_mahogany_a85</color>
+
+    <!-- HUD -->
+    <color name="bgHUD">@color/black</color>
+    <color name="bgHUDpopup">@color/tuna_a40</color>
+
+    <!-- Favorites -->
+    <color name="bgFavoritesDragHandle">@color/black_5</color>
+
+    <!-- Pois on Route -->
+    <color name="bgPoiOnRoute">@color/tuna_a85</color>
+
+    <!-- FRW -->
+    <color name="frwText">@color/white</color>
+    <color name="frwSemitransparentButton">@color/white_a20</color>
+    <color name="frwSemitransparentButtonPressed">@color/white_a40</color>
+
+    <!-- Black Box -->
+    <color name="bgBlackBoxInfoBar">@color/tuna_a60</color>
+
+    <!-- Route Overview -->
+    <color name="bgRouteOverview">@color/white</color>
+    <color name="textRouteOverviewIncidents">@color/web_orange</color>
+    <color name="textRouteOverviewFilter">@color/fiord</color>
+    <color name="textRouteOverviewInfo">@color/black_40</color>
+    <color name="textRouteOverviewOptions">@color/azure_radiance</color>
+    <color name="textRouteOverviewAvoid">@color/fiord</color>
+    <color name="textRouteOverviewAvoidUnavailable">@color/slate_gray</color>
+    <color name="textRouteOverviewWaypoints">@color/slate_gray</color>
+    <color name="textRouteOverviewPlaceholder">@color/azure_radiance</color>
+
+    <!-- Circle indicator -->
+    <color name="default_circle_indicator_page_color">@color/transparent</color>
+    <color name="default_circle_indicator_fill_color">@color/white</color>
+    <color name="default_circle_indicator_stroke_color">@color/silver_chalice</color>
+
+    <!-- Dashboard -->
+    <color name="dashboard.background">@color/oxford_blue</color>
+    <color name="dashboard.button">@color/white</color>
+    <color name="dashboard.plugin.locked">@color/waterloo</color>
+    <color name="dashboard.plugin.unlocked">@color/white</color>
+
+    <!-- Rate & Feedback dialog -->
+    <color name="rateDialogTitle">@color/white</color>
+    <color name="rateDialogText">@color/wild_sand</color>
+    <color name="rateDialogTextShadow">@color/black_a40</color>
+    <color name="rateDialogButtonTextPositive">@color/white</color>
+    <color name="rateDialogButtonTextNegative">@color/alto</color>
+    <color name="rateDialogEditText">@color/white</color>
+
+    <!-- Trial banner -->
+    <color name="bgTrialExpiredBanner">@color/tuna_a60</color>
+    <color name="bgTrialBannerClose">@color/tuna_a60</color>
+    <color name="textTrialBanner">@color/white_a85</color>
+    <color name="bgExpiredTrialBanner">@color/brick_red</color>
+    <color name="bgFreeTrialBanner">@color/curious_blue</color>
+
+    <!-- Restore route -->
+    <color name="bgRestoreOverlay">@color/white_a85</color>
+
+    <!-- Dividers -->
+    <color name="DividerLight">@color/black_25</color>
+    <color name="DividerDark">@color/trout</color>
+    <!-- Road sign -->
+    <color name="bgRoadSign">@color/limeade</color>
+
+    <color name="shadowColor">@color/tuna_a20</color>
+    <color name="mapOverlayButtonWhite">@color/azure_radiance</color>
+    <color name="mapOverlayButtonWhiteAlternative">@color/black_75</color>
+    <color name="mapOverlayButtonTransparent">@color/white</color>
+
+    <!-- Settings -->
+    <color name="settingsItemTitle">@color/preference_text</color>
+    <color name="settingsItemSummary">@color/white_a40</color>
+    <color name="settingsTextItemBackground">@color/charade</color>
+
+    <color name="legacyPreferenceSwitchBackground">@color/black_45</color>
+
+    <!-- General List Item Colors, use this, pls -->
+    <color name="listItemTitleLight">@color/black_75</color>
+    <color name="listItemSubtitleLight">@color/black_40</color>
+    <color name="listItemTitleDark">@color/white</color>
+
+    <!-- Quick menu -->
+    <color name="quickMenuIconColor">@color/white</color>
+    <color name="quickMenuTextColor">@color/white</color>
+    <color name="quickMenuIconColorDisabled">@color/black_50</color>
+    <color name="quickMenuTextColorDisabled">@color/black_50</color>
+
+    <!-- Autoclose notification baner -->
+    <color name="bgAutoCloseNotif">@color/dashboard.background</color>
+
+    <!-- Smart Progress Bar -->
+    <color name="smpErrorMessageColor">@color/white_a85</color>
+    <color name="smpErrorButtonColor">@color/screamin_green</color>
+    <color name="smpEmptyMessageColor">@color/black_50</color>
+
+    <!-- Travel Log Graph -->
+    <color name="travelGraphFill">@color/charade</color>
+    <color name="travelGraphLine">@color/mineral_green</color>
+    <color name="travelGraphDashedLine">@color/mineral_green</color>
+    <color name="travelGraphBorderHorizontal">@color/white_a20</color>
+    <color name="travelGraphBorderVertical">@color/white_a10</color>
+    <color name="travelGraphValueRect">@color/screamin_green</color>
+    <color name="travelGraphValueText">@color/charade</color>
+
+    <!-- Sos widget -->
+    <color name="bgSosWidget">@color/dashboard.background</color>
+    <color name="textSosWidget">@color/white</color>
+    <color name="textSosWidgetDisabled">@color/silver_chalice</color>
+
+    <!-- Undo Bar -->
+    <color name="bgUndoBar">@color/tuna_a85</color>
+    <color name="txtUndoBar">@color/white</color>
+    <color name="txtUndoButton">@color/screamin_green</color>
+</resources>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="activity_horizontal_margin">0dp</dimen>
+
+    <dimen name="paddingRoundMedium">8dp</dimen>
+    <dimen name="paddingRoundLow">4dp</dimen>
+    <dimen name="paddingSrchBubble">2dp</dimen>
+    <dimen name="paddingSrchLabelBottom">12dp</dimen>
+    <dimen name="paddingSrchBar">4dp</dimen>
+    <dimen name="paddingSrchBarSide">4dp</dimen>
+
+    <dimen name="paddingDashboardLabel">8dp</dimen>
+    <dimen name="paddingSectionLabel">8dp</dimen>
+    <dimen name="paddingSectionLabelTop">24dp</dimen>
+    <dimen name="dashboard_plugin_height">124sp</dimen>
+
+    <dimen name="paddingMapButtons">8dp</dimen>
+    <dimen name="paddingRouteInfoBarSlots">5dp</dimen>
+
+    <dimen name="waypointHeight">50dp</dimen>
+    <dimen name="nearbyPoiCustomIconSize">24dp</dimen>
+
+    <dimen name="routeOverviewImgHeight">180dp</dimen>
+    <dimen name="routeOverviewAddressTextSize">18sp</dimen>
+    <dimen name="routeOverviewEmptyIcon">188sp</dimen>
+
+    <dimen name="paddingAccInfoImgIcon">20dp</dimen>
+    <dimen name="paddingSrchIconDivider">4dp</dimen>
+
+    <dimen name="dividerEditHeight">4dp</dimen>
+
+    <dimen name="dividerThinHeight">1px</dimen>
+    <dimen name="dividerHeight">0.25dp</dimen>
+    <dimen name="dividerLargeHeight">4dp</dimen>
+    <dimen name="dividerWidth">2dp</dimen>
+
+    <dimen name="dashboardTextSize">20sp</dimen>
+    <dimen name="dashboardLabelSize">16sp</dimen>
+    <dimen name="sectionLabelSize">18sp</dimen>
+    <dimen name="itemTitleLabelSize">22sp</dimen>
+    <dimen name="itemDescLabelSize">14sp</dimen>
+    <dimen name="pluginLabelSize">16sp</dimen>
+    <dimen name="pluginDescriptionSize">12sp</dimen>
+
+    <dimen name="srchBarTxtSize">14sp</dimen>
+    <dimen name="srchBubbleLabelSize">14sp</dimen>
+
+    <dimen name="paddingRouteAvoidTxt">16dp</dimen>
+
+    <dimen name="routeAvoidDividerWidth">2dp</dimen>
+    <dimen name="routeAvoidHeight">110dp</dimen>
+    <dimen name="routeAvoidLabelSize">14sp</dimen>
+    <dimen name="routeAvoidIconSize">40sp</dimen>
+
+    <dimen name="routeTabHeight">32dp</dimen>
+    <dimen name="routeAnimDistance">-111dp</dimen>
+
+    <dimen name="routeOverviewFilterIconSize">36sp</dimen>
+    
+    <dimen name="noGpsSignalTitleSize">30sp</dimen>
+    <dimen name="noGpsSignalTextSize">15sp</dimen>
+    <dimen name="noGpsRowHeight">62dp</dimen>
+
+    <dimen name="paddingNoGpsSignalDialog">10dp</dimen>
+
+    <dimen name="dialogItemLabelSize">20sp</dimen>
+    <dimen name="paddingItemLabelLeft">5dp</dimen>
+    <dimen name="paddingItemLabelRight">5dp</dimen>
+    <dimen name="dialogItemCancelLabelSize">15dp</dimen>
+
+    <dimen name="actionBarFontSize">32sp</dimen>
+    <dimen name="tabFontSize">12sp</dimen>
+    <dimen name="browseControlSize">38sp</dimen>
+
+    <dimen name="zoomControlsSize">30sp</dimen>
+
+    <dimen name="controlsStreetSize">16sp</dimen>
+    <dimen name="controlsSignpostSizeMax">24sp</dimen>
+    <dimen name="controlsSignpostSizeMin">16sp</dimen>
+    <dimen name="signpostPictogramHeight">27sp</dimen>
+
+    <dimen name="listPreferredItemScaleHeight">64sp</dimen>
+
+    <!-- QUICK MENU -->
+    <dimen name="quickMenuHeight">114sp</dimen>
+    <dimen name="quickMenuTabHeight">2dp</dimen>
+    <dimen name="quickMenuIconHeight">32sp</dimen>
+    <dimen name="quickMenuTitleTextSize">16sp</dimen>
+    <dimen name="quickMenuIconSize">48sp</dimen>
+
+    <dimen name="resumeSize">18sp</dimen>
+
+    <dimen name="poiDetailImgHeight">180dp</dimen>
+    <dimen name="poiDetailShadowHeight">8dp</dimen>
+    <dimen name="poiDetailRupiTextViewPadding">2dp</dimen>
+    <dimen name="paddingPoiDetailBottom">12dp</dimen>
+
+    <dimen name="poiDetailActionsLabelSize">18sp</dimen>
+
+    <dimen name="poiDetailIconsSize">24sp</dimen>
+    <dimen name="poiDetailIconsCarSize">28sp</dimen>
+    <dimen name="poiDetailTextSize">16sp</dimen>
+
+    <!-- Route notification kontrolka -->
+    <dimen name="routeNotificationWidth">64dp</dimen>
+    <dimen name="routeNotificationHeight">64dp</dimen>
+    <dimen name="routeNotificationTextContainerPadding">6dp</dimen>
+
+    <dimen name="speedWarningEuTextSize">26sp</dimen>
+    <dimen name="speedWarningUsTextSize">13sp</dimen>
+    <dimen name="speedWarningUsValueSize">26sp</dimen>
+    <dimen name="speedExclamationTextSize">16sp</dimen>
+
+    <dimen name="buttonRadius">3dp</dimen>
+    <dimen name="buttonStrokeWidth">1dp</dimen>
+
+    <dimen name="aboutTextSize">16sp</dimen>
+
+    <dimen name="routeInstructionIconTextSize">30sp</dimen>
+    <dimen name="routeInstructionIconPadding">16dp</dimen>
+
+    <!-- Infobar drive -->
+    <dimen name="routeInfoBarHeight">56sp</dimen>
+    <!-- (routeInfoBarHeight - infobarPadding) = 52dp -->
+    <dimen name="infoBarPadding">4dp</dimen>
+    <dimen name="mapOvelayButtonSize">47sp</dimen>
+    <dimen name="mapOvelayButtonSizeTransparent">46sp</dimen>
+    <dimen name="mapOvelayButtonSmallSize">41sp</dimen>
+    <dimen name="mapOverlayIconSize">36sp</dimen>
+    <dimen name="mapOverlayIconSmallSize">32sp</dimen>
+	<dimen name="mapOvelayButtonSizeTransparentMute">32sp</dimen>
+
+    <!-- Direction kontrolka -->
+    <dimen name="directionLayoutWidth">84sp</dimen>
+    <dimen name="directionLayoutHeight">97sp</dimen>
+    <dimen name="directionFontSizePrimary">52sp</dimen>
+    <dimen name="directionFontSizeSecondary">18sp</dimen>
+    <dimen name="directionTextSize">24sp</dimen>
+    <dimen name="directionPaddingLeft">6dp</dimen>
+    <dimen name="directionPaddingRight">9dp</dimen>
+
+    <dimen name="hudDirectionFontSize">180sp</dimen>
+    <dimen name="hudMaxTextSize">80sp</dimen>
+
+    <dimen name="marginCurrentStreet">80dp</dimen>
+
+    <dimen name="actionBarLayoutHeight">3dp</dimen>
+    <dimen name="actionBarPaddingLeft">5dp</dimen>
+    <dimen name="actionBarPaddingRight">20dp</dimen>
+
+    <!-- Speedlimit kontrolka -->
+    <dimen name="speedlimitHeight">61sp</dimen>
+    <dimen name="speedlimitWidth">61sp</dimen>
+    <dimen name="speedlimitHeightUS">67sp</dimen>
+    <dimen name="speedlimitWidthUS">56sp</dimen>
+
+    <!-- Compas size -->
+    <dimen name="compasHeight">46dp</dimen>
+    <dimen name="compasWidth">46dp</dimen>
+    <dimen name="compasCenterDiff">16dp</dimen>
+
+    <!-- Progress pin -->
+    <dimen name="progress_pin_inner_size">28dp</dimen>
+
+    <!-- Store -->
+    <dimen name="productDetailTextSize">16sp</dimen>
+    <dimen name="productDetailTitleSize">23sp</dimen>
+    <dimen name="paddingStoreItem">16dp</dimen>
+    <dimen name="storeListIconSize">44dp</dimen>
+    <dimen name="storeDetailIconSize">72dp</dimen>
+    <dimen name="storeListIconMargin">12dp</dimen>
+    <dimen name="storeBuyButtonWidth">134dp</dimen>
+    <dimen name="storeScreenshotsContainerHeight">150dp</dimen>
+
+    <!--Poi on route -->
+
+
+    <!-- Search -->
+    <dimen name="searchIconSize">32sp</dimen>
+    <dimen name="searchListItemSize">64sp</dimen>
+    <dimen name="searchListItemIconWidth">44dp</dimen>
+    <dimen name="searchListItemIconMargin">12dp</dimen>
+
+    <!-- Black Box -->
+    <dimen name="blackBoxButtonsSize">40sp</dimen>
+    <!-- @dimen/routeInfoBarHeight + @dimen/paddingMapButtons -->
+    <dimen name="blackBoxSpacing">@dimen/paddingMapButtons</dimen>
+    <dimen name="blackBoxInfobarTextSize">18sp</dimen>
+    <dimen name="blackBoxInfobarPaddingVertical">4dp</dimen>
+    <dimen name="blackBoxInfobarPaddingHorizontal">16dp</dimen>
+    <dimen name="blackBoxRecAnimMarginMinimized">2dp</dimen>
+    <dimen name="blackBoxRecAnimMarginFullscreen">20dp</dimen>
+    <dimen name="blackBoxRecAnimWidthFullscreen">55sp</dimen>
+
+    <!-- Circle indicator -->
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+
+    <!-- Dashboard -->
+    <dimen name="dashboardIconPluginSize">54sp</dimen>
+    <dimen name="dashboardIconLockSize">28sp</dimen>
+    <dimen name="dashboardTextPluginSize">16sp</dimen>
+
+    <!-- Trial banner -->
+    <dimen name="trialBannerPadding">16dp</dimen>
+    <dimen name="trialBannerCloseButtonWidth">32dp</dimen>
+    <dimen name="trialBannerCloseButtonRadius">16dp</dimen>
+    <dimen name="trialBannerTextSize">14sp</dimen>
+    <dimen name="trialBannerUnlockPaddingHorizontal">8dp</dimen>
+    <dimen name="trialBannerUnlockMinHeight">28dp</dimen>
+
+    <!-- Rate dialog -->
+    <dimen name="rateDialogMarginSide">32dp</dimen>
+    <dimen name="rateDialogMarginBottom">40dp</dimen>
+
+    <!-- Settings -->
+    <dimen name="settingsFlagIconWidth">20dp</dimen>
+    <dimen name="settingsSwitchWidth">48dp</dimen>
+    <dimen name="settingsPadding">16dp</dimen>
+
+    <!-- Smart Progress Bar -->
+    <dimen name="spbErrorTextWidth">275dp</dimen>
+    <dimen name="spbEmptyTextWidth">275dp</dimen>
+    <dimen name="spbTextSize">20sp</dimen>
+    <dimen name="spbErrorLogoMargin">48dp</dimen>
+
+    <!-- Plugin manager -->
+    <dimen name="pluginManagerIconWidth">28sp</dimen>
+    <dimen name="pluginManagerAddIconSize">36sp</dimen>
+
+    <!-- Travel Log Graph -->
+    <dimen name="travelGraphHeight">142dp</dimen>
+    <dimen name="travelGraphLineWidth">2dp</dimen>
+    <dimen name="travelGraphBorderHorizontalWidth">0.75dp</dimen>
+    <dimen name="travelGraphBorderVerticalWidth">0.5dp</dimen>
+    <dimen name="travelGraphValueTextSize">12dp</dimen>
+    <dimen name="travelGraphValueTextPadding">6dp</dimen>
+    <dimen name="travelGraphValueRectRoundRadius">3dp</dimen>
+    <dimen name="travelGraphIntersectionCircleRadius">6dp</dimen>
+    <dimen name="travelGraphIntersectionLineWidth">0.5dp</dimen>
+
+    <!-- Sos Widget -->
+    <dimen name="sosWidgetIconSize">36sp</dimen>
+    
+    <dimen name="pinIconSize">36sp</dimen>
+    <dimen name="pinIconTextSize">18dp</dimen>
+
+    <!-- Favorites -->
+    <dimen name="favoritesPadding">16dp</dimen>
+
+    <!-- Undo Bar -->
+    <dimen name="undoBarCornerRadius">8dp</dimen>
+    <dimen name="undoBarBottomPadding">8dp</dimen>
+
+    <!-- Nearby Poi Dash -->
+    <dimen name="nearbyPoiGroupImageSize">36sp</dimen>
+
+    <dimen name="galleryPageMargin">2dp</dimen>
+    <dimen name="horizontalDotsProgressBarSize">3dp</dimen>
+
+    <!-- Showcase -->
+    <dimen name="text_padding">32dp</dimen>
+    <dimen name="action_bar_offset">66dp</dimen>
+    <dimen name="showcase_radius_inner">96dp</dimen>
+    <dimen name="showcase_radius_outer">128dp</dimen>
+
+    <!-- Shadow -->
+    <dimen name="shadow_negative_margin">-2dp</dimen>
+
+    <!-- Elevations -->
+    <dimen name="toolbarElevation">4dp</dimen>
+    <dimen name="drawerElevation">16dp</dimen>
+    <dimen name="toolbarHeight">56dp</dimen>
+    <dimen name="mapToolbarHeight">48dp</dimen>
+    <dimen name="mapToolbarTranslate">58dp</dimen>
+
+    <!-- Bottom left controls-->
+    <dimen name="left_bottom_controls_item_margin">2dp</dimen>
+ 
+    <!-- Booking -->
+    <dimen name="bookingPaddingLeft">56dp</dimen> <!-- je suctom searchListItemIconWidth a searchListItemIconMargin -->
+    <dimen name="bookingButtonHeight">44dp</dimen>
+    <dimen name="bookingButtonPaddingSide">15dp</dimen>
+    <dimen name="bookingButtonTextSize">14sp</dimen>
+
+    <dimen name="fab_icon_size">32dp</dimen>
+    <dimen name="fab_size">56dp</dimen>
+    <dimen name="fab_elevation">8dp</dimen>
+
+    <dimen name="poiViewPadding">16dp</dimen>
+
+</resources>

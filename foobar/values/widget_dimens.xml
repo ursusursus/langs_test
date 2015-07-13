@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_bg_round">5dp</dimen>
+    <dimen name="item_numsize">18sp</dimen>
+    <dimen name="item_textsize">18sp</dimen>
+    <dimen name="traffic_bg_round">5dp</dimen>
+    <dimen name="icon_size">36sp</dimen>
+    <dimen name="traffic_size">24sp</dimen>
+    <dimen name="empty_size">42sp</dimen>
+</resources>
