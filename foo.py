@@ -53,20 +53,21 @@ def check_lang(android_child, lang_child):
 
 def check_lang_file(android_tree, lang_tree):
     # Sanitize langs in this file
-    for lang_child in lang_tree.getroot()[:]:
+    lang_root = lang_tree.getroot()
+    for lang_child in lang_root.findall("*"):
         if not "id" in lang_child.attrib:
             log("LE", "Lang [%s] missing 'id' attribute" % lang_child)
-            lang_tree.remove(lang_child)
+            lang_root.remove(lang_child)
             continue
 
         if not "text" in lang_child.attrib:
             log("LE", "Lang [%s] missing 'text' attribute" % lang_child)
-            lang_tree.remove(lang_child)
+            lang_root.remove(lang_child)
             continue
 
         if not lang_child.attrib["text"]:
             log("LE", "Lang's text is empty")
-            lang_tree.remove(lang_child)
+            lang_root.remove(lang_child)
             continue
 
     # Check for matches
@@ -78,7 +79,7 @@ def check_lang_file(android_tree, lang_tree):
                 break
 
         if not found:
-            print("String with id '%s' not found" % android_child.attrib["name"])
+            log("LE", "String with id '%s' not found" % android_child.attrib["name"])
 
 ########
 
@@ -99,7 +100,12 @@ print "///// Sanity check\n[OK]\n"
 lang_filesnames = os.listdir(LANGS_ANUI_DIR)
 
 # Parse android strings contents
-android_tree = ET.parse(path.join(ANDROID_RES_DIR, STRINGS_FILENAME))
+try:
+    android_tree = ET.parse(path.join(ANDROID_RES_DIR, STRINGS_FILENAME))
+except ET.ParseError:
+    log("F", "%s is not a valid xml document!!!" % STRINGS_FILENAME)
+    print "Quitting..."
+    quit()
 
 # print "BEFORE"
 # for android_child in android_tree.getroot():
@@ -107,7 +113,7 @@ android_tree = ET.parse(path.join(ANDROID_RES_DIR, STRINGS_FILENAME))
 
 # Clean BS android xml elements
 root = android_tree.getroot()
-for android_child in root[:]:
+for android_child in root.findall("*"): # toto mi da kopiu na ktorej mozem mazat ale da mi to len stringy tak treba aby to alo secko nejako
     if android_child.tag != "string":
         log("AW", "Ignoring tag <%s>" % android_child.tag)
         root.remove(android_child)
@@ -117,6 +123,8 @@ for android_child in root[:]:
         log("AE", "string with id '%s' has empty body" % android_child.attrib["name"])
         root.remove(android_child)
         continue
+
+print
 
 # Every .lang file
 for lang_filename in lang_filesnames:
@@ -129,11 +137,12 @@ for lang_filename in lang_filesnames:
     try:
         lang_tree = ET.parse(path.join(LANGS_ANUI_DIR, lang_filename))
     except  ET.ParseError:
-        log("F", "%s not a valid xml document!!!\n" % lang_filename)
+        log("F", "%s is not a valid xml document!!!\n" % lang_filename)
         continue
 
     # Check na na na
     check_lang_file(android_tree, lang_tree)
+    print
     # print "[OK]\n"
 
 # END

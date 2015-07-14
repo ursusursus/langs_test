@@ -4,8 +4,9 @@
 
     <!-- SEARCH -->
     <!-- <string name="anui.search.button">naui.search.button</string>--> <!-- button.search --> <!-- Search -->
-    <string name="anui.search.button">pica</string> <!-- button.search --> <!-- Search -->
+    <string name="anui.search.click">pica</string> <!-- button.search --> <!-- Search -->
     <string name="anui.search.button"></string> <!-- button.search --> <!-- Search -->
+    <string name="anui.button.ok">anui.button.ok</string> <!-- button.search --> <!-- Search -->
     <plurals name="anui_routeOverview_routeInfoIncidents">
         <item quantity="zero">anui.routeOverview_routeInfoIncidents.zero</item>
         <item quantity="one">anui.routeOverview_routeInfoIncidents.one</item>
